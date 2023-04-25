@@ -22,23 +22,25 @@ function setup() {
   video.hide();
 
   classifier.classify(video, gotResult);
-}
-
-function draw() {
-  background(0);
-  // Draw the video
-  image(video, 0, 0);
-
-  // Draw the label
-  fill(255, 255, 0);
-  textSize(16);
-  textAlign(CENTER);
-  text(label, width / 2, height / 2);
-
   if(label == "なずな" && confidence >0.99) {
     image(img, 0, 0);
     console.log("画像表示")
-  }
+  }else{
+    console.log("a")
+}
+
+function draw() {
+  background(248, 237, 226);
+  // Draw the video
+  //image(video, 0, 0);
+
+  // Draw the label
+  // fill(255, 255, 0);
+  // textSize(50);
+  // textAlign(CENTER);
+  // text(label, width / 2, height / 2);
+
+
 }
 
 
@@ -56,9 +58,26 @@ function gotResult(error, results) {
   // Classifiy again!
   classifier.classify(video, gotResult);
   //console.log(results[0].confidence)
-  if(label == "なずな" && confidence >0.99) {
-    console.log("ここで画面変わる")
-  }else{
-    console.log("a")
+  // if(label == "なずな" && confidence >0.99) {
+  //   image(img, 0, 0);
+  //   console.log("画像表示")
+  // }else{
+  //   console.log("a")
+  // }
+  
+  if(label == "なずな" && confidence >0.99){
+    console.log("nazuna");
+    document.getElementById("img1").src=img_src[0];
+    background(248, 237, 226);
+    //document.getElementById("suji").innerText = "1";
+  }else if(label == "一彩" && confidence >0.99){
+    console.log("hiro");
+    document.getElementById("img1").src=img_src[1];
+    background(248, 237, 226);
+    //document.getElementById("suji").innerText = "2";
   }
+}
+
+let img_src = new Array("img/test/女の人.png","img/test/chopper.png")
+
 }
