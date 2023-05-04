@@ -1,0 +1,64 @@
+@charset "UTF-8";
+html{
+    overflow: auto; /*いらないかも*/
+}
+
+body{
+    overflow-x: hidden;  /*スクロールバー非表示*/
+    font-family: serif;
+    color: #000;
+    background-color: #4c4c4c;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 10%;
+}
+
+/* #screen{
+    width: auto;
+    height: 100%;
+    background-color: #1d0e0e;
+    overflow: hidden;
+} */
+#screen{
+    display: flex;
+
+}
+#bg{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+.chara_posi{
+    position: absolute;
+    width: 300px;
+    height: 675px;
+    top: 60px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 2;
+    opacity: .5;/*後で消す*/
+}
+#chara_posi1{
+    left: 750px;
+    background-color: #eb3939;
+}
+#chara_posi2{
+    left: 380px;
+    background-color: #3dbccc;
+}
+#chara_posi3{
+    left: 1120px;
+    background-color: #29c248;
+}
+
+.text{
+    z-index: 3;
+}
+.text_box{
+    width: 75%;
+    height: auto;
+    margin: 650px 10% 0px;
+}
