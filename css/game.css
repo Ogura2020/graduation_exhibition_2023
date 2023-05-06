@@ -10,55 +10,121 @@ body{
     background-color: #4c4c4c;
     /* display: flex;
     justify-content: center;
-    align-items: center; */
-    padding: 0 10%;
+    align-items: center; 
+    padding: 0 10%;*/
 }
 
-/* #screen{
-    width: auto;
-    height: 100%;
+ /* #screen{
+    position: relative;
+    width: 500px;
+    height: 500px;
     background-color: #1d0e0e;
     overflow: hidden;
-} */
-#screen{
-    display: flex;
+}  */
 
+.select{
+    display: none; /*ここ消すかも*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 66, 66, 0.429);
+    z-index: 10;
+}
+.select_text{
+    margin-top: 40%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
 }
 #bg{
-    width: auto;
+    width: 100%;
     height: 100%;
     position: absolute;
     z-index: 1;
     object-fit: cover;
 }
+
 .chara_posi{
     position: absolute;
-    width: 300px;
-    height: 675px;
-    top: 60px;
+    width: 18%;
+    height: 100%;
     text-align: center;
     overflow: hidden;
     z-index: 2;
     opacity: .5;/*後で消す*/
 }
 #chara_posi1{
-    left: 750px;
-    background-color: #eb3939;
+    left: 42%;
+    background-color: #eb3939;/*後で消す*/
 }
 #chara_posi2{
-    left: 380px;
-    background-color: #3dbccc;
+    left: 20%;
+    background-color: #3dbccc;/*後で消す*/
 }
 #chara_posi3{
-    left: 1120px;
-    background-color: #29c248;
+    left: 65%;
+    background-color: #29c248;/*後で消す*/
 }
 
 .text{
+    position: absolute;
+    top: 73%;
+    left: 0px;
+    right: 0px;
+    margin: 0 10%;
     z-index: 3;
+    /* background-color: #3dbccc;後で消す */
+}
+#text_area{
+    width: 100%;
+    height: 100%;
+    /* margin: -10px auto;   いらないかも*/
 }
 .text_box{
-    width: 75%;
-    height: auto;
-    margin: 650px 10% 0px;
+    width: 100%;
+    height: 100%;
+}
+#text_a{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: serif;
+}
+
+/*この下消すことになるはず*/
+.selecta{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #000;
+    border: solid 5px #fff;
+    border-radius: 20px 50px;
+    box-shadow: inset -2px -2px 4px 4px rgba(0,0,0,.5),2px 2px 4px 4px rgba(0,0,0,.5);
+}
+#select1{
+    top: 50px;
+}
+#select2{
+    top: 200px;
+}
+#select3{
+    top: 350px;
+}
+.selectText{
+    margin: 15px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.show{
+    display: block;
+    z-index: 10;
+}
+.none{
+    display: none;
 }

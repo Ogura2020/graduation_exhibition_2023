@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="js/game_test.js"></script>
     <link href="css/ress.css" rel="stylesheet">
     <link href="css/game.css" rel="stylesheet">
@@ -16,6 +16,12 @@
 
 <body>
     <div id="screen">
+        <div class="select">
+            <p class="select_text">カードを読み取ってください</p>
+            <div class="selecta" id="select1"><p class="selectText" id="selectText1"></p></div>
+            <div class="selecta" id="select2"><p class="selectText" id="selectText2"></p></div>
+            <div class="selecta" id="select3"><p class="selectText" id="selectText3"></p></div>
+        </div>
         <img src="img/bg1.jpg" alt="" id="bg">
         <div class="chara">
             <div class="chara_posi" id="chara_posi1"><!--中央-->
@@ -29,9 +35,9 @@
             </div>
         </div>
         <div class="text">
-            <div class="text_area">
-                <img src="img/text1.png" alt="" class="text_box">
-                <p id="text"></p>
+            <div id="text_area">
+                <img src="img/text3.png" alt="" class="text_box">
+                <p id="text_a"></p>
             </div>
         </div>
     </div>
