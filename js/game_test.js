@@ -1,12 +1,13 @@
+//ゲーム画面
 window.addEventListener('load',function(){
   var mess_box = document.getElementById('text_area');
   var mess_text = document.getElementById('text_a');
-  var mswin_flg = true;
-  var stop_flg = false;
-  var end_flg = false;
-  var scene_cnt = 0;
-  var line_cnt = 0;
-  const interval = 30;//文字表示スピード
+  var mswin_flg = true;//trueの時文字送りの処理をする
+  var stop_flg = false;//trueになると文字送りを止める（誤動作防止）
+  var end_flg = false;//trueになると文字送り関連の処理を全て止める（シナリオの最後に動作させる）
+  var scene_cnt = 0;//text[0]の数字部分のカウント　シーンが切り替わるときに使用
+  var line_cnt = 0;//text[0]の中の配列のカウント
+  const interval = 30;//文字表示スピード　ミリ秒
   //この下消すかも
   var select1 = document.getElementById('select1');
   var select2 = document.getElementById('select2');
@@ -21,18 +22,22 @@ window.addEventListener('load',function(){
     "",
     "ある日、事務所に手紙が届いた。",
     "「・・・招待状の謎を解き、是非ご参加ください。」",
-    "<select1 none><select2 2><select3 none><text1 新聞><text2 本棚><select>どこを調べよう？"
+    "<select1 1><select2 2><select3 none><text1 新聞><text2 本棚><select 1><chara 1>"
   ];
 
   text[1] = [
-    "メイドaaaaaaaa"
+    "メイドaaaaaaaa",
+    "<select>",
+    "<stop>"
   ];
 
   text[2] = [
-    "お嬢iiiiiiiiii"
+    "お嬢iiiiiiiiii",
+    "<stop>"
   ];
 
   function main(){
+    //var programs = ["JS", "HTML", "CSS"];
     var tmp = split_chars.shift();
     if(tmp == '<'){
       let tagget_str = '';
@@ -42,71 +47,81 @@ window.addEventListener('load',function(){
         tmp = split_chars.shift();
       }
       tagget_str = tagget_str.split(/\s/);
+      
       switch(tagget_str[0]){
         case 'stop':
           stop_flg = true;
           break;
-      case 'select':
-          $('.select').addClass('show');
-          break;
-      case 'text1':
-          select_text1.innerHTML = tagget_str[1];
-          break;
-      case 'text2':
-          select_text2.innerHTML = tagget_str[1];
-          break;
-      case 'text3':
-          select_text3.innerHTML = tagget_str[1];
-          break;
-      case 'select1':
-          if(tagget_str[1] === "none"){
-              $('#select1').addClass('none');
-          }else{
-              select_num1 = tagget_str[1];
-              select1.addEventListener('click',function(){
-                  scene_cnt = select_num1;
-                  line_cnt  = -1;
-                  $('.select').removeClass('show');
-                  selectNoneRemove();
-                  textClick();
-              });
-          }
-          break;
-      case 'select2':
-          if(tagget_str[1] === "none"){
-              $('#select2').addClass('none');
-          }else{
-              select_num2 = tagget_str[1];
-              select2.addEventListener('click',function(){
-                  scene_cnt = select_num2;
-                  line_cnt  = -1;
-                  $('.select').removeClass('show');
-                  selectNoneRemove();
-                  textClick();
-              });
-          }
-          break;
-      case 'select3':
-          if(tagget_str[1] === "none"){
-              $('#select3').addClass('none');
-          }else{
-              select_num3 = tagget_str[1];
-              select3.addEventListener('click',function(){
-                  scene_cnt = select_num3;
-                  line_cnt  = -1;
-                  $('.select').removeClass('show');
-                  selectNoneRemove();
-                  textClick();
-              });
-          }
-          break;
-      case 'break':
-          mess_text.innerHTML += '<br>';
-          break;
-      case 'skip':
-          scene_cnt = tagget_str[1];
-          line_cnt = -1;
-          break;
+        case 'select':
+            $('.select').addClass('show');
+            gotResult();
+            //test();
+            if (root_flg){
+              scene_cnt = select_num1;
+                    line_cnt  = -1;
+              $('.select').removeClass('show');
+              textClick();
+            }
+            
+            break;
+        case 'text1':
+            select_text1.innerHTML = tagget_str[1];
+            break;
+        case 'text2':
+            select_text2.innerHTML = tagget_str[1];
+            break;
+        case 'text3':
+            select_text3.innerHTML = tagget_str[1];
+            break;
+        case 'select1':
+            if(tagget_str[1] === "none"){
+                $('#select1').addClass('none');
+            }else{
+                select_num1 = tagget_str[1];
+                select1.addEventListener('click',function(){
+                    scene_cnt = select_num1;
+                    line_cnt  = -1;
+                    $('.select').removeClass('show');
+                    selectNoneRemove();
+                    textClick();
+                });
+            }
+            break;
+        case 'select2':
+            if(tagget_str[1] === "none"){
+                $('#select2').addClass('none');
+            }else{
+                select_num2 = tagget_str[1];
+                select2.addEventListener('click',function(){
+                    scene_cnt = select_num2;
+                    line_cnt  = -1;
+                    $('.select').removeClass('show');
+                    selectNoneRemove();
+                    textClick();
+                });
+            }
+            break;
+        case 'select3':
+            if(tagget_str[1] === "none"){
+                $('#select3').addClass('none');
+            }else{
+                select_num3 = tagget_str[1];
+                select3.addEventListener('click',function(){
+                    scene_cnt = select_num3;
+                    line_cnt  = -1;
+                    $('.select').removeClass('show');
+                    selectNoneRemove();
+                    textClick();
+                });
+            }
+            break;
+        case 'break':
+            mess_text.innerHTML += '<br>';
+            break;
+        case 'skip':
+            scene_cnt = tagget_str[1];
+            line_cnt = -1;
+            break;
       }
     }
     if(!stop_flg){
@@ -117,8 +132,13 @@ window.addEventListener('load',function(){
     }else{
         mess_text.innerHTML += '<span class="blink-text"></span>';
     }
+    // preload();
+    // setup();
+    // draw();
+    // gotResult(error, results);
   }
 
+  //クリックで文字送り
   mess_box.addEventListener('click',function(){
     if(end_flg)return;
       if(mswin_flg){
@@ -137,7 +157,7 @@ window.addEventListener('load',function(){
     }
   });
   function textClick(){
-    $('#textbox').trigger('click');
+    $('#text_area').trigger('click');
   }
   function selectNoneRemove(){
       $('#select1').removeClass('none');
@@ -146,7 +166,7 @@ window.addEventListener('load',function(){
   }
 });
 
-/*
+//カード認識
 // Classifier Variable
 let classifier;
 // Model URL
@@ -155,13 +175,13 @@ let imageModelURL = 'https://teachablemachine.withgoogle.com/models/wZowLqYRE/';
 // Video
 let video;
 // To store the classification
-let label = "";
+// let name = "";
+
+let root_flg = false
 
 // Load the model first
 function preload() {
   classifier = ml5.imageClassifier(imageModelURL + 'model.json');
-  img = loadImage('img/test/女の人.png');
-  a = loadImage('img/test/chopper.png');
 }
 
 function setup() {
@@ -177,13 +197,7 @@ function setup() {
 function draw() {
   background(248, 237, 226);
   // Draw the video
-  //image(video, 0, 0);
-
-  // Draw the label
-  // fill(255, 255, 0);
-  // textSize(50);
-  // textAlign(CENTER);
-  // text(label, width / 2, height / 2);
+  //image(video, 0, 0);　//カメラ描画
 
 }
 
@@ -197,34 +211,31 @@ function gotResult(error, results) {
   }
   // The results are in an array ordered by confidence.
   // console.log(results[0]);
-  label = results[0].label;
-  confidence = results[0].confidence;
+  let name = results[0].label;
+  let hiritu = results[0].confidence;
   // Classifiy again!
   classifier.classify(video, gotResult);
-  //console.log(results[0].confidence)
-  
-/*ここ使わないかも
-  if(label == "なずな" && confidence >0.99){
-    console.log("nazuna");
-    document.getElementById("img1").src=img_src[0];
-    background(248, 237, 226);
-    //document.getElementById("suji").innerText = "1";
-  }else if(label == "一彩" && confidence >0.99){
-    console.log("hiro");
-    document.getElementById("img1").src=img_src[1];
-    background(248, 237, 226);
-    //document.getElementById("suji").innerText = "2";
-  }
-  */
+  //console.log(name)
 
- /*ここは使う
-  if(label == "なずな" && confidence >0.99) {
-    image(img, 100, 100);
-    console.log("画像表示")
-  }else if(label == "一彩" && confidence >0.99){
-    image(a, 100, 100);
-    console.log("a")
+  if(name == "なずな" && hiritu >0.99) {
+    root_flg = true;
+    console.log("なずな")
+  }else if(name == "一彩" && hiritu >0.99){
+    root_flg = true;
+    console.log("ひいろ")
   }
 }
-*/
-//let img_src = new Array("img/test/女の人.png","img/test/chopper.png")
+
+// function test(){
+//   var programs = [
+//     {name: "yamada", age: 20},
+//     {name: "katou", age: 40},
+//     {name: "takahasi", age: 60}
+//   ];
+//   console.log(programs[0].name);
+//   if(programs[0].name == "yamada" && programs[0].age > 10) {
+//     root_flg = true;
+//     console.log("aaa")
+//   }
+// }
+
