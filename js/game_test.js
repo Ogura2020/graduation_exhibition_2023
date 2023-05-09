@@ -1,3 +1,6 @@
+var scene_cnt = 0;//text[0]の数字部分のカウント　シーンが切り替わるときに使用
+var line_cnt = 0;//text[0]の中の配列のカウント
+
 //ゲーム画面
 window.addEventListener('load',function(){
   var mess_box = document.getElementById('text_area');
@@ -5,8 +8,6 @@ window.addEventListener('load',function(){
   var mswin_flg = true;//trueの時文字送りの処理をする
   var stop_flg = false;//trueになると文字送りを止める（誤動作防止）
   var end_flg = false;//trueになると文字送り関連の処理を全て止める（シナリオの最後に動作させる）
-  var scene_cnt = 0;//text[0]の数字部分のカウント　シーンが切り替わるときに使用
-  var line_cnt = 0;//text[0]の中の配列のカウント
   const interval = 30;//文字表示スピード　ミリ秒
   //この下消すかも
   var select1 = document.getElementById('select1');
@@ -22,12 +23,11 @@ window.addEventListener('load',function(){
     "",
     "ある日、事務所に手紙が届いた。",
     "「・・・招待状の謎を解き、是非ご参加ください。」",
-    "<select1 1><select2 2><select3 none><text1 新聞><text2 本棚><select 1><chara 1>"
+    "<select1 1><select2 2><select> aaa"
   ];
 
   text[1] = [
     "メイドaaaaaaaa",
-    "<select>",
     "<stop>"
   ];
 
@@ -37,7 +37,6 @@ window.addEventListener('load',function(){
   ];
 
   function main(){
-    //var programs = ["JS", "HTML", "CSS"];
     var tmp = split_chars.shift();
     if(tmp == '<'){
       let tagget_str = '';
@@ -54,25 +53,26 @@ window.addEventListener('load',function(){
           break;
         case 'select':
             $('.select').addClass('show');
-            gotResult();
+            //gotResult();
             //test();
-            if (root_flg){
-              scene_cnt = select_num1;
-                    line_cnt  = -1;
-              $('.select').removeClass('show');
-              textClick();
-            }
+            // if (root_flg){
+            //   scene_cnt = select_num1;
+            //         line_cnt  = -1;
+            //   $('.select').removeClass('show');
+            //   textClick();
+            // }
+            //textClick();
             
             break;
-        case 'text1':
-            select_text1.innerHTML = tagget_str[1];
-            break;
-        case 'text2':
-            select_text2.innerHTML = tagget_str[1];
-            break;
-        case 'text3':
-            select_text3.innerHTML = tagget_str[1];
-            break;
+        // case 'text1':　　　<text1 新聞>　新聞をselect_text1に代入する
+        //     select_text1.innerHTML = tagget_str[1];
+        //     break;
+        // case 'text2':
+        //     select_text2.innerHTML = tagget_str[1];
+        //     break;
+        // case 'text3':
+        //     select_text3.innerHTML = tagget_str[1];
+        //     break;
         case 'select1':
             if(tagget_str[1] === "none"){
                 $('#select1').addClass('none');
@@ -122,6 +122,9 @@ window.addEventListener('load',function(){
             scene_cnt = tagget_str[1];
             line_cnt = -1;
             break;
+        case 'chara':
+            document.getElementById('chara'+tagget_str[1]).src = 'img/chara' + tagget_str[2] +'.png';
+            break;
       }
     }
     if(!stop_flg){
@@ -132,10 +135,6 @@ window.addEventListener('load',function(){
     }else{
         mess_text.innerHTML += '<span class="blink-text"></span>';
     }
-    // preload();
-    // setup();
-    // draw();
-    // gotResult(error, results);
   }
 
   //クリックで文字送り
@@ -224,7 +223,16 @@ function gotResult(error, results) {
     root_flg = true;
     console.log("ひいろ")
   }
+  console.log(root_flg);
+  //カード認識画面　認識したら分岐させる
+  if (root_flg){
+    // scene_cnt = tagget_str[1];
+    // line_cnt = -1;
+    $('.select').removeClass('show');
+    root_flg = false;
+  }
 }
+
 
 // function test(){
 //   var programs = [
