@@ -223,7 +223,7 @@ function gotResult(error, results) {
     const confidence = results[0].confidence;
     console.log(label,confidence)
 
-    if(confidence > 0.999){
+    if(confidence > 0.9999){
       if(label === "探偵"){
         console.log("探偵");
         isMode = false;
