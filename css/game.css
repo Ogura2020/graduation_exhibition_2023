@@ -5,7 +5,7 @@ html{
 
 body{
     overflow-x: hidden;  /*スクロールバー非表示*/
-    font-family: serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
     color: #000;
     background-color: #4c4c4c;
     /* display: flex;
@@ -22,20 +22,6 @@ body{
     overflow: hidden;
 }  */
 
-.select{
-    display: none; /*ここ消すかも*/
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(66, 66, 66, 0.429);
-    z-index: 10;
-}
-.select_text{
-    margin-top: 20%;
-    text-align: center;
-    color: #ffffff;
-    font-size: 40px;
-}
 #bg{
     width: 100%;
     height: 100%;
@@ -46,24 +32,25 @@ body{
 
 .chara_posi{
     position: absolute;
-    width: 18%;
+    /* width: 100%; */
     height: 100%;
+    /* top: 10%; */
     text-align: center;
     overflow: hidden;
     z-index: 2;
-    opacity: .5;/*後で消す*/
+    /*opacity: .5;後で消す*/
 }
 #chara_posi1{
     left: 42%;
-    background-color: #eb3939;/*後で消す*/
+    /*background-color: #eb3939;後で消す*/
 }
 #chara_posi2{
     left: 20%;
-    background-color: #3dbccc;/*後で消す*/
+    /*background-color: #3dbccc;/*後で消す*/
 }
 #chara_posi3{
     left: 65%;
-    background-color: #29c248;/*後で消す*/
+    /*background-color: #29c248;/*後で消す*/
 }
 
 .text{
@@ -78,53 +65,13 @@ body{
 #text_area{
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    padding: 1em;
     /* margin: -10px auto;   いらないかも*/
 }
-.text_box{
-    width: 100%;
-    height: 100%;
-}
-#text_a{
-    position: absolute;
-    top: 30%;
-    left: 2%;
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-family: serif;
-}
-
-/*この下消すことになるはず*/
-.selecta{
-    position: absolute;
-    width: 300px;
-    height: 60px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    background-color: #000;
-    border: solid 5px #fff;
-    border-radius: 20px 50px;
-    box-shadow: inset -2px -2px 4px 4px rgba(0,0,0,.5),2px 2px 4px 4px rgba(0,0,0,.5);
-}
-#select1{
-    top: 50px;
-}
-#select2{
-    top: 200px;
-}
-#select3{
-    top: 350px;
-}
-.selectText{
-    margin: 15px auto;
-    text-align: center;
+.scenario_Box{
     color: #fff;
-    font-size: 1.3rem;
-}
-.show{
-    display: block;
-    z-index: 10;
-}
-.none{
-    display: none;
+    min-height: 3em;
+    font-size: 20px;
 }

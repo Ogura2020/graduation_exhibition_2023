@@ -8,7 +8,7 @@ const lines = [
     [
       "<chara 1 0>謎解きサイトのプロトタイプです。",
       "この作品はカードを使って謎解きをします。",
-      "<chara 1 100> 今回は２枚のカードを使って謎を解いてみましょう。<br>試作段階のため誤反応する場合があります。",
+      "<chara 1 100> 今回は２枚のカードを使って謎を解いてみましょう。<br>※試作段階のため誤反応する場合があります",
       "答えだと思うカードをカメラに向けてください",
     ],
   ],
@@ -221,9 +221,9 @@ function gotResult(error, results) {
   if(isMode){
     const label = results[0].label;
     const confidence = results[0].confidence;
-    //console.log(label,confidence)
+    console.log(label,confidence)
 
-    if(confidence > 0.9999){
+    if(confidence > 0.99999){
       if(label === "探偵"){
         console.log("探偵");
         isMode = false;
