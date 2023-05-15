@@ -51,7 +51,7 @@ let isMode = false;
 // Classifier Variable
 let classifier;
 // Model URL
-let imageModelURL = 'https://teachablemachine.withgoogle.com/models/hKn-vUDl0/';//データ変更した時URLコピペしてここ変えるだけでよし
+let imageModelURL = 'https://teachablemachine.withgoogle.com/models/EgHHvFILm/';//データ変更した時URLコピペしてここ変えるだけでよし
   
 // Video
 let video;
@@ -223,7 +223,7 @@ function gotResult(error, results) {
     const confidence = results[0].confidence;
     console.log(label,confidence)
 
-    if(confidence > 0.99999){
+    if(confidence > 0.999){
       if(label === "探偵"){
         console.log("探偵");
         isMode = false;
