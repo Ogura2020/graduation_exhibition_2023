@@ -39,6 +39,7 @@ body{
     overflow: hidden;
     z-index: 2;
     /*opacity: .5;後で消す*/
+    padding: 100px;
 }
 #chara_posi1{
     /* left: 42%; */
@@ -55,7 +56,7 @@ body{
 
 .text{
     position: absolute;
-    top: 73%;
+    top: 80%;
     left: 0px;
     right: 0px;
     margin: 0 10%;
