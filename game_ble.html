@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 下記gsapのリンク -->
+    <script src="js/lib/gsap.min.js"></script>
+    <script src="js/lib/SplitText.min.js"></script>
+    <script src="js/lib/TextPlugin.min.js"></script>
+    <script src="https://unpkg.com/eventemitter3@latest/dist/eventemitter3.umd.min.js"></script>
+
+    <!-- 下記ティーチャブルマシンのリンク -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    
+    <link href="css/ress.css" rel="stylesheet">
+    <link href="css/game.css" rel="stylesheet">
+
+    <!-- 下記フォントのリンク -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+    <title>謎解き_ゲーム画面テスト</title>
+</head>
+
+<body>
+    <div id="screen">
+        <!-- <img src="img/bg1.jpg" alt="" id="bg"> -->
+        <button class="btn" onclick="Connectbtn()">Connect</button>
+        <div class="chara">
+            <div class="chara_posi" id="chara_posi1"><img src="" alt="" id="chara1"><!--中央-->
+            </div>
+            <div class="chara_posi" id="chara_posi2"><img src="" alt="" id="chara2"><!--左-->
+            </div>
+            <div class="chara_posi" id="chara_posi3"><img src="" alt="" id="chara3"><!--右-->
+            </div>
+        </div>
+        <div class="text">
+            <div id="text_area">
+                <!-- <img src="img/text3.png" alt="" class="text_box"> -->
+                <p id="js-scenario_Box" class="scenario_Box">ローディング…</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/game_ble2.js"></script>
+</body>
+</html>
