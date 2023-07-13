@@ -72,7 +72,8 @@ const lines = [
       "<chara 1 0>謎解きサイトのプロトタイプです。",
       "この作品はカードを使って謎解きをします。",
       "今回は２枚のカードを使って謎を解いてみましょう。",
-      "<chara 1 100> 答えだと思うカードをスキャンして下さい。",
+      " ",
+      // "<chara 1 100> 答えだと思うカードをスキャンして下さい。",
     ],
   ],
   [
@@ -109,16 +110,6 @@ const sequence = {
 };
 
 let isMode = false;
-
-//カード認識
-// Classifier Variable
-// let classifier;
-// Model URL
-//let imageModelURL = 'https://teachablemachine.withgoogle.com/models/EgHHvFILm/';データ変更した時URLコピペしてここ変えるだけでよし
-//let imageModelURL = 'https://teachablemachine.withgoogle.com/models/_PDd7oeUD/';
-  
-// Video
-//let video;
 
 function main(){
   var tmp = split_chars.shift();
@@ -198,7 +189,7 @@ const onPreload = () => {
             text: "",
           },
           {
-            duration: line.length * 0.05,//文字の表示スピード
+            duration: line.length * 0.09,//文字の表示スピード
             ease: "none",
             text: line,
             onComplete: () => {//アニメーションが完了した時
@@ -234,6 +225,10 @@ const onPreload = () => {
     if(line === "<chara 1 100> 答えだと思うカードをスキャンして下さい。"){
       isMode = true;
     }
+    // 以下のテキストの時、モーダルウィンドウを開く
+    if (line === " ") {
+      openModal(); // モーダルウィンドウを開く処理
+    }
   });
 
   // 台詞の表示終了を検知するイベントリスナー 　アニメーションが完了したら作動
@@ -267,7 +262,7 @@ function handleCharacteristic1Changed(event) {
     const str = decoder.decode(value);
     console.log(str);
 
-    if (scenarioBox.innerHTML.includes("答えだと思うカードをスキャンして下さい。")){
+    if (scenarioBox.innerHTML.includes(" ")){
     if(str == "4b217b26e5e80"){
         console.log("探偵");
         isMode = false;
@@ -276,10 +271,12 @@ function handleCharacteristic1Changed(event) {
           cut: 0,
           line: 0,
       });
+      // location.href = "maid/index.html";
 
     } else if (str === "421da9a6e5e81") {
       console.log("メイド");
       isMode = false;
+      closeModal();
       onPlay({
         scene: 1,
         cut: 1,
@@ -294,4 +291,14 @@ function handleCharacteristic2Changed(event) {
      const decoder = new TextDecoder('utf-8');
      const str = decoder.decode(value);
      console.log(str);
+}
+
+function openModal() {
+  const modalContainer = document.querySelector(".modal-container");
+  modalContainer.classList.add("active");
+}
+
+function closeModal() {
+  const modal = document.querySelector(".modal-container");
+  modal.classList.remove("active");
 }
