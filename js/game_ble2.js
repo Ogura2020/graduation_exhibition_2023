@@ -69,9 +69,19 @@ const labels = [];
 const lines = [
   [
     [
-      "<chara 1 0>謎解きサイトのプロトタイプです。",
-      "この作品はカードを使って謎解きをします。",
-      "今回は２枚のカードを使って謎を解いてみましょう。",
+      // "<chara 1 0>謎解きサイトのプロトタイプです。",
+      "… … … …。",
+      "す、すみませ～ん。",
+      "誰もいない？<br>あっドアが開いてる。",
+      "… … は～い。",
+      "なにか御用ですか？",
+      "あっあの、探偵さんは…?",
+      "… … …",
+      "僕ですけど…?",
+      "えっ…!?",
+      "え～～～～！？",
+      "こんな子どもが…！？",
+      "そういうあなたは",
       " ",
       // "<chara 1 100> 答えだと思うカードをスキャンして下さい。",
     ],
@@ -189,7 +199,7 @@ const onPreload = () => {
             text: "",
           },
           {
-            duration: line.length * 0.09,//文字の表示スピード
+            duration: line.length * 0.07,//文字の表示スピード
             ease: "none",
             text: line,
             onComplete: () => {//アニメーションが完了した時
@@ -242,17 +252,42 @@ const onPreload = () => {
   });
 };
 
+const frameWidth = 250;
+const frameHeight = 486;
+const xNum = 2;
+const yNum = 1;
+const sx = 100;
+const sy = 100;
+const interval = 8;
+let img, frameIndex, time;
+
 // Load the model first
 function preload() {
   onPreload();
+  img = loadImage("img/スプライト_テスト.png");
 }
 
 function setup() {
-
+  createCanvas(windowWidth, windowHeight);
+  frameIndex = 0;
+  time = 0;
 }
 
 function draw() {
+  clear();
 
+  const x = frameIndex % xNum;
+  const y = floor(frameIndex / xNum);
+
+  copy(img, x * frameWidth, y * frameHeight, frameWidth, frameHeight, sx, sy, frameWidth, frameHeight);
+
+  if (time % interval == 0) {
+    frameIndex++;
+    frameIndex %= xNum * yNum;
+  }
+  time++;
+
+  frameRate(30); // フレームレートを設定する
 }
 
 
