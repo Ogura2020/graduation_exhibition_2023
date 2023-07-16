@@ -72,16 +72,30 @@ const lines = [
       // "<chara 1 0>謎解きサイトのプロトタイプです。",
       "… … … …。",
       "す、すみませ～ん。",
-      "誰もいない？<br>あっドアが開いてる。",
+      "誰もいないのかな？<br>あっドアが開いてる。",
       "… … は～い。",
       "なにか御用ですか？",
       "あっあの、探偵さんは…?",
       "… … …",
-      "僕ですけど…?",
+      "僕ですけど。",
       "えっ…!?",
       "え～～～～！？",
       "こんな子どもが…！？",
-      "そういうあなたは誰なんです？",
+      "失礼な人ですね。<br>同業者のくせにそんなことも知らずにここに来たんですか？",
+      "どっ同業者ってなんで分かったの！？",
+      "そんなことより、何の用なんですか？<br>",
+      "僕、面倒事は（ここ考える）探偵が探偵に依頼なんて",
+      "あなたの言う通り変なのは分かってる。<br>だけど、あなたしか頼れる人がいなくてここまで来たの！",
+      "知り合いの情報屋からなかなかできるヤツだって聞いたわ。<br>(噂でもよく聞くし…。まさか子どもとは知らなかったけど。)",
+      "お願い…！！",
+      "…分かった。話を聞いてから決めるよ。<br>中に入って。",
+      "ありがとう！",
+      "そういえば名前を聞いていなかったね。名前は？",
+      "なまえ",
+      "〇〇！？あの〇〇のお嬢様がなんで探偵なんてやっているんだ？",
+      "家の話はいいんです。<br>この手紙を見てみてください。",
+      "私、この手紙を解読して何としても手に入れないといけないものがあるんです！<br>でもどうしても解けなくて…。だからあなたを頼ってここに。",
+      "ふ～ん。見せてみて。<br>これは…。",
       " ",
       // "<chara 1 100> 答えだと思うカードをスキャンして下さい。",
     ],
@@ -329,11 +343,23 @@ function handleCharacteristic2Changed(event) {
 }
 
 function openModal() {
-  const modalContainer = document.querySelector(".modal-container");
-  modalContainer.classList.add("active");
+  const dialog = document.querySelector("dialog");
+  dialog.showModal();
 }
 
 function closeModal() {
-  const modal = document.querySelector(".modal-container");
-  modal.classList.remove("active");
+  const dialog = document.querySelector("dialog");
+  dialog.close();
 }
+
+// const dialog_open = document.querySelector(".dialog-open");
+// dialog_open.addEventListener('click', () => {
+//   const dialog = document.querySelector("dialog");
+//   dialog.showModal();
+// })
+
+// const dialog_close = document.querySelector(".dialog-close");
+// dialog_close.addEventListener('click', () => {
+//   const dialog = document.querySelector("dialog");
+//   dialog.close();
+// })
