@@ -70,13 +70,13 @@ const lines = [
   [
     [
       // "<chara 1 0>謎解きサイトのプロトタイプです。",
-      "… … … …。",
+      "…………。",
       "す、すみませ～ん。",
       "誰もいないのかな？<br>あっドアが開いてる。",
-      "… … は～い。",
+      "……は～い。",
       "なにか御用ですか？",
       "あっあの、探偵さんは…?",
-      "… … …",
+      "………",
       "僕ですけど。",
       "えっ…!?",
       "え～～～～！？",
@@ -270,9 +270,9 @@ const frameWidth = 250;
 const frameHeight = 486;
 const xNum = 2;
 const yNum = 1;
-const sx = 100;
+const sx = 500;
 const sy = 100;
-const interval = 8;
+const interval = 9;
 let img, frameIndex, time;
 
 // Load the model first
@@ -305,36 +305,61 @@ function draw() {
 }
 
 
+let answer = "";
+
 function handleCharacteristic1Changed(event) {
     const value = event.target.value;
     const decoder = new TextDecoder('utf-8');
     const str = decoder.decode(value);
-    console.log(str);
+    // console.log(str);
 
     if (scenarioBox.innerHTML.includes(" ")){
     if(str == "4b217b26e5e80"){
         console.log("探偵");
         isMode = false;
-        onPlay({
-          scene: 1,
-          cut: 0,
-          line: 0,
-      });
+        answer = str;
+      //   onPlay({
+      //     scene: 1,
+      //     cut: 0,
+      //     line: 0,
+      // });
       // location.href = "maid/index.html";
 
     } else if (str === "421da9a6e5e81") {
       console.log("メイド");
       isMode = false;
+      answer = str;
+      // closeModal();
+      // onPlay({
+      //   scene: 1,
+      //   cut: 1,
+      //   line: 0,
+      // });
+    }
+    console.log(answer);
+    audio();
+
+    if(str === "fb18d0f6" && answer === "421da9a6e5e81"){
+      console.log("決定");
+      console.log("正解！");
       closeModal();
       onPlay({
         scene: 1,
         cut: 1,
         line: 0,
       });
+    } else {
+      console.log("不正解！");
     }
   }
 }
- 
+
+function audio() {
+  document.getElementById('btn_audio').currentTime = 0; //連続クリックに対応
+  document.getElementById('btn_audio').play(); //クリックしたら音を再生
+}
+
+
 function handleCharacteristic2Changed(event) {
      const value = event.target.value;
      const decoder = new TextDecoder('utf-8');
@@ -342,24 +367,16 @@ function handleCharacteristic2Changed(event) {
      console.log(str);
 }
 
+
+
 function openModal() {
   const dialog = document.querySelector("dialog");
   dialog.showModal();
+  dialog.classList.add("open");
 }
 
 function closeModal() {
   const dialog = document.querySelector("dialog");
   dialog.close();
+  dialog.classList.remove("open");
 }
-
-// const dialog_open = document.querySelector(".dialog-open");
-// dialog_open.addEventListener('click', () => {
-//   const dialog = document.querySelector("dialog");
-//   dialog.showModal();
-// })
-
-// const dialog_close = document.querySelector(".dialog-close");
-// dialog_close.addEventListener('click', () => {
-//   const dialog = document.querySelector("dialog");
-//   dialog.close();
-// })
