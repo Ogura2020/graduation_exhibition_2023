@@ -107,7 +107,7 @@ const lines = [
       "始めに戻ります。",
     ],
     [
-      "<chara 1 2>正解！",
+      "正解！",
       "始めに戻ります。",
     ],
   ],
@@ -270,7 +270,7 @@ const frameWidth = 250;
 const frameHeight = 486;
 const xNum = 2;
 const yNum = 1;
-const sx = 500;
+const sx = 650;
 const sy = 100;
 const interval = 9;
 let img, frameIndex, time;
@@ -305,6 +305,7 @@ function draw() {
 }
 
 
+//カード番号
 let answer = "";
 
 function handleCharacteristic1Changed(event) {
@@ -312,7 +313,7 @@ function handleCharacteristic1Changed(event) {
     const decoder = new TextDecoder('utf-8');
     const str = decoder.decode(value);
     // console.log(str);
-
+    console.log(str);
     if (scenarioBox.innerHTML.includes(" ")){
     if(str == "4b217b26e5e80"){
         console.log("探偵");
@@ -329,6 +330,7 @@ function handleCharacteristic1Changed(event) {
       console.log("メイド");
       isMode = false;
       answer = str;
+      // document.body.classList.add('hide2');
       // closeModal();
       // onPlay({
       //   scene: 1,
@@ -359,12 +361,12 @@ function audio() {
   document.getElementById('btn_audio').play(); //クリックしたら音を再生
 }
 
-
+//加速度
 function handleCharacteristic2Changed(event) {
-     const value = event.target.value;
-     const decoder = new TextDecoder('utf-8');
-     const str = decoder.decode(value);
-     console.log(str);
+  const value = event.target.value;
+  const decoder = new TextDecoder('utf-8');
+  const str = decoder.decode(value);
+  console.log(str);
 }
 
 
