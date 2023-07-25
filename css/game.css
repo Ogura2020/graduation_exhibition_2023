@@ -98,6 +98,11 @@ dialog{
     outline: none;
 }
 
+.nazo{
+    display: block;
+    margin: 0 auto; /* 画像を水平方向に中央配置 */
+}
+
 dialog.open {
   opacity: 1;
 }
