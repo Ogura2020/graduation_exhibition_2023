@@ -1,382 +1,75 @@
-function Connectbtn(){
-    let btn =  document.querySelector(".btn")
+// 作ってないもの
+// BLE（PocketWatch.js）
+// エピソード選択（CallSheet.js）
+// BGM, SE制御（Sound.js）、外部ライブラリに howler.jsとかいいかも（https://howlerjs.com/）
+// 謎モード、謎はダイアログを閉じることに興味を持つ
 
-    btn.addEventListener('click', function(event) {
-        // navigator.bluetooth.requestDeviceを呼び出す
-        const port = navigator.bluetooth.requestDevice({
-            filters: [{
-            name: 'NimBLE-Arduino'
-            }],
-            optionalServices: [0x7A20] // 後でサービスにアクセスするために必要です。
-        })
-        .then(device => {
-            // 人間が読み取れるデバイス名。
-            console.log(device.name);
-            
-            // リモートGATTサーバーへの接続を試行。
-            return device.gatt.connect();
-        })
-        .then(server => { 
-            console.log(server)
+// ストーリー（キャラクター）選択モード
+(async () => {
+  // 背景を管理する Background クラスのインスタンスを作る
+  const background = new Background('#js-screen');
+  // シナリオを管理する Writer クラスのインスタンスを作る
+  const writer = new Writer();
 
-            return server.getPrimaryService(0x7A20);
-        })
-        .then(service => {
-            // Characteristic1を取得中...
-            return Promise.all([
-                service.getCharacteristic(0xCA00),
-                service.getCharacteristic(0xAC0A),
-            ]);
-        })
+  // キャラクター情報を読み込む
+  const cast = await writer.casting('scenarios/cast.json');
+  // シナリオを読み込む
+  const scenarios = await writer.read([
+    'scenarios/scenario-0.json',
+    'scenarios/scenario-1.json',
+    'scenarios/scenario-2.json',
+  ]);
 
-        //.then(characteristic => characteristic.startNotifications())
-
-        .then(characteristics => {
-            const characteristic1 = characteristics[0];
-            const characteristic2 = characteristics[1];
-
-            // Characteristic1とCharacteristic2の処理を行う
-            characteristic1.startNotifications();
-            characteristic1.addEventListener('characteristicvaluechanged', handleCharacteristic1Changed);
-
-            characteristic2.startNotifications();
-            characteristic2.addEventListener('characteristicvaluechanged', handleCharacteristic2Changed);
-
-            // Characteristic1とCharacteristic2の初期値を読み取る
-            return Promise.all([
-                characteristic1.readValue(),
-                characteristic2.readValue()
-            ]);
-        })
-        .then(values => {
-            const value1 = values[0];
-            const value2 = values[1];
-
-            console.log(`Characteristic1 value: ${value1}`);
-            console.log(`Characteristic2 value: ${value2}`);
-        })
-        .catch(error => { console.error(error); });
-    });
-    
-}
-
-const ee = new EventEmitter3();//イベントが発生した時eeがトリガーになる
-const screen = document.querySelector("#screen");
-const scenarioBox = document.querySelector("#js-scenario_Box");
-var mess_text = document.getElementById('js-scenario_Box');
-const timeline = gsap.timeline({ repeat: -1, paused: true});
-const labels = [];
-const lines = [
-  [
-    [
-      // "<chara 1 0>謎解きサイトのプロトタイプです。",
-      "…………。",
-      "す、すみませ～ん。",
-      "誰もいないのかな？<br>あっドアが開いてる。",
-      "……は～い。",
-      "なにか御用ですか？",
-      "あっあの、探偵さんは…?",
-      "………",
-      "僕ですけど。",
-      "えっ…!?",
-      "え～～～～！？",
-      "こんな子どもが…！？",
-      "失礼な人ですね。<br>同業者のくせにそんなことも知らずにここに来たんですか？",
-      "どっ同業者ってなんで分かったの！？",
-      "そんなことより、何の用なんですか？<br>",
-      "僕、面倒事は（ここ考える）探偵が探偵に依頼なんて",
-      "あなたの言う通り変なのは分かってる。<br>だけど、あなたしか頼れる人がいなくてここまで来たの！",
-      "知り合いの情報屋からなかなかできるヤツだって聞いたわ。<br>(噂でもよく聞くし…。まさか子どもとは知らなかったけど。)",
-      "お願い…！！",
-      "…分かった。話を聞いてから決めるよ。<br>中に入って。",
-      "ありがとう！",
-      "そういえば名前を聞いていなかったね。名前は？",
-      "なまえ",
-      "〇〇！？あの〇〇のお嬢様がなんで探偵なんてやっているんだ？",
-      "家の話はいいんです。<br>この手紙を見てみてください。",
-      "私、この手紙を解読して何としても手に入れないといけないものがあるんです！<br>でもどうしても解けなくて…。だからあなたを頼ってここに。",
-      "ふ～ん。見せてみて。<br>これは…。",
-      " ",
-      // "<chara 1 100> 答えだと思うカードをスキャンして下さい。",
-    ],
-  ],
-  [
-    [
-      "<chara 1 1>不正解",
-      "ヒント：「く」の前は？",
-      "始めに戻ります。",
-    ],
-    [
-      "<chara 1 2>正解！",
-      "始めに戻ります。",
-    ],
-  ],
-  [
-    [
-      "ううう",
-      "ううう",
-      "ううう",
-      "ううう",
-    ],
-    [
-      "えええ",
-      "ええええ",
-    ],
-  ],
-];
-
-console.log(lines[1][1][1])
-
-const sequence = {
-  scene: 0,
-  cut: 0,
-  line: 0
-};
-
-let isMode = false;
-
-function main(){
-  var tmp = split_chars.shift();
-  if(tmp == '<'){
-    let tagget_str = '';
-    tmp = split_chars.shift();
-    while(tmp != '>'){
-      tagget_str += tmp;
-      tmp = split_chars.shift();
-    }
-    tagget_str = tagget_str.split(/\s/);
-    
-    switch(tagget_str[0]){
-      case 'stop':
-        isMode = true;
-        break;
-      case 'break':
-        scenarioBox.innerHTML += '<br>';
-          break;
-      case 'chara':
-          document.getElementById('chara'+tagget_str[1]).src = 'img/chara' + tagget_str[2] +'.png';
-          break;
-    }
-  }
-  if(!isMode){
-    if(tmp){
-        if(tmp != '>') scenarioBox.innerHTML += tmp;
-        setTimeout(main,timeline);
-    }
-  }else{
-    scenarioBox.innerHTML += '<span class="blink-text"></span>';
-  }
-}
-
-const onPlay = (nextSequence) => {
-  const defaults = {scense: undefined, cut: undefined, line: undefined};
-  const options = Object.assign({}, defaults, nextSequence);
-
-  sequence.scene = typeof options.scene === "undefined" ? sequence.scene : options.scene;
-  sequence.cut =  typeof options.cut === "undefined" ? sequence.cut : options.cut;
-  sequence.line = typeof options.line === "undefined" ? sequence.line : options.line;
-
-  const prevLabel = labels[labels.indexOf(`${sequence.scene}_${sequence.cut}_${sequence.line}`) - 1];//ここの-1とは？聞く
-  const {scene, cut, line} = sequence;
-  const nextLabel = `${scene}_${cut}_${line}`;
-
-  console.log(prevLabel, nextLabel);
-
-  timeline.seek(prevLabel).play().addPause(nextLabel);
-
-  if(sequence.line + 1 === lines[sequence.scene][sequence.cut].length){
-    sequence.scene = 0;
-    sequence.cut = 0;
-    sequence.line = 0;
-  } else {
-    // シーン（台詞）を進める
-    sequence.line = (sequence.line + 1) % lines[sequence.scene][sequence.cut].length;
-  }
-  console.log(sequence.line)
-};
-
-gsap.registerPlugin(TextPlugin);
-
-const onPreload = () => {
-  timeline.addLabel("start");
-  labels.push("start");
-
-  for(let i = 0; i < lines.length; i++){
-    for(let j = 0; j < lines[i].length; j++){
-      for (let k = 0; k < lines[i][j].length; k++){
-        const line = lines[i][j][k];
-        const label = `${i}_${j}_${k}`;
-
-        timeline.fromTo(
-          scenarioBox,
-          {
-            text: "",
-          },
-          {
-            duration: line.length * 0.07,//文字の表示スピード
-            ease: "none",
-            text: line,
-            onComplete: () => {//アニメーションが完了した時
-              ee.emit("complete", line, i, j, k);//emit(イベント名 , 引数)でイベントが発動
-            },
-            onStart: () => {//アニメーションが開始した時
-              ee.emit("start", line, i, j, k);
-            },
-          },
-          labels.length > 0 ? `${label}+=0.001` : undefined
-        );
-
-        labels.push(label);
-        timeline.addLabel(label);
+  // キャラクターの初期設定をする
+  const actors = cast.map(({ name, path, acts }, id) => {
+    const actor = new Actor(
+      {
+        id,
+        selector: `#js-actor-container-${name}`,
+      },
+      {
+        acts,
+        path,
       }
-    }
-  }
-
-  screen.addEventListener("click", () =>{
-    if(!isMode){
-      onPlay();
-    }
+    );
+    return actor;
   });
 
-  ee.on("start", (line, i, j, k) =>{//on(イベント名 , listener ) startイベントに紐づけ、listenerを登録
-    console.log(line, i, j, k);
+  // キャラクターの画像を読み込む
+  await Promise.all(
+    actors.map((actor) => {
+      return actor.load();
+    })
+  );
 
-    split_chars = (line).split("");
-    scenarioBox.innerHTML='';
-    main();
-    
-     // 「選択画面」になったらユーザー操作（クリック）を無効に
-    if(line === "<chara 1 100> 答えだと思うカードをスキャンして下さい。"){
-      isMode = true;
-    }
-    // 以下のテキストの時、モーダルウィンドウを開く
-    if (line === " ") {
-      openModal(); // モーダルウィンドウを開く処理
-    }
+  const backgroundPath = scenarios
+    // 読み込んだすべてのシナリオの cuts フィールドを取り出しす
+    .map(({ cuts }) => cuts)
+    // 一次元の配列に変換する
+    .flat()
+    // 配列から background フィールドだけを取り出す
+    .map((cuts) => cuts.background)
+    // background フィールドの値の配列から重複を取り除く
+    .filter((value, index, self) => self.indexOf(value) === index);
+
+  // 背景画像を読み込む
+  await background.load(backgroundPath);
+
+  // 全体進行を管理する Director クラスのインスタンスを作る
+  const director = new Director(
+    {
+      scenarioBox: '#js-scenario_Box',
+      nameBox: '#js-name_Box',
+    },
+    scenarios
+  );
+
+  // イベントリスナーを登録する（各インスタンスを紐づける）
+  // セリフが切り替わり始めた時の処理
+  director.ee.on('start', (e) => {
+    actors.forEach((actor) => {
+      actor.onStart(e);
+    });
+    background.onStart(e);
   });
-
-  // 台詞の表示終了を検知するイベントリスナー 　アニメーションが完了したら作動
-  ee.on("complete", (line, i, j, k) =>{
-    console.log(line, i, j, k);
-
-    // 「選択画面」が表示されたら画像の判定を開始
-    if(line === "<chara 1 100> 答えだと思うカードをスキャンして下さい。"){
-
-    }
-  });
-};
-
-const frameWidth = 250;
-const frameHeight = 486;
-const xNum = 2;
-const yNum = 1;
-const sx = 500;
-const sy = 100;
-const interval = 9;
-let img, frameIndex, time;
-
-// Load the model first
-function preload() {
-  onPreload();
-  img = loadImage("img/スプライト_テスト.png");
-}
-
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  frameIndex = 0;
-  time = 0;
-}
-
-function draw() {
-  clear();
-
-  const x = frameIndex % xNum;
-  const y = floor(frameIndex / xNum);
-
-  copy(img, x * frameWidth, y * frameHeight, frameWidth, frameHeight, sx, sy, frameWidth, frameHeight);
-
-  if (time % interval == 0) {
-    frameIndex++;
-    frameIndex %= xNum * yNum;
-  }
-  time++;
-
-  frameRate(30); // フレームレートを設定する
-}
-
-
-let answer = "";
-
-function handleCharacteristic1Changed(event) {
-    const value = event.target.value;
-    const decoder = new TextDecoder('utf-8');
-    const str = decoder.decode(value);
-    // console.log(str);
-
-    if (scenarioBox.innerHTML.includes(" ")){
-    if(str == "4b217b26e5e80"){
-        console.log("探偵");
-        isMode = false;
-        answer = str;
-      //   onPlay({
-      //     scene: 1,
-      //     cut: 0,
-      //     line: 0,
-      // });
-      // location.href = "maid/index.html";
-
-    } else if (str === "421da9a6e5e81") {
-      console.log("メイド");
-      isMode = false;
-      answer = str;
-      // closeModal();
-      // onPlay({
-      //   scene: 1,
-      //   cut: 1,
-      //   line: 0,
-      // });
-    }
-    console.log(answer);
-    audio();
-
-    if(str === "fb18d0f6" && answer === "421da9a6e5e81"){
-      console.log("決定");
-      console.log("正解！");
-      closeModal();
-      onPlay({
-        scene: 1,
-        cut: 1,
-        line: 0,
-      });
-    } else {
-      console.log("不正解！");
-    }
-  }
-}
-
-function audio() {
-  document.getElementById('btn_audio').currentTime = 0; //連続クリックに対応
-  document.getElementById('btn_audio').play(); //クリックしたら音を再生
-}
-
-
-function handleCharacteristic2Changed(event) {
-     const value = event.target.value;
-     const decoder = new TextDecoder('utf-8');
-     const str = decoder.decode(value);
-     console.log(str);
-}
-
-
-
-function openModal() {
-  const dialog = document.querySelector("dialog");
-  dialog.showModal();
-  dialog.classList.add("open");
-}
-
-function closeModal() {
-  const dialog = document.querySelector("dialog");
-  dialog.close();
-  dialog.classList.remove("open");
-}
+})();

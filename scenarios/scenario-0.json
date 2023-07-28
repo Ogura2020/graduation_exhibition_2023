@@ -1,0 +1,572 @@
+{
+  "actorIdsArray": [0, 1],
+  "cuts": [
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "…………。",
+      "act": [
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "す、すみませ～ん。",
+      "act": [
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "誰もいないのかな？<br>あっドアが開いてる。",
+      "act": [
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "……は～い。",
+      "act": [
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "なにか御用ですか？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "あっあの、探偵さんは…?",
+      "act": [
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "………",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "僕ですけど。",
+      "act": [
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "えっ…!?",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "え～～～～！？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "こんな子どもが…！？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "失礼な人ですね。<br>同業者のくせにそんなことも知らずにここに来たんですか？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "どっ同業者ってなんで分かったの！？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "そんなことより、何の用なんですか？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "僕、面倒事は（ここ考える）探偵が探偵に依頼なんて",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "あなたの言う通り変なのは分かってる。<br>だけど、あなたしか頼れる人がいなくてここまで来たの！",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "知り合いの情報屋からなかなかできるヤツだって聞いたわ。<br>(噂でもよく聞くし…。まさか子どもとは知らなかったけど。)",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "お願い…！！",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "…分かった。話を聞いてから決めるよ。<br>中に入って。",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "ありがとう！",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "そういえば名前を聞いていなかったね。名前は？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "なまえ",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "〇〇！？あの〇〇のお嬢様がなんで探偵なんてやっているんだ？",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "家の話はいいんです。<br>この手紙を見てみてください。",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "名前 0",
+      "text": "私、この手紙を解読して何としても手に入れないといけないものがあるんです！<br>でもどうしても解けなくて…。だからあなたを頼ってここに。",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg1.jpg",
+      "name": "名前 1",
+      "text": "ふ～ん。見せてみて。<br>これは…。",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg0.jpg",
+      "name": "",
+      "text": "",
+      "act": [
+        {
+          "id": "talk",
+          "position": {
+            "aligh": "left",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "idle",
+          "position": {
+            "aligh": "right",
+            "value": 0.1
+          }
+        }
+      ]
+    }
+  ]
+}
