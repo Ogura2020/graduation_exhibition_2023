@@ -83,6 +83,7 @@ class Director {
         this.ee.on('start', this.#onStart.bind(this));
   
         this.onPlay();
+        console.log(this.labels)
       }
     }
   
@@ -91,6 +92,12 @@ class Director {
      */
     #onStart (e) {
       console.log('[Director] #onStart', e);
+      console.log(e.cutIndex)
+
+      //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
+      if(e.cutIndex >= 26){
+        this.sequence.cut = 0;
+      }
   
       while (this.nameBox.firstChild) {
         this.nameBox.removeChild(this.nameBox.firstChild);
@@ -107,7 +114,7 @@ class Director {
      */
     onPlay(nextSequence) {
       console.log('[Director] onPlay');
-  
+
       const defaults = {
         scenario: undefined,
         cut: undefined,
