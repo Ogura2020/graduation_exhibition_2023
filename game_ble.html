@@ -29,20 +29,15 @@
 </head>
 
 <body>
-    <div id="screen">
+    <div id="js-screen" class="screen">
         <!-- <img src="img/bg1.jpg" alt="" id="bg"> -->
         <button class="btn" onclick="Connectbtn()">Connect</button>
-
-        <div class="chara">
-            <div class="chara_posi" id="chara_posi1"><img src="" alt="" id="chara1"><!--中央-->
-            </div>
-            <div class="chara_posi" id="chara_posi2"><img src="" alt="" id="chara2"><!--左-->
-            </div>
-            <div class="chara_posi" id="chara_posi3"><img src="" alt="" id="chara3"><!--右-->
-            </div>
+        <div class="actor">
+            <div id="js-actor-container-taro" class="actor-container actor-container-taro"></div>
+            <div id="js-actor-container-jiro" class="actor-container actor-container-jiro"></div>
         </div>
-
         <div class="text">
+            <p id="js-name_Box" class="name_Box"></p>
             <div id="text_area">
                 <!-- <img src="img/text3.png" alt="" class="text_box"> -->
                 <p id="js-scenario_Box" class="scenario_Box">ローディング…</p>
@@ -51,10 +46,7 @@
     </div>
 
     <dialog class="dialog">
-      <!-- <p>ダイアログのテストです</p>
-      <p>aa</p> -->
-      <div class="cover"></div>
-      <div class="cover2"></div>
+      <p>ダイアログのテストです</p>
       <img src="img/chara100.png" alt="nazo1" class="nazo">
     </dialog>
     
@@ -62,6 +54,13 @@
         <source src="bgm/完了3.mp3" type="audio/mp3">
     </audio>
     
+    <script src="js/Actor.js"></script>
+    <script src="js/Background.js"></script>
+    <script src="js/CallSheet.js"></script>
+    <script src="js/Director.js"></script>
+    <script src="js/Sound.js"></script>
+    <script src="js/PocketWatch.js"></script>
+    <script src="js/Writer.js"></script>
     <script src="js/game_ble2.js"></script>
     
 </body>
