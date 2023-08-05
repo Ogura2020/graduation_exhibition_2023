@@ -7,14 +7,14 @@
         "frame": 2,
         "id": "idle",
         "loop": false,
-        "scale": 0.2,
+        "scale": 0.15,
         "sheet": "idle.png"
       },
       {
         "frame": 2,
         "id": "talk",
         "loop": true,
-        "scale": 0.25,
+        "scale": 0.2,
         "sheet": "talk.png"
       }
     ]
@@ -27,14 +27,14 @@
         "frame": 2,
         "id": "idle",
         "loop": false,
-        "scale": 0.2,
+        "scale": 0.15,
         "sheet": "idle.png"
       },
       {
         "frame": 2,
         "id": "talk",
         "loop": true,
-        "scale": 0.25,
+        "scale": 0.2,
         "sheet": "talk.png"
       }
     ]
