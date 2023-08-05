@@ -10,14 +10,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.45
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.45
             }
           }
         ]
@@ -31,14 +31,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.45
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.45
             }
           }
         ]
@@ -52,14 +52,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.45
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.45
             }
           }
         ]
@@ -73,14 +73,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -94,14 +94,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -115,14 +115,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -136,14 +136,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -157,14 +157,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -178,14 +178,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -199,14 +199,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -220,14 +220,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -241,14 +241,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -262,14 +262,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -283,14 +283,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -304,14 +304,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -325,14 +325,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -346,14 +346,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -367,14 +367,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -388,14 +388,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -409,14 +409,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -430,14 +430,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -451,14 +451,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -472,14 +472,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -493,14 +493,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -514,14 +514,14 @@
             "id": "talk",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -535,14 +535,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
@@ -556,14 +556,14 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.1
+              "value": 0.2
             }
           },
           {
             "id": "idle",
             "position": {
               "aligh": "right",
-              "value": 0.1
+              "value": 0.2
             }
           }
         ]
