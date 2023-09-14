@@ -187,7 +187,7 @@ const isObject = function (o) {
   
       if (index > -1) {
         // 演技すべきキャラクターであれば act の内容に沿ってアニメーションを実行する
-        const { id, position } = act[index];
+        const { id, position, display } = act[index];
         const { container, frame, img, loop, scale } = this.acts[id];
         const { aligh, value } = extend(this.defaultPosition, position);
   
@@ -196,29 +196,33 @@ const isObject = function (o) {
         this.el.style.left = null;
         this.el.style.right = null;
   
-        // img 要素を含んでいる要素を表示する
-        container.style.display = 'block';
-  
-        // コマ数が 1 以上あればアニメーションを設定する
-        if (frame > 1) {
-          const offset = loop ? 0 : 100 / frame;
-          const n = loop ? frame : frame - 1;
-  
-          this.el.style.width = `${100 * scale}%`;
-          this.el.style[aligh] = `${100 * value}%`;
-  
-          this.animation = img.animate(
-            [
-              { transform: 'translateX(0%)' },
-              { transform: `translateX(${-100 + offset}%)` },
-            ],
-            {
-              duration: 250 * n,
-              easing: `steps(${n}, end)`,
-              fill: 'forwards',
-              iterations: loop ? Infinity : 1,
-            }
-          );
+        // 画像を非表示にする設定がなければ表示
+        if (display !== "false") { 
+
+          // img 要素を含んでいる要素を表示する
+          container.style.display = 'block';
+    
+          // コマ数が 1 以上あればアニメーションを設定する
+          if (frame > 1) {
+            const offset = loop ? 0 : 100 / frame;
+            const n = loop ? frame : frame - 1;
+    
+            this.el.style.width = `${100 * scale}%`;
+            this.el.style[aligh] = `${100 * value}%`;
+    
+            this.animation = img.animate(
+              [
+                { transform: 'translateX(0%)' },
+                { transform: `translateX(${-100 + offset}%)` },
+              ],
+              {
+                duration: 250 * n,
+                easing: `steps(${n}, end)`,
+                fill: 'forwards',
+                iterations: loop ? Infinity : 1,
+              }
+            );
+          }
         }
       }
     }
