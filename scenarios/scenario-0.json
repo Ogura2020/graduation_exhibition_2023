@@ -1,5 +1,5 @@
 {
-    "actorIdsArray": [0, 1],
+    "actorIdsArray": [0, 2],
     "cuts": [
       {
         "background": "img/bg0.jpg",
@@ -17,8 +17,9 @@
             "id": "idle",
             "position": {
               "aligh": "left",
-              "value": 0.45
-            }
+              "value": -0.5
+            },
+            "display": "false" 
           }
         ]
       },
@@ -39,7 +40,8 @@
             "position": {
               "aligh": "left",
               "value": 0.45
-            }
+            },
+            "display": "false" 
           }
         ]
       },
@@ -60,7 +62,8 @@
             "position": {
               "aligh": "left",
               "value": 0.45
-            }
+            },
+            "display": "false" 
           }
         ]
       },
@@ -81,7 +84,8 @@
             "position": {
               "aligh": "left",
               "value": 0.2
-            }
+            },
+            "display": "false" 
           }
         ]
       },
