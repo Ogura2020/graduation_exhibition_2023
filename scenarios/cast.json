@@ -38,5 +38,25 @@
         "sheet": "talk.png"
       }
     ]
+  },
+  {
+    "name": "tim",
+    "path": "img/tim/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "idle",
+        "loop": false,
+        "scale": 0.2,
+        "sheet": "idle.png"
+      },
+      {
+        "frame": 2,
+        "id": "talk",
+        "loop": true,
+        "scale": 0.2,
+        "sheet": "talk.png"
+      }
+    ]
   }
 ]
