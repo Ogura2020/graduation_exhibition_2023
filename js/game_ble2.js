@@ -63,5 +63,22 @@
       actor.onStart(e);
     });
     background.onStart(e);
+    console.log(e)
   });
+
+  const pocketwatch = new PocketWatch();
+  
+  //カードが読み込まれたときに以下のコードが実行されます。
+  pocketwatch.ee.on("readRFID", (e) =>{
+    console.log(e)
+    const sound = new Sound();
+    // dialog.showModal();
+  })
+  // pocketwatch.ee.on("readAccel", (e) =>{
+  //   console.log(e)
+  // })
+
+  
+  // const sound = new Sound();
+  const dialog = new Dialog();
 })();
