@@ -9,7 +9,9 @@
   const cast = await writer.casting('scenarios/cast.json');
   // シナリオを読み込む
   const scenarios = await writer.read([
-    'scenarios/scenario-0.json'
+    'scenarios/scenario-0.json',
+    'scenarios/scenario-1.json',
+    'scenarios/scenario-2.json'
   ]);
 
   // キャラクターの初期設定をする
@@ -66,6 +68,19 @@
     console.log(e)
   });
 
+  const dialog = new Dialog();
+  director.ee.on('complete', (e) => {
+    // テキストが特定の条件を満たすかどうかを確認  "ここに書いたテキストに反応"
+    if (e.text.includes(" ")) {
+      
+      // ダイアログを開く
+      dialog.openDialog(); // dialog.js の関数を呼び出す
+      
+      // 別のシナリオに飛ばす処理を実行　Director.js下のほうに処理の記述ある
+      //director.jumpToAnotherScenario();
+    }
+  });
+
   const pocketwatch = new PocketWatch();
   
   //カードが読み込まれたときに以下のコードが実行されます。
@@ -80,5 +95,4 @@
 
   
   // const sound = new Sound();
-  const dialog = new Dialog();
 })();
