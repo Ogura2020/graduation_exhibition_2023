@@ -2,6 +2,9 @@
  * Director 
  * このクラスは gsap.min.js, SplitText.min.js, TextPlugin.min.js, eventemitter3.umd.min.js に依存します
  */
+
+const dialog = new Dialog();
+
 class Director {
     /**
      * Director クラスの初期設定を行います
@@ -35,6 +38,18 @@ class Director {
       this.timeline.addLabel(startLabel);
       this.labels.push(startLabel);
   
+      // this.ee.on('complete', (e) => {
+      //   // テキストが特定の条件を満たすかどうかを確認  "ここに書いたテキストに反応"
+      //   if (e.text.includes(" ")) {
+          
+      //     // ダイアログを開く
+      //     openDialog(); // dialog.js の関数を呼び出す
+          
+      //     // 別のシナリオに飛ばす処理を実行　下のほうに処理の記述ある
+      //     //this.jumpToAnotherScenario();
+      //   }
+      // });
+
       if (this.scenarioBox && this.nameBox) {
         this.scenarios.forEach(({ actorIdsArray, cuts }, scenarioIndex) => {
           cuts.forEach((cut, cutIndex) => {
@@ -83,10 +98,18 @@ class Director {
         this.ee.on('start', this.#onStart.bind(this));
   
         this.onPlay();
-        console.log(this.labels)
       }
     }
   
+    // 別のシナリオに飛ばすメソッドを追加
+    jumpToAnotherScenario() {
+      // ここで別のシナリオに飛ばす処理を実装
+      // 飛ばすシナリオの情報を設定して、onPlay メソッドを呼び出すなど
+      const nextScenarioIndex = 1; // 別のシナリオのインデックスを設定
+      const nextCutIndex = 0; // 別のシナリオの最初のカットを設定
+      this.onPlay({ scenario: nextScenarioIndex, cut: nextCutIndex });
+    }
+
     /**
      * #onStart
      */
