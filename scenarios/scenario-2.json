@@ -1,0 +1,68 @@
+{
+    "actorIdsArray": [0, 1],
+    "cuts": [
+      {
+        "background": "img/bg0.jpg",
+        "name": "アズキ",
+        "text": "ddd",
+        "act": [
+          {
+            "id": "idle",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "idle",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg0.jpg",
+        "name": "アズキ",
+        "text": "eee",
+        "act": [
+          {
+            "id": "talk",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "talk",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg0.jpg",
+        "name": "アズキ",
+        "text": "fff",
+        "act": [
+          {
+            "id": "talk",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "talk",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      }
+    ]
+  }
