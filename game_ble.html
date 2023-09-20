@@ -10,6 +10,9 @@
     <script src="js/lib/TextPlugin.min.js"></script>
     <script src="https://unpkg.com/eventemitter3@latest/dist/eventemitter3.umd.min.js"></script>
 
+    <!-- 下記howler.jsのリンク -->
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
@@ -31,11 +34,20 @@
 <body onselectstart="return false;" onmousedown="return false;">
     <div id="js-screen" class="screen">
         <!-- <img src="img/bg1.jpg" alt="" id="bg"> -->
-        <button class="btn" onclick="Connectbtn()">Connect</button>
+        <button class="btn">Connect</button>
+
+        <dialog id="dialog">
+            <p>ダイアログのテストです</p>
+            <img src="img/chara100.png" alt="nazo1" class="nazo">
+            <!-- <button id="close">モーダルウィンドウを閉じる</button> -->
+        </dialog>
+
         <div class="actor">
             <div id="js-actor-container-taro" class="actor-container actor-container-taro"></div>
             <div id="js-actor-container-jiro" class="actor-container actor-container-jiro"></div>
+            <div id="js-actor-container-tim" class="actor-container actor-container-tim"></div>
         </div>
+        
         <div class="text">
             <p id="js-name_Box" class="name_Box"></p>
             <div id="text_area">
@@ -44,11 +56,6 @@
             </div>
         </div>
     </div>
-
-    <dialog class="dialog">
-      <p>ダイアログのテストです</p>
-      <img src="img/chara100.png" alt="nazo1" class="nazo">
-    </dialog>
     
     <audio id="btn_audio">
         <source src="bgm/完了3.mp3" type="audio/mp3">
@@ -57,6 +64,7 @@
     <script src="js/Actor.js"></script>
     <script src="js/Background.js"></script>
     <script src="js/CallSheet.js"></script>
+    <script src="js/Dialog.js"></script>
     <script src="js/Director.js"></script>
     <script src="js/Sound.js"></script>
     <script src="js/PocketWatch.js"></script>
