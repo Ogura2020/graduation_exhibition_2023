@@ -11,7 +11,8 @@
   const scenarios = await writer.read([
     'scenarios/scenario-0.json',
     'scenarios/scenario-1.json',
-    'scenarios/scenario-2.json'
+    'scenarios/scenario-2.json',
+    'scenarios/scenario-3.json'
   ]);
 
   // キャラクターの初期設定をする
