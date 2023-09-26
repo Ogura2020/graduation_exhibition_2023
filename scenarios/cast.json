@@ -47,8 +47,8 @@
         "frame": 2,
         "id": "idle",
         "loop": false,
-        "scale": 0.2,
-        "sheet": "idle.png"
+        "scale": 0.5,
+        "sheet": "idle2.png"
       },
       {
         "frame": 2,
