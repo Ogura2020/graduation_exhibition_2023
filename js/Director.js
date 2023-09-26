@@ -102,10 +102,9 @@ class Director {
     }
   
     // 別のシナリオに飛ばすメソッドを追加
-    jumpToAnotherScenario() {
+    jumpToAnotherScenario(nextScenarioIndex) {
       // ここで別のシナリオに飛ばす処理を実装
       // 飛ばすシナリオの情報を設定して、onPlay メソッドを呼び出すなど
-      const nextScenarioIndex = 1; // 別のシナリオのインデックスを設定
       const nextCutIndex = 0; // 別のシナリオの最初のカットを設定
       this.onPlay({ scenario: nextScenarioIndex, cut: nextCutIndex });
     }
@@ -116,10 +115,16 @@ class Director {
     #onStart (e) {
       console.log('[Director] #onStart', e);
       console.log(e.cutIndex)
+      console.log(this.scenarios)
 
       //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
-      if(e.cutIndex >= 26){
-        this.sequence.cut = 0;
+      if(e.cutIndex == this.sequence.cut){
+
+        // もし次のシナリオが存在するなら、それに飛ぶ
+        if (this.scenarios[0]) {
+          this.jumpToAnotherScenario(1);
+        }
+        
       }
   
       while (this.nameBox.firstChild) {
