@@ -4,7 +4,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "aaaaa",
+        "text": "ddd",
         "act": [
           {
             "id": "idle",
@@ -25,7 +25,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "bbbbb",
+        "text": "eee",
         "act": [
           {
             "id": "talk",
@@ -46,7 +46,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "ccc",
+        "text": "fff",
         "act": [
           {
             "id": "talk",
