@@ -100,7 +100,7 @@ class PocketWatch {
     const value = event.target.value;
     const decoder = new TextDecoder('utf-8');
     const str = decoder.decode(value);
-    console.log(str);
+    //console.log(str);
 
     this.ee.emit('readAccel', str);
   }  

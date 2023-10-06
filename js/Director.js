@@ -3,9 +3,23 @@
  * このクラスは gsap.min.js, SplitText.min.js, TextPlugin.min.js, eventemitter3.umd.min.js に依存します
  */
 
-const dialog = new Dialog();
-
 class Director {
+    static SCENARIO_INDEX = {
+      '4b217b26e5e80': 0,
+      '421da9a6e5e81': 1,
+      '428d4b2c11190': 2,
+      '46623b2c11190': 3,
+      '4da5fb2c11190': 4,
+      '46f64b2c11190': 5,
+      '41bc6b2c11190': 6,
+      '456a5b2c11190': 7,
+      '45399b2c11191': 8,
+      '41c5b2c11195': 9,
+      '4bc8fb2c11190': 10,
+      '460c6b2c11190': 11,
+      'fb18d0f6': 12,
+    };
+  
     /**
      * Director クラスの初期設定を行います
      * @param {string} selectors シナリオを表示する要素のセレクター文字列を指定します
@@ -61,8 +75,8 @@ class Director {
                 text: '',
               },
               {
-                // 文字の表示スピード、台詞の文字列 x 0.07
-                duration: cut.text.length * 0.07,
+                // シナリオの text の文字列が空だと start イベントが発生しないので、仮想の1文字を足しておく
+                duration: (cut.text.length + 1) * 0.07,
                 ease: 'none',
                 text: cut.text,
                 onComplete: () => {
@@ -114,33 +128,55 @@ class Director {
      */
     #onStart (e) {
       console.log('[Director] #onStart', e);
-      console.log(e.cutIndex)
-      console.log(this.scenarios)
+      
+      // //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
+      // if(e.cutIndex == this.sequence.cut){
 
-      //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
-      if(e.cutIndex == this.sequence.cut){
-
-        // もし次のシナリオが存在するなら、それに飛ぶ
-        if (this.scenarios[0]) {
-          this.jumpToAnotherScenario(1);
-        }
+      //   // もし次のシナリオが存在するなら、それに飛ぶ
+      //   if (this.scenarios[0]) {
+      //     this.jumpToAnotherScenario(1);
+      //   }
         
-      }
+      // }
   
       while (this.nameBox.firstChild) {
         this.nameBox.removeChild(this.nameBox.firstChild);
       }
   
-      [e.name];
-  
       this.nameBox.insertAdjacentHTML('afterbegin', e.name);
+    }
+
+    /**
+     * onSelect 引数に指定された ID のシナリオに変更するメソッド
+     * @param {string} rfid rfid の文字列
+     */
+    onSelect(rfid) {
+      console.log('[Director] onSelect', rfid);
+    
+      const scenarioIndex = Director.SCENARIO_INDEX[rfid];
+      const isntPrologue = scenarioIndex !== 0;
+    
+      // プロローグ以外かつ、現在のシナリオと異なるなら、シナリオを変更する
+      if (isntPrologue && scenarioIndex !== this.sequence.scenario) {
+        // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
+        this.isMode = false;
+        this.onPlay({
+          scenario: scenarioIndex,
+          cut: 0,
+        });
+      }
     }
   
     /**
+    
      * onPlay 引数に指定されたラベルの位置までアニメーションを再生するメソッド
      * @param {string} nextLabel 次のシーンのラベル
      */
     onPlay(nextSequence) {
+      // ユーザーからの入力（キャラクター選択・謎解き）を受け付けるモードではない場合はなにもしない
+      if (this.isMode) {
+        return;
+      }
       console.log('[Director] onPlay');
 
       const defaults = {
@@ -162,12 +198,21 @@ class Director {
       const prevLabel = this.labels[this.labels.indexOf(nextLabel) - 1];
       const nextCut = this.sequence.cut + 1;
       const lastCut = this.scenarios[this.sequence.scenario].cuts.length;
-      const hasNextCut = nextCut !== lastCut;
-  
-      this.timeline.seek(prevLabel).play().addPause(nextLabel);
-  
+      const hasNextCut = nextCut <= lastCut;
+
+      // 次のカットが存在するなら、シークして再生する
+
       if (hasNextCut) {
+        this.timeline.seek(prevLabel).play().addPause(nextLabel);
         this.sequence.cut = nextCut;
       }
+    }
+
+    /**
+     * lock シナリオの進行をロック・解除するメソッド
+     * @param {boolean} isMode ロックするか解除するかの真偽値を指定します true であればシナリオの進行がロックされます
+     */
+    updateLock(isMode) {
+      this.isMode = isMode;
     }
   }

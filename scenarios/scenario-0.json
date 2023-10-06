@@ -34,16 +34,14 @@
             "position": {
               "aligh": "left",
               "value": 0.45
-            },
-            "display": "false" 
+            }
           },
           {
             "id": "talk",
             "position": {
               "aligh": "left",
               "value": 0.45
-            },
-            "display": "false" 
+            }
           }
         ]
       },
@@ -73,7 +71,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "",
-        "text": "その中でも、これなくしてその先の事件を語ることはできないとされる、ある探偵との出会いの話がある。",
+        "text": "",
         "act": [
           {
             "id": "idle",
@@ -115,6 +113,30 @@
             "display": "false" 
           }
         ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "",
+        "text": "　",
+        "act": [
+          {
+            "id": "idle",
+            "position": {
+              "aligh": "left",
+              "value": 0.2
+            },
+            "display": "false" 
+          },
+          {
+            "id": "idle",
+            "position": {
+              "aligh": "left",
+              "value": 0.2
+            },
+            "display": "false" 
+          }
+        ],
+        "isCallSheet": true
       }
     ]
-  }
+}
