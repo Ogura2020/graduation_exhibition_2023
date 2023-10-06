@@ -9,14 +9,16 @@ class Dialog {
         this.ee = new EventEmitter3();
     }
 
-    openDialog() {
-        const dialog = document.getElementById("dialog");
+    nazo_openDialog() {
+        const dialog = document.getElementById("nazo_dialog");
         dialog.showModal();
         dialog.classList.add("open");
+
+
     }
     
-    closeDialog() {
-        const dialog = document.getElementById("dialog");
+    nazo_closeDialog() {
+        const dialog = document.getElementById("nazo_dialog");
         dialog.close();
     }
 }

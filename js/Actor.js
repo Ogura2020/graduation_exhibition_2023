@@ -216,7 +216,7 @@ const isObject = function (o) {
                 { transform: `translateX(${-100 + offset}%)` },
               ],
               {
-                duration: 250 * n,
+                duration: 200 * n,
                 easing: `steps(${n}, end)`,
                 fill: 'forwards',
                 iterations: loop ? Infinity : 1,

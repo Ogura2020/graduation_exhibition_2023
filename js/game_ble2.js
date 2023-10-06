@@ -70,30 +70,69 @@
   });
 
   const dialog = new Dialog();
+  const pocketwatch = new PocketWatch();
+  const callsheet = new CallSheet();
+
   director.ee.on('complete', (e) => {
     // テキストが特定の条件を満たすかどうかを確認  "ここに書いたテキストに反応"
+    //キャラクタ―選択ダイアログを開くときに反応するテキスト
+    if (e.text.includes("次は")) {
+      
+      // ダイアログを開く
+      callsheet.select_openDialog();
+
+      pocketwatch.ee.on("readRFID", (e) =>{
+        console.log(e)
+        const sound = new Sound();
+        if(e =="4b217b26e5e80"){
+          console.log("スキャン完了 シナリオ2へ移動")
+          director.jumpToAnotherScenario(2);
+          callsheet.select_closeDialog();
+        } else if(e =="421da9a6e5e81"){
+          console.log("スキャン完了 シナリオ3へ移動")
+          director.jumpToAnotherScenario(3);
+          callsheet.select_closeDialog();
+        }
+      })
+      
+      pocketwatch.ee.off("readRFID", e);
+
+      pocketwatch.ee.on("readAccel", (e) =>{
+        console.log(e)
+      })
+
+    }
+
+    //謎ダイアログを開くときに反応するテキスト
     if (e.text.includes(" ")) {
       
       // ダイアログを開く
-      dialog.openDialog(); // dialog.js の関数を呼び出す
+      dialog.nazo_openDialog();
+
+      pocketwatch.ee.on("readRFID", (e) =>{
+        console.log(e)
+        const sound = new Sound();
+        if(e =="4b217b26e5e80"){
+          console.log("スキャン完了 ")
+          
+          dialog.nazo_closeDialog();
+        } else if(e =="421da9a6e5e81"){
+          console.log("スキャン完了 ")
+          
+          dialog.nazo_closeDialog();
+        }
+      })
       
+      pocketwatch.ee.on("readAccel", (e) =>{
+        console.log(e)
+      })
+
       // 別のシナリオに飛ばす処理を実行　Director.js下のほうに処理の記述ある
       //director.jumpToAnotherScenario();
     }
   });
-
-  const pocketwatch = new PocketWatch();
   
-  //カードが読み込まれたときに以下のコードが実行されます。
-  pocketwatch.ee.on("readRFID", (e) =>{
-    console.log(e)
-    const sound = new Sound();
-    // dialog.showModal();
-  })
   // pocketwatch.ee.on("readAccel", (e) =>{
   //   console.log(e)
   // })
-
-  
-  // const sound = new Sound();
 })();
