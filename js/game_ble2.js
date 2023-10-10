@@ -59,7 +59,7 @@
     scenarios
   );
 
-  const dialog = new Dialog();
+  const dialog = new Dialog('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const callsheet = new CallSheet('#select_dialog');
 
@@ -146,6 +146,13 @@
   // callSheet のダイアログが開いているときに RFID が読み取られた時の処理
   callsheet.ee.on('select', (e) => {
     director.onSelect(e);
+  });
+
+  // dialog のダイアログの開閉状態が変わった時の処理
+  dialog.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
   });
 
   // pocketwatch.ee.on("readAccel", (e) =>{
