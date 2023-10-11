@@ -28,16 +28,34 @@ class Dialog {
         this.dialog.showModal();
         this.dialog.classList.add('open');
         this.ee.emit('updateModal', { isOpen: true });
-      } else if (this.isOpen && !nextOpenState) {
-        // シナリオのカットのプロパティ ismystery が true からそれ以外に変わった場合
-        // ダイアログを閉じる
-        this.dialog.close();
-        this.dialog.classList.remove('open');
-        this.ee.emit('updateModal', { isOpen: false });
-      }
+      } //else if (this.isOpen && !nextOpenState) {
+    //     // シナリオのカットのプロパティ ismystery が true からそれ以外に変わった場合
+    //     // ダイアログを閉じる
+    //     this.dialog.close();
+    //     this.dialog.classList.remove('open');
+    //     this.ee.emit('updateModal', { isOpen: false });
+    //   }
     }
 
     this.isOpen = nextOpenState;
+  }
+
+  /**
+   * onReadRFID
+  */
+  onReadRFID(e) {
+    // ダイアログが開いた状態であれば RFID の読み取りを行う
+    if (this.isOpen) {
+      console.log('[Dialog] onReadRFID', e);
+      this.ee.emit('select', e);
+
+        // 特定のIDをチェックしてダイアログを閉じる処理
+        if (e === "41c5b2c11195") {
+        this.dialog.close();
+        this.dialog.classList.remove('open');
+        this.ee.emit('updateModal', { isOpen: false });
+        }
+    }
   }
 
     // nazo_openDialog() {

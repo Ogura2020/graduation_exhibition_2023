@@ -71,6 +71,7 @@
     });
     background.onStart(e);
     callsheet.onStart(e);
+    dialog.onStart(e);
   });
 
   director.ee.on('complete', (e) => {
@@ -134,6 +135,7 @@
 
   pocketwatch.ee.on('readRFID', (e) => {
     callsheet.onReadRFID(e);
+    dialog.onReadRFID(e);
   });
 
   // callSheet のダイアログの開閉状態が変わった時の処理
@@ -153,6 +155,11 @@
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
 
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+  });
+
+  // dialog のダイアログが開いているときに RFID が読み取られた時の処理
+  dialog.ee.on('select', (e) => {
+    //sdirector.onSelect(e);
   });
 
   // pocketwatch.ee.on("readAccel", (e) =>{
