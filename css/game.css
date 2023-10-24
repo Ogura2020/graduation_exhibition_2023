@@ -89,7 +89,22 @@ dialog{
     border: 0;
     border-radius: 10px;
     outline: none;
+    text-align: center;
 }
 dialog.open {
   opacity: 1;
+}
+
+.mystery_text {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mystery_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

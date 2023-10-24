@@ -34,7 +34,8 @@
             "position": {
               "aligh": "left",
               "value": 0.45
-            }
+            },
+            "display": "false" 
           },
           {
             "id": "talk",
@@ -67,7 +68,7 @@
             "display": "false" 
           }
         ],
-        "ismystery": true
+        "ismystery2": true
       },
       {
         "background": "img/bg/kari_bg.jpg",

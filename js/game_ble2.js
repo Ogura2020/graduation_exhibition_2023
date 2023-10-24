@@ -60,6 +60,7 @@
   );
 
   const dialog = new Dialog('#nazo_dialog');
+  const mystery2 = new Mystery2('#nazo_dialog2');
   const pocketwatch = new PocketWatch();
   const callsheet = new CallSheet('#select_dialog');
 
@@ -72,6 +73,7 @@
     background.onStart(e);
     callsheet.onStart(e);
     dialog.onStart(e);
+    mystery2.onStart(e);
   });
 
   director.ee.on('complete', (e) => {

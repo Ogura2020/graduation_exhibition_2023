@@ -51,10 +51,10 @@
         "sheet": "idle.png"
       },
       {
-        "frame": 10,
+        "frame": 14,
         "id": "talk",
         "loop": true,
-        "scale": 0.9,
+        "scale": 0.6,
         "sheet": "maba.png"
       }
     ]

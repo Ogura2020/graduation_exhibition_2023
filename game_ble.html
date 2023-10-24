@@ -19,6 +19,7 @@
     
     <link href="css/ress.css" rel="stylesheet">
     <link href="css/game.css" rel="stylesheet">
+    <link href="css/mystery1.css" rel="stylesheet">
 
     <!-- 下記フォントのリンク -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,9 +38,14 @@
         <button class="btn">Connect</button>
 
         <dialog id="nazo_dialog">
-            <p>ダイアログのテストです</p>
-            <img src="img/nazo2/paper1.png" alt="nazo1" class="nazo">
+            <p class="mystery_text">ばらばらになってしまった紙を元に戻したとき、中央にくる紙の番号は？</p>
+            <img src="" alt="mystery1" class="mystery_img">
         </dialog>
+
+        <dialog id="nazo_dialog2">
+            <p class="mystery_text">表示テスト</p>
+            <!-- <img src="" alt="mystery1" class="mystery_img"> -->
+        </dialog>  
 
         <dialog id="select_dialog">
             <p>キャラクターを選択するダイアログです</p>
@@ -68,7 +74,8 @@
     <script src="js/Actor.js"></script>
     <script src="js/Background.js"></script>
     <script src="js/CallSheet.js"></script>
-    <script src="js/Dialog.js"></script>
+    <script src="js/Mystery.js"></script>
+    <script src="js/Mystery2.js"></script>
     <script src="js/Director.js"></script>
     <script src="js/Sound.js"></script>
     <script src="js/PocketWatch.js"></script>
