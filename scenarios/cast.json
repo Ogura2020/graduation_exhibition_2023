@@ -45,17 +45,31 @@
     "acts": [
       {
         "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
         "id": "idle",
         "loop": false,
-        "scale": 0.2,
+        "scale": 0.6,
         "sheet": "idle.png"
       },
       {
-        "frame": 14,
-        "id": "talk",
-        "loop": true,
+        "frame": 10,
+        "id": "wink1",
+        "loop": false,
         "scale": 0.6,
-        "sheet": "maba.png"
+        "sheet": "wink1.png"
+      },
+      {
+        "frame": 12,
+        "id": "wink2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "wink2.png"
       }
     ]
   }
