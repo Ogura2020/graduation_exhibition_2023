@@ -15,7 +15,7 @@ class Dialog {
    * onStart
    */
   onStart(e) {
-    console.log('[Dialog] onStart', e);
+    //console.log('[Dialog] onStart', e);
 
     // 画像ファイル名のリスト
     this.imageList = ['paper1.png', 'paper2.png', 'paper3.png']; 
@@ -28,8 +28,8 @@ class Dialog {
       if (!this.isOpen && nextOpenState) {
 
         // ダイアログ内のテキストと画像を更新
-        dialog.querySelector('.mystery_text').textContent = "表示テスト"; // ここに新しいテキストを設定
-        dialog.querySelector('.mystery_img').src = "新しい画像のパス"; // ここに新しい画像のパスを設定
+        this.dialog.querySelector('.mystery_text').textContent = "ばらばらになってしまった紙を元に戻したとき、中央にくる紙の番号は？"; // ここに新しいテキストを設定
+        //this.dialog.querySelector('.mystery_img').src = "新しい画像のパス"; // ここに新しい画像のパスを設定
 
         // ランダムな画像ファイル名を選択
         this.randomImage = this.imageList[Math.floor(Math.random() * this.imageList.length)];

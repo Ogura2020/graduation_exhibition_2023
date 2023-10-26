@@ -1,11 +1,11 @@
-class Mystery2 extends Dialog {
+class Mystery3 extends Dialog {
     /**
      * constructor
      * CallSheet クラスの初期設定を行います
      * @param {string} selector 背景を表示する要素のセレクター文字列を指定します
      */
     constructor(selector) {
-        console.log('[Mystery2] constructor ');
+        console.log('[Mystery3] constructor ');
         super(selector);
     }
 
@@ -16,14 +16,14 @@ class Mystery2 extends Dialog {
     //console.log('[Dialog] onStart', e);
 
     // ismystery が true のカットであるかの真偽値
-    const nextOpenState = e.hasOwnProperty('ismystery2') && e.ismystery2;
+    const nextOpenState = e.hasOwnProperty('ismystery3') && e.ismystery3;
 
     // ダイアログ要素が存在するか
     if (this.dialog) {
       if (!this.isOpen && nextOpenState) {
 
         // ダイアログ内のテキストと画像を更新
-        this.dialog.querySelector('.mystery_text').textContent = "導き出した数字が表示されているときに振れ"; // ここに新しいテキストを設定
+        this.dialog.querySelector('.mystery_text').textContent = "3"; // ここに新しいテキストを設定
         //this.dialog.querySelector('.mystery_img').src = "新しい画像のパス"; // ここに新しい画像のパスを設定
 
         // ランダムな数字
@@ -49,11 +49,11 @@ class Mystery2 extends Dialog {
   onReadRFID(e) {
     // ダイアログが開いた状態であれば RFID の読み取りを行う
     if (this.isOpen) {
-      console.log('[Mystery2] onReadRFID', e);
+      console.log('[Mystery3] onReadRFID', e);
       this.ee.emit('select', e);
 
         // 特定のIDをチェックしてダイアログを閉じる処理
-        if (e === "428d4b2c11190") {
+        if (e === "46623b2c11190") {
           this.dialog.close();
           this.dialog.classList.remove('open');
           this.ee.emit('updateModal', { isOpen: false });
