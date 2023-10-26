@@ -4,28 +4,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "aaaaa",
-        "act": [
-          {
-            "id": "idle",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "idle",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          }
-        ]
-      },
-      {
-        "background": "img/bg/kari_bg.jpg",
-        "name": "アズキ",
-        "text": " bbbbb",
+        "text": "eee",
         "act": [
           {
             "id": "talk",
@@ -42,12 +21,34 @@
             }
           }
         ],
-        "ismystery2":true
+        "ismystery3":true
       },
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "ccc",
+        "text": "fff",
+        "act": [
+          {
+            "id": "talk",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "talk",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      }
+      ,
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "アズキ",
+        "text": "ggg",
         "act": [
           {
             "id": "talk",

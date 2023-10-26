@@ -1,5 +1,5 @@
 {
-    "actorIdsArray": [0, 2],
+    "actorIdsArray": [1, 2],
     "cuts": [
       {
         "background": "img/bg/kari_bg.jpg",
@@ -7,7 +7,7 @@
         "text": "ー備忘録、それは記録すべき事柄を簡単にまとめ、記しておく帳面のことを指す。",
         "act": [
           {
-            "id": "idle",
+            "id": "talk",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -38,7 +38,7 @@
             "display": "false" 
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -60,15 +60,13 @@
             "display": "false" 
           },
           {
-            "id": "talk",
+            "id": "wink2",
             "position": {
               "aligh": "left",
               "value": 0.45
-            },
-            "display": "false" 
+            }
           }
-        ],
-        "ismystery2": true
+        ]
       },
       {
         "background": "img/bg/kari_bg.jpg",
@@ -88,8 +86,7 @@
             "position": {
               "aligh": "left",
               "value": 0.2
-            },
-            "display": "false" 
+            }
           }
         ]
       },
@@ -107,7 +104,7 @@
             "display": "false" 
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2

@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -102,7 +102,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -165,7 +165,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -213,7 +213,8 @@
               "value": 0.05
             }
           }
-        ]
+        ],
+        "ismystery1":true
       },
       {
         "background": "img/bg/kari_bg.jpg",
@@ -249,7 +250,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -291,7 +292,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -312,7 +313,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -396,7 +397,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -438,7 +439,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -480,7 +481,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -543,7 +544,7 @@
             }
           },
           {
-            "id": "talk",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -564,7 +565,7 @@
             }
           },
           {
-            "id": "idle",
+            "id": "wink1",
             "position": {
               "aligh": "right",
               "value": 0.05

@@ -4,7 +4,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "aaaaa",
+        "text": "最終シナリオです",
         "act": [
           {
             "id": "idle",
@@ -25,7 +25,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": " bbbbb",
+        "text": "あああ",
         "act": [
           {
             "id": "talk",
@@ -41,13 +41,12 @@
               "value": 0.45
             }
           }
-        ],
-        "ismystery2":true
+        ]
       },
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "ccc",
+        "text": "いいい",
         "act": [
           {
             "id": "talk",

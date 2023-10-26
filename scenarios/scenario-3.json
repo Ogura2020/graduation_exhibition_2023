@@ -41,7 +41,8 @@
               "value": 0.45
             }
           }
-        ]
+        ],
+        "ismystery3":true
       },
       {
         "background": "img/bg/kari_bg.jpg",
@@ -62,7 +63,8 @@
               "value": 0.45
             }
           }
-        ]
+        ],
+        "isCallSheet": true
       }
     ]
   }
