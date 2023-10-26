@@ -18,6 +18,7 @@ class Director {
       '4bc8fb2c11190': 10,
       '460c6b2c11190': 11,
       'fb18d0f6': 12,
+      'epilogue': 13,
     };
   
     /**
@@ -113,6 +114,9 @@ class Director {
   
         this.onPlay();
       }
+
+      // 選択済みのシナリオのセット
+      this.selectedScenarios = new Set();
     }
   
     // 別のシナリオに飛ばすメソッドを追加
@@ -128,7 +132,9 @@ class Director {
      */
     #onStart (e) {
       console.log('[Director] #onStart', e);
-      
+      console.log(this.selectedScenarios.size);
+      console.log(e.cutIndex);
+
       // //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
       // if(e.cutIndex == this.sequence.cut){
 
@@ -154,17 +160,29 @@ class Director {
       console.log('[Director] onSelect', rfid);
     
       const scenarioIndex = Director.SCENARIO_INDEX[rfid];
-      const isntPrologue = scenarioIndex !== 0;
-    
-      // プロローグ以外かつ、現在のシナリオと異なるなら、シナリオを変更する
-      if (isntPrologue && scenarioIndex !== this.sequence.scenario) {
+      console.log(this.scenarios[scenarioIndex].cuts.length-1);
+
+      // プロローグ以外で、かつまだ選択されていないシナリオの場合
+      if (scenarioIndex !== 0 && !this.selectedScenarios.has(scenarioIndex)) {
+        // シナリオを変更する
+        this.selectedScenarios.add(scenarioIndex); // シナリオを選択済みに設定
+
         // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
         this.isMode = false;
+
+        // シナリオの最初のカットから再生を開始する
         this.onPlay({
           scenario: scenarioIndex,
           cut: 0,
         });
       }
+      
+      // 特定の条件を満たす場合、特定のシナリオに飛ばす（例: 3つのシナリオに飛んだ場合）
+      if (this.selectedScenarios.size === 3 && this.scenarios[scenarioIndex].cuts.length - 1 === this.sequence.cut) {
+        this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epilogue']);
+      }
+
+      //console.log(this.selectedScenarios);
     }
   
     /**
