@@ -12,7 +12,17 @@
     'scenarios/scenario-0.json',
     'scenarios/scenario-1.json',
     'scenarios/scenario-2.json',
-    'scenarios/scenario-3.json'
+    'scenarios/scenario-3.json',
+    'scenarios/scenario-4.json',
+    'scenarios/scenario-5.json',
+    'scenarios/scenario-6.json',
+    'scenarios/scenario-7.json',
+    'scenarios/scenario-8.json',
+    'scenarios/scenario-9.json',
+    'scenarios/scenario-10.json',
+    'scenarios/scenario-11.json',
+    'scenarios/scenario-12.json',
+    'scenarios/scenario-13.json'
   ]);
 
   // キャラクターの初期設定をする
@@ -60,7 +70,8 @@
   );
 
   const dialog = new Dialog('#nazo_dialog');
-  const mystery2 = new Mystery2('#nazo_dialog2');
+  const mystery2 = new Mystery2('#nazo_dialog');
+  const mystery3 = new Mystery3('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const callsheet = new CallSheet('#select_dialog');
 
@@ -74,70 +85,19 @@
     callsheet.onStart(e);
     dialog.onStart(e);
     mystery2.onStart(e);
+    mystery3.onStart(e);
   });
 
   director.ee.on('complete', (e) => {
-    // // テキストが特定の条件を満たすかどうかを確認  "ここに書いたテキストに反応"
-    // //キャラクタ―選択ダイアログを開くときに反応するテキスト
-    // if (e.text.includes("次は")) {
-
-    //   // ダイアログを開く
-    //   callsheet.select_openDialog();
-
-    //   pocketwatch.ee.on("readRFID", (e) =>{
-    //     console.log(e)
-    //     const sound = new Sound();
-    //     if(e =="4b217b26e5e80"){
-    //       console.log("スキャン完了 シナリオ2へ移動")
-    //       director.jumpToAnotherScenario(2);
-    //       callsheet.select_closeDialog();
-    //     } else if(e =="421da9a6e5e81"){
-    //       console.log("スキャン完了 シナリオ3へ移動")
-    //       director.jumpToAnotherScenario(3);
-    //       callsheet.select_closeDialog();
-    //     }
-    //   })
-
-    //   pocketwatch.ee.off("readRFID", e);
-
-    //   pocketwatch.ee.on("readAccel", (e) =>{
-    //     console.log(e)
-    //   })
-
-    // }
-
-    //謎ダイアログを開くときに反応するテキスト
-    // if (e.text.includes(" ")) {
-
-    //   // ダイアログを開く
-    //   dialog.nazo_openDialog();
-
-    //   pocketwatch.ee.on("readRFID", (e) =>{
-    //     console.log(e)
-    //     const sound = new Sound();
-    //     if(e =="4b217b26e5e80"){
-    //       console.log("スキャン完了 ")
-
-    //       dialog.nazo_closeDialog();
-    //     } else if(e =="421da9a6e5e81"){
-    //       console.log("スキャン完了 ")
-
-    //       dialog.nazo_closeDialog();
-    //     }
-    //   })
-
-    //   pocketwatch.ee.on("readAccel", (e) =>{
-    //     console.log(e)
-    //   })
-
     //   // 別のシナリオに飛ばす処理を実行　Director.js下のほうに処理の記述ある
     //   //director.jumpToAnotherScenario();
-    // }
   });
 
   pocketwatch.ee.on('readRFID', (e) => {
     callsheet.onReadRFID(e);
     dialog.onReadRFID(e);
+    mystery2.onReadRFID(e);
+    mystery3.onReadRFID(e);
   });
 
   // callSheet のダイアログの開閉状態が変わった時の処理
@@ -161,7 +121,31 @@
 
   // dialog のダイアログが開いているときに RFID が読み取られた時の処理
   dialog.ee.on('select', (e) => {
-    //sdirector.onSelect(e);
+    //director.onSelect(e);
+  });
+
+  // mystery2 のダイアログの開閉状態が変わった時の処理
+  mystery2.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+  });
+
+  // mystery2 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery2.ee.on('select', (e) => {
+    //director.onSelect(e);
+  });
+
+  // mystery3 のダイアログの開閉状態が変わった時の処理
+  mystery3.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+  });
+
+  // mystery3 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery3.ee.on('select', (e) => {
+    //director.onSelect(e);
   });
 
   // pocketwatch.ee.on("readAccel", (e) =>{
