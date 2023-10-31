@@ -133,7 +133,7 @@ class Director {
     #onStart (e) {
       console.log('[Director] #onStart', e);
       console.log(this.selectedScenarios.size);
-      console.log(e.cutIndex);
+      console.log(this.scenarios[this.sequence.scenario].cuts.length);
 
       // //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
       // if(e.cutIndex == this.sequence.cut){
@@ -149,6 +149,10 @@ class Director {
         this.nameBox.removeChild(this.nameBox.firstChild);
       }
   
+      // 特定の条件を満たす場合、特定のシナリオに飛ばす（例: 3つのシナリオに飛んだ場合）
+      if (this.selectedScenarios.size === 3 && this.scenarios[this.sequence.scenario].cuts.length <= this.sequence.cut) {
+        this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epilogue']);
+      }
       this.nameBox.insertAdjacentHTML('afterbegin', e.name);
     }
 
@@ -160,7 +164,7 @@ class Director {
       console.log('[Director] onSelect', rfid);
     
       const scenarioIndex = Director.SCENARIO_INDEX[rfid];
-      console.log(this.scenarios[scenarioIndex].cuts.length-1);
+      console.log(this.scenarios[scenarioIndex].cuts.length);
 
       // プロローグ以外で、かつまだ選択されていないシナリオの場合
       if (scenarioIndex !== 0 && !this.selectedScenarios.has(scenarioIndex)) {
@@ -169,18 +173,13 @@ class Director {
 
         // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
         this.isMode = false;
-
-        // シナリオの最初のカットから再生を開始する
-        this.onPlay({
-          scenario: scenarioIndex,
-          cut: 0,
-        });
+          // シナリオの最初のカットから再生を開始する
+          this.onPlay({
+            scenario: scenarioIndex,
+            cut: 0,
+          });
       }
-      
-      // 特定の条件を満たす場合、特定のシナリオに飛ばす（例: 3つのシナリオに飛んだ場合）
-      if (this.selectedScenarios.size === 3 && this.scenarios[scenarioIndex].cuts.length - 1 === this.sequence.cut) {
-        this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epilogue']);
-      }
+      console.log(this.selectedScenarios.size, this.selectedScenarios)
 
       //console.log(this.selectedScenarios);
     }
