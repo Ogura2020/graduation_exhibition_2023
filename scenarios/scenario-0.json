@@ -1,91 +1,86 @@
 {
-    "actorIdsArray": [1, 2],
+    "actorIdsArray": [1, 0],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.jpg",
-        "name": "",
+        "background": "img/bg/bg2.png",
+        "name": "ここに名前が入る",
         "text": "ー備忘録、それは記録すべき事柄を簡単にまとめ、記しておく帳面のことを指す。",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
-            },
-            "display": "false" 
+              "value": 0.01
+            }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
-              "aligh": "left",
-              "value": -0.5
-            },
-            "display": "false" 
+              "aligh": "right",
+              "value": 0.01
+            }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
-        "name": "",
+        "background": "img/bg/bg2.png",
+        "name": "あいうえお",
         "text": "私は今までに遭遇したあらゆる事件を何冊かの本にまとめ、書き記した。",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
-            },
-            "display": "false" 
+              "value": 0.01
+            }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
-        "name": "",
+        "background": "img/bg/bg1.png",
+        "name": "カキクケコ",
         "text": "書き記すのは主に事件の内容やその顛末、そして私自身の体験談だ。",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
-            },
-            "display": "false" 
+              "value": 0.01
+            }
           },
           {
-            "id": "wink2",
+            "id": "normal",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
-        "name": "",
+        "background": "img/bg/bg1.png",
+        "name": "aaa",
         "text": "",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
-            },
-            "display": "false" 
+              "value": 0.01
+            }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
-              "aligh": "left",
-              "value": 0.2
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
@@ -96,20 +91,18 @@
         "text": "今回はそんな風変わりな小さき探偵との出会いと私にとって、初めての事件の物語である。",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
-            },
-            "display": "false" 
+            }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
-            },
-            "display": "false" 
+            }
           }
         ]
       },
@@ -119,20 +112,18 @@
         "text": "　",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
-            },
-            "display": "false" 
+            }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
-              "aligh": "left",
+              "aligh": "right",
               "value": 0.2
-            },
-            "display": "false" 
+            }
           }
         ],
         "isCallSheet": true
