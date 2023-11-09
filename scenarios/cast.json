@@ -1,45 +1,5 @@
 [
   {
-    "name": "taro",
-    "path": "img/taro/",
-    "acts": [
-      {
-        "frame": 2,
-        "id": "idle",
-        "loop": false,
-        "scale": 0.15,
-        "sheet": "idle.png"
-      },
-      {
-        "frame": 2,
-        "id": "talk",
-        "loop": true,
-        "scale": 0.2,
-        "sheet": "talk.png"
-      }
-    ]
-  },
-  {
-    "name": "jiro",
-    "path": "img/test/",
-    "acts": [
-      {
-        "frame": 5,
-        "id": "idle",
-        "loop": false,
-        "scale": 0.15,
-        "sheet": "test.png"
-      },
-      {
-        "frame": 5,
-        "id": "talk",
-        "loop": true,
-        "scale": 0.2,
-        "sheet": "talk.png"
-      }
-    ]
-  },
-  {
     "name": "tim",
     "path": "img/tim/",
     "acts": [
@@ -52,10 +12,17 @@
       },
       {
         "frame": 2,
-        "id": "idle",
+        "id": "normal",
+        "loop": false,
+        "scale": 0.55,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
         "loop": false,
         "scale": 0.6,
-        "sheet": "idle.png"
+        "sheet": "normal_g.png"
       },
       {
         "frame": 10,
@@ -70,6 +37,33 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "wink2.png"
+      }
+    ]
+  },
+  {
+    "name": "azuki",
+    "path": "img/azuki/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.55,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "wink1",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "wink1.png"
       }
     ]
   }
