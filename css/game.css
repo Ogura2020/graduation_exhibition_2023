@@ -18,12 +18,14 @@ body{
     padding: 0 10%;*/
 }
 
+/* これもいらない？ */
 .screen {
     width: 100%;
     height: 100%;
     position: relative;
 }
 
+/* これ多分要らない
 .actor {    
     width: 100%;
     height: 100%;
@@ -32,7 +34,7 @@ body{
 
 .actor-container {
     width: 20%;
-}
+} */
 
  /* #screen{
     position: relative;
@@ -51,26 +53,99 @@ body{
 
 .text{
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 0px;
     right: 0px;
-    margin: 0 10%;
+    margin: 0 15%;  /*テキストボックスの横幅 */
     z-index: 3;
     /* background-color: #3dbccc;後で消す */
 }
+#name_area{
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    top: -10px;
+    left: 22px;
+    width: 20%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #aa8a4000;
+    z-index: 4;
+}
+.name{
+    display: inline-block;
+    position: relative;
+    padding: 0 1em;
+}
+.name_Box {
+    display: inline-block;
+    padding: 0 28px;
+    line-height: 34px;
+    background: linear-gradient(to bottom,rgba(150, 26, 74, 1), rgba(145, 26, 72, 1), rgba(132, 26, 66, 1), rgba(111, 26, 57, 1), rgba(85, 26, 46, 1));
+    border: 1px solid #AA8B40;
+    color: #ffffff;
+}
+.name::before,
+.name::after {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.name::before {
+  left: 0;
+  background-size: 100%;
+  width: 28px;
+  height: 36px;
+  background-image: url('../img/name_box1.png'); /* 装飾画像のパスを設定 */
+}
+.name::after {
+  right: 0;
+  background-size: 100%;
+  width: 28px;
+  height: 36px;
+  background-image: url('../img/name_box2.png'); /* 装飾画像のパスを設定 */
+}
+
 #text_area{
+    position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 1em;
-    padding: 1em;
-    /* margin: -10px auto;   いらないかも*/
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #AA8B40;
+
+}
+/* 左上の装飾 */
+.scenario_box_deco1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url('../img/text_deco1.png'); /* 装飾画像のパスを設定 */
+    background-size: cover;
+}
+
+/* 右下の装飾 */
+.scenario_box_deco2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url('../img/text_deco2.png'); /* 装飾画像のパスを設定 */
+    background-size: cover;
 }
 .scenario_Box{
     color: #fff;
-    min-height: 3em;
+    padding: 40px 50px;
+    min-height: 8em;
     font-size: 20px;
 }
+
 .btn{
     background-color: rgb(198, 198, 198);
 }

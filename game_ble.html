@@ -33,9 +33,22 @@
 </head>
 
 <body onselectstart="return false;" onmousedown="return false;">
+    <div id="js-start" class="start">
+        <p>ここにエピローグを出す
+        </p>
+    </div>
     <div id="js-screen" class="screen">
         <!-- <img src="img/bg1.jpg" alt="" id="bg"> -->
         <button class="btn">Connect</button>
+
+        <!-- バックログ表示ボタン -->
+        <button class="back_btn">バックログ</button>
+
+        <!-- バックログ表示用の要素 -->
+        <div id="backlog" class="backlog">
+            <h2>バックログ</h2>
+            <ul id="logList" class="log-list"></ul>
+        </div>
 
         <dialog id="nazo_dialog">
             <p class="mystery_text">ばらばらになってしまった紙を元に戻したとき、中央にくる紙の番号は？</p>
@@ -53,15 +66,18 @@
         </dialog>
 
         <div class="actor">
-            <div id="js-actor-container-taro" class="actor-container actor-container-taro"></div>
-            <div id="js-actor-container-jiro" class="actor-container actor-container-jiro"></div>
             <div id="js-actor-container-tim" class="actor-container actor-container-tim"></div>
+            <div id="js-actor-container-azuki" class="actor-container actor-container-tim"></div>
         </div>
         
         <div class="text">
-            <p id="js-name_Box" class="name_Box"></p>
+            <div id="name_area">
+                <p class="name"><span id="js-name_Box" class="name_Box"></span></p>
+                <!-- <img src="img/name_box.png" class="name_box_deco"> -->
+            </div>
             <div id="text_area">
-                <!-- <img src="img/text3.png" alt="" class="text_box"> -->
+                <div class="scenario_box_deco1"></div>
+                <div class="scenario_box_deco2"></div>
                 <p id="js-scenario_Box" class="scenario_Box">ローディング…</p>
             </div>
         </div>
@@ -78,6 +94,7 @@
     <script src="js/Mystery2.js"></script>
     <script src="js/Mystery3.js"></script>
     <script src="js/Director.js"></script>
+    <script src="js/Backlog.js"></script>
     <script src="js/Sound.js"></script>
     <script src="js/PocketWatch.js"></script>
     <script src="js/Writer.js"></script>

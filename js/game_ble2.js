@@ -73,11 +73,13 @@
   const mystery2 = new Mystery2('#nazo_dialog');
   const mystery3 = new Mystery3('#nazo_dialog');
   const pocketwatch = new PocketWatch();
+  const backlog = new Backlog();
   const callsheet = new CallSheet('#select_dialog');
 
   // イベントリスナーを登録する（各インスタンスを紐づける）
   // セリフが切り替わり始めた時の処理
   director.ee.on('start', (e) => {
+    backlog.onStart(e)
     actors.forEach((actor) => {
       actor.onStart(e);
     });
