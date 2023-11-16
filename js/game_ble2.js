@@ -98,8 +98,12 @@
   pocketwatch.ee.on('readRFID', (e) => {
     callsheet.onReadRFID(e);
     dialog.onReadRFID(e);
-    mystery2.onReadRFID(e);
+    //mystery2.onReadRFID(e);
     mystery3.onReadRFID(e);
+  });
+
+  pocketwatch.ee.on('readAccel', (e) => {
+    mystery2.onReadAccel(e);
   });
 
   // callSheet のダイアログの開閉状態が変わった時の処理

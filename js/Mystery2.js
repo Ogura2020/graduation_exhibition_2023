@@ -44,16 +44,19 @@ class Mystery2 extends Dialog {
   }
 
   /**
-   * onReadRFID
+   * onReadAccel
   */
-  onReadRFID(e) {
-    // ダイアログが開いた状態であれば RFID の読み取りを行う
+  onReadAccel(e) {
+    // ダイアログが開いた状態であれば 加速度 の読み取りを行う
     if (this.isOpen) {
-      console.log('[Mystery2] onReadRFID', e);
+      console.log('[Mystery2] onReadAccel', e);
       this.ee.emit('select', e);
 
+      let accel = e.split(',')
+      console.log(accel[0]);
+
         // 特定のIDをチェックしてダイアログを閉じる処理
-        if (e === "428d4b2c11190") {
+        if (Math.abs(accel[0]) > 2.0) {
           this.dialog.close();
           this.dialog.classList.remove('open');
           this.ee.emit('updateModal', { isOpen: false });
