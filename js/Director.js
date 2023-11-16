@@ -109,7 +109,9 @@ class Director {
           });
         });
   
-        document.body.addEventListener('click', this.onPlay.bind(this));
+        //テキストエリアをクリックするとテキストが進む
+        const text = document.querySelector(".text");
+        text.addEventListener('click', this.onPlay.bind(this));
         this.ee.on('start', this.#onStart.bind(this));
   
         this.onPlay();
