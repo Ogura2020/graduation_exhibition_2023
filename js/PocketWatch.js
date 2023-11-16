@@ -13,10 +13,12 @@ class PocketWatch {
     this.ee = new EventEmitter3();
     //カード番号
     this.answer = "";
-    const btn = document.querySelector(".btn");
+    const ble_btn1 = document.querySelector("#ble_btn1");
+    const ble_btn2 = document.querySelector("#ble_btn2");
 
     // Connectボタンをクリックした時の処理をConnectbtn関数に移動します
-    btn.addEventListener('click', this.onConnect.bind(this));
+    ble_btn1.addEventListener('click', this.onConnect.bind(this));
+    ble_btn2.addEventListener('click', this.onConnect.bind(this));
   }
 
   onConnect(){
