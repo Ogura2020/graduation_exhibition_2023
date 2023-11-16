@@ -7,14 +7,14 @@
         "text": "…………。",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": -0.5
@@ -29,14 +29,14 @@
         "text": "す、すみませ～ん。 ",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -51,14 +51,14 @@
         "text": "誰もいないのかな？<br>あっドアが開いてる。",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -73,14 +73,14 @@
         "text": "次は誰に話しかけよう",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
@@ -95,14 +95,14 @@
         "text": "なにか御用ですか？",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -116,14 +116,14 @@
         "text": "あっあの、探偵さんは…?",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -137,14 +137,14 @@
         "text": "………。",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -158,14 +158,14 @@
         "text": "僕ですけど。",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -179,14 +179,14 @@
         "text": "えっ…!?",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -200,14 +200,14 @@
         "text": "え～～～～！？",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -222,14 +222,14 @@
         "text": "あなたがあのトーマス・ティム・ロシーなの！？<br>こんな子どもが…！？",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -243,14 +243,14 @@
         "text": "失礼な人ですね。<br>同業者のくせにそんなことも知らずにここに来たんですか？",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -264,14 +264,14 @@
         "text": "なっなんで私も探偵だって知ってるの？",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -285,14 +285,14 @@
         "text": "そんなことより、何の用なんですか？",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -306,14 +306,14 @@
         "text": "探偵が探偵に依頼するなんて聞いたことがないし。<br>僕、面倒ごとは嫌いなんですけど。",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -327,14 +327,14 @@
         "text": "あなたの言う通り変なのは分かってる。<br>だけど、あなたしか頼れる人がいなくてここまで来たの！",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -348,14 +348,14 @@
         "text": "知り合いの情報屋からなかなかできるヤツだって聞いたわ。<br>(噂でもよく聞くし…。子どもとは知らなかったけど。)",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -369,14 +369,14 @@
         "text": "お願い…！！",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -390,14 +390,14 @@
         "text": "…分かった。話を聞いてから決めるよ。<br>中に入って。",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -411,14 +411,14 @@
         "text": "ありがとう！",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -432,14 +432,14 @@
         "text": "そういえば名前を聞いていなかったね。名前は？",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -453,14 +453,14 @@
         "text": "…アズキ。アズキ・シェレンベルカー。",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -474,14 +474,14 @@
         "text": "シェレンベルカー？<br>シェレンベルカー家のお嬢様がなんで探偵なんてやっているんだ？",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -495,14 +495,14 @@
         "text": "家の話はいいんです。<br>この手紙を見てみてください。",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -516,14 +516,14 @@
         "text": "私、この手紙を解読して何としても手に入れないといけないものがあるんです！<br>でもどうしても解けなくて…。だからあなたを頼ってここに。",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05
@@ -537,14 +537,14 @@
         "text": "ふ～ん。見せてみて。<br>これは…。",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -558,14 +558,14 @@
         "text": "続く",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.2
             }
           },
           {
-            "id": "wink1",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.05

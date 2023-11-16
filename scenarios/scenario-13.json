@@ -7,14 +7,14 @@
         "text": "最終シナリオです",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -28,14 +28,14 @@
         "text": "あああ",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -49,14 +49,14 @@
         "text": "いいい",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45

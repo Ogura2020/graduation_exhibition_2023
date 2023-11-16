@@ -66,5 +66,25 @@
         "sheet": "wink1.png"
       }
     ]
+  },
+  {
+    "name": "chalotte",
+    "path": "img/chalotte/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.55,
+        "sheet": "normal.png"
+      }
+    ]
   }
 ]

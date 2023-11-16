@@ -7,14 +7,14 @@
         "text": "ddd",
         "act": [
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "idle",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -28,14 +28,14 @@
         "text": "eee",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
@@ -50,14 +50,14 @@
         "text": "fff",
         "act": [
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45
             }
           },
           {
-            "id": "talk",
+            "id": "normal",
             "position": {
               "aligh": "left",
               "value": 0.45

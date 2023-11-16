@@ -1,5 +1,5 @@
 {
-    "actorIdsArray": [1, 0],
+    "actorIdsArray": [1, 2],
     "cuts": [
       {
         "background": "img/bg/bg2.png",
@@ -126,7 +126,7 @@
             }
           }
         ],
-        "isCallSheet": true
+        "ismystery2": true
       }
     ]
 }
