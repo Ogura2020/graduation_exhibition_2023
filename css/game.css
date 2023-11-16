@@ -12,10 +12,36 @@ body{
     font-family: 'Zen Maru Gothic', sans-serif;
     color: #000;
     background-color: #4c4c4c;
-    /* display: flex;
+    position: relative;
+}
+
+.start{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center; 
-    padding: 0 10%;*/
+    background: rgba(88, 33, 44, 0.723);
+}
+
+.prologue{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    color: #fff;
+    font-size: 24px;
+}
+.prologue_text{
+    padding-bottom: 50px;
 }
 
 /* これもいらない？ */
@@ -43,13 +69,6 @@ body{
     background-color: #1d0e0e;
     overflow: hidden;
 }  */
-#bg{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    object-fit: cover;
-}
 
 .text{
     position: absolute;
@@ -57,7 +76,7 @@ body{
     left: 0px;
     right: 0px;
     margin: 0 15%;  /*テキストボックスの横幅 */
-    z-index: 3;
+    z-index: 1;
     /* background-color: #3dbccc;後で消す */
 }
 #name_area{
@@ -123,8 +142,8 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background-image: url('../img/text_deco1.png'); /* 装飾画像のパスを設定 */
     background-size: cover;
 }
@@ -134,8 +153,8 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background-image: url('../img/text_deco2.png'); /* 装飾画像のパスを設定 */
     background-size: cover;
 }
@@ -168,6 +187,29 @@ dialog{
 }
 dialog.open {
   opacity: 1;
+}
+
+.dialog_deco {
+	display: flex;
+	margin: 0 auto;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.dialog_deco::after {
+	content: "";
+	width: 100%;
+}
+
+.dialog_deco_img {
+    
+}
+
+.dialog_deco_img:nth-child(n+3) {
+	order: 1;
 }
 
 .mystery_text {

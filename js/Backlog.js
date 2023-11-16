@@ -16,7 +16,7 @@ class Backlog {
       this.log = [];
       this.logOpen = false;
 
-      const back_btn = document.querySelector(".back_btn");
+      const back_btn = document.querySelector("#back_btn");
   
       // Connectボタンをクリックした時の処理をConnectbtn関数に移動します
       back_btn.addEventListener('click', this.toggleBacklog.bind(this));
