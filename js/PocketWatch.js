@@ -74,6 +74,8 @@ class PocketWatch {
 
         console.log(`Characteristic1 value: ${value1}`);
         console.log(`Characteristic2 value: ${value2}`);
+        //ble通信開始を通知
+        this.ee.emit('Connect');
       })
       .catch(error => { console.error(error); });
   }
