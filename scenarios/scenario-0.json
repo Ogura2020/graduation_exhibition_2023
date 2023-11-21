@@ -1,5 +1,5 @@
 {
-    "actorIdsArray": [1, 2],
+    "actorIdsArray": [1, 0],
     "cuts": [
       {
         "background": "img/bg/bg2.png",
@@ -24,7 +24,7 @@
       },
       {
         "background": "img/bg/bg2.png",
-        "name": "あいうえお",
+        "name": "アズキ",
         "text": "私は今までに遭遇したあらゆる事件を何冊かの本にまとめ、書き記した。",
         "act": [
           {
@@ -45,7 +45,7 @@
       },
       {
         "background": "img/bg/bg1.png",
-        "name": "カキクケコ",
+        "name": "ティム",
         "text": "書き記すのは主に事件の内容やその顛末、そして私自身の体験談だ。",
         "act": [
           {
@@ -66,7 +66,7 @@
       },
       {
         "background": "img/bg/bg1.png",
-        "name": "aaa",
+        "name": "アズキ",
         "text": "",
         "act": [
           {
@@ -87,7 +87,7 @@
       },
       {
         "background": "img/bg/kari_bg.jpg",
-        "name": "",
+        "name": "アズキ",
         "text": "今回はそんな風変わりな小さき探偵との出会いと私にとって、初めての事件の物語である。",
         "act": [
           {
@@ -98,7 +98,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.2
@@ -119,14 +119,14 @@
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.2
             }
           }
         ],
-        "ismystery2": true
+        "ismystery1": true
       }
     ]
 }
