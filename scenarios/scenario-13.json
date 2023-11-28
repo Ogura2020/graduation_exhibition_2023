@@ -4,7 +4,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "最終シナリオです",
+        "text": "3つの部屋のシナリオ",
         "act": [
           {
             "id": "normal",

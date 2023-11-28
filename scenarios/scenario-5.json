@@ -43,6 +43,28 @@
             }
           }
         ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "アズキ",
+        "text": "fff",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ],
+        "isCallSheet2": true
       }
     ]
   }

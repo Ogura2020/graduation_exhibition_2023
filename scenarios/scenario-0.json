@@ -2,19 +2,19 @@
     "actorIdsArray": [1, 0],
     "cuts": [
       {
-        "background": "img/bg/bg2.png",
-        "name": "ここに名前が入る",
-        "text": "ー備忘録、それは記録すべき事柄を簡単にまとめ、記しておく帳面のことを指す。",
+        "background": "img/bg/bg0.png",
+        "name": "アズキ",
+        "text": "・・・・・・・・",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.01
+              "value": 0.2
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -25,17 +25,17 @@
       {
         "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "私は今までに遭遇したあらゆる事件を何冊かの本にまとめ、書き記した。",
+        "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・ここよね、きっと 。",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.01
+              "value": 0.2
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -44,40 +44,40 @@
         ]
       },
       {
-        "background": "img/bg/bg1.png",
-        "name": "ティム",
-        "text": "書き記すのは主に事件の内容やその顛末、そして私自身の体験談だ。",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "background": "img/bg/bg1.png",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "",
+        "text": "（私の侍女が調べてくれた情報によると、ここの探偵事務所のトーマスさんは幾度もの難事件を解決している凄い人・・・。<br>そんな凄い人が私の依頼を受けてくれるかは分からないけど・・・でも、もう猶予も時間もない！）",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.01
+              "value": 0.2
             }
           },
           {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg2.png",
+        "name": "アズキ",
+        "text": "・・・どうか、留守じゃありませんように！",
+        "act": [
+          {
             "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.2
+            }
+          },
+          {
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -88,7 +88,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "今回はそんな風変わりな小さき探偵との出会いと私にとって、初めての事件の物語である。",
+        "text": "”トーマス探偵事務所に用のある者は叩き金を３度叩くように。”か・・・・・これかな？",
         "act": [
           {
             "id": "normal",
@@ -109,7 +109,28 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "",
-        "text": "　",
+        "text": "誰に話しかけようかな",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.2
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "",
+        "text": "",
         "act": [
           {
             "id": "normal",
@@ -126,7 +147,7 @@
             }
           }
         ],
-        "ismystery1": true
+        "isCallSheet1": true
       }
     ]
 }

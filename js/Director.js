@@ -6,19 +6,20 @@
 class Director {
     static SCENARIO_INDEX = {
       '4b217b26e5e80': 0,
-      '421da9a6e5e81': 1,
-      '428d4b2c11190': 2,
-      '46623b2c11190': 3,
-      '4da5fb2c11190': 4,
-      '46f64b2c11190': 5,
-      '41bc6b2c11190': 6,
-      '456a5b2c11190': 7,
-      '45399b2c11191': 8,
-      '41c5b2c11195': 9,
-      '4bc8fb2c11190': 10,
-      '460c6b2c11190': 11,
-      'fb18d0f6': 12,
-      'epilogue': 13,
+      '421da9a6e5e81': 1, //1メイド　シャロット・ウィンキソン
+      '428d4b2c11190': 2, //2愛人　マリア・レイ・ローレ2
+      '46623b2c11190': 3, //3助手　アズキ・シェレンベルガー
+      '4da5fb2c11190': 4, //4刑事　ロンベル・ティガー
+      '46f64b2c11190': 5, //5婚約者　アズマ　ユウイチ
+      '41bc6b2c11190': 6, //6姉　ジキル・フォン・アヴリル
+      '456a5b2c11190': 7, //7妹　ジキル・フォン・メアリ
+      '45399b2c11191': 8, //8金持ち　ジキル・ウィックマン
+      '41c5b2c11195': 9, //9私立探偵　グリフィス・S・マーティン
+      '4bc8fb2c11190': 10, //10執事　サウス・リチャードソン
+      '460c6b2c11190': 11, //0探偵　トーマス・ティム・ロシー
+      'epi2': 12,
+      'epi3': 13,
+      'epi4': 14,
     };
   
     /**
@@ -128,7 +129,7 @@ class Director {
       const nextCutIndex = 0; // 別のシナリオの最初のカットを設定
       this.onPlay({ scenario: nextScenarioIndex, cut: nextCutIndex });
     }
-
+    
     /**
      * #onStart
      */
@@ -146,15 +147,25 @@ class Director {
       //   }
         
       // }
-  
+
       while (this.nameBox.firstChild) {
         this.nameBox.removeChild(this.nameBox.firstChild);
       }
   
       // 特定の条件を満たす場合、特定のシナリオに飛ばす（例: 3つのシナリオに飛んだ場合）
-      if (this.selectedScenarios.size === 3 && this.scenarios[this.sequence.scenario].cuts.length <= this.sequence.cut) {
-        this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epilogue']);
+      if (this.part !== 2 && this.selectedScenarios.size === 2 && this.scenarios[this.sequence.scenario].cuts.length <= this.sequence.cut) {
+        this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epi2']);
+        this.selectedScenarios = new Set();
+        this.part = 2;
+        console.log("飛んだ",this.selectedScenarios.size, this.selectedScenarios,this.part)
+      } else if (this.part === 2 && this.selectedScenarios.size === 2 && this.scenarios[this.sequence.scenario].cuts.length <= this.sequence.cut) {
+        this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epi3']);
       }
+
+      // if(this.scenarios[12] && this.selectedScenarios.size === 2){
+
+      // }
+
       this.nameBox.insertAdjacentHTML('afterbegin', e.name);
     }
 
@@ -168,20 +179,31 @@ class Director {
       const scenarioIndex = Director.SCENARIO_INDEX[rfid];
       console.log(this.scenarios[scenarioIndex].cuts.length);
 
-      // プロローグ以外で、かつまだ選択されていないシナリオの場合
-      if (scenarioIndex !== 0 && !this.selectedScenarios.has(scenarioIndex)) {
+      // カード0,4,7,8,9かつまだ選択されていないシナリオの場合、プロローグ以外で(scenarioIndex !== 0 && )
+      if (this.part !== 2 && !this.selectedScenarios.has(scenarioIndex) && ([11, 4, 7, 8, 9].includes(scenarioIndex))) {
         // シナリオを変更する
         this.selectedScenarios.add(scenarioIndex); // シナリオを選択済みに設定
 
         // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
         this.isMode = false;
-          // シナリオの最初のカットから再生を開始する
-          this.onPlay({
-            scenario: scenarioIndex,
-            cut: 0,
-          });
+        // シナリオの最初のカットから再生を開始する
+        this.onPlay({
+          scenario: scenarioIndex,
+          cut: 0,
+        });
+      } else if(this.part === 2 && !this.selectedScenarios.has(scenarioIndex) && ([1, 2, 3, 5, 6, 10].includes(scenarioIndex))) {
+        // シナリオを変更する
+        this.selectedScenarios.add(scenarioIndex); // シナリオを選択済みに設定
+
+        // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
+        this.isMode = false;
+        // シナリオの最初のカットから再生を開始する
+        this.onPlay({
+          scenario: scenarioIndex,
+          cut: 0,
+        });
       }
-      console.log(this.selectedScenarios.size, this.selectedScenarios)
+      console.log(this.selectedScenarios.size, this.selectedScenarios, this.part)
 
       //console.log(this.selectedScenarios);
     }

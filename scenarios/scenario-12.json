@@ -4,29 +4,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "eee",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          }
-        ],
-        "ismystery3":true
-      },
-      {
-        "background": "img/bg/kari_bg.jpg",
-        "name": "アズキ",
-        "text": "fff",
+        "text": "おじさんが死ぬシナリオです。",
         "act": [
           {
             "id": "normal",
@@ -43,6 +21,70 @@
             }
           }
         ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "アズキ",
+        "text": "情報を集めるためにキャラクターに話しかけます",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "アズキ",
+        "text": "この時話しかけれるキャラクターは６人です。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "アズキ",
+        "text": "",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ],
+        "isCallSheet2": true
       }
     ]
   }

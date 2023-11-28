@@ -4,6 +4,27 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
+        "text": "ジキル・ウィックマンとのシナリオです",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "アズキ",
         "text": "eee",
         "act": [
           {
@@ -42,8 +63,29 @@
               "value": 0.45
             }
           }
+        ]
+      },
+      {
+        "background": "img/bg/kari_bg.jpg",
+        "name": "アズキ",
+        "text": "aiueo",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
         ],
-        "isCallSheet": true
+        "isCallSheet1": true
       }
     ]
   }

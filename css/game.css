@@ -179,7 +179,7 @@ dialog{
     transform: translate(-50%, -50%);
     max-width: 1100px;
     width: 100%;
-    max-height: 700px;
+    max-height: 780px;
     height: 100%;
     opacity: 0;
     transition: opacity 0.6s ease;
@@ -187,9 +187,28 @@ dialog{
     border-radius: 10px;
     outline: none;
     text-align: center;
+    font-size: 18px;
 }
 dialog.open {
   opacity: 1;
+}
+
+dialog.select_dialog{
+    color: #ffffff;
+    background-color: #393939
+}
+.select_dialog_text{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.select_dialog_chara{
+    margin-top: 35px;
+}
+.select_dialog_chara_img{
+    width: 25%;
+    height: 25%;
+    margin: 0 15px;
 }
 
 .dialog_deco {

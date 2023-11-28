@@ -4,7 +4,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "eee",
+        "text": "ロンベル・ティガーとのシナリオです",
         "act": [
           {
             "id": "normal",
@@ -47,7 +47,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "ggg",
+        "text": "",
         "act": [
           {
             "id": "normal",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "isCallSheet": true
+        "isCallSheet1": true
       }
     ]
   }

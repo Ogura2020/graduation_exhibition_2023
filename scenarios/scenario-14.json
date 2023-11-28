@@ -4,7 +4,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "ddd",
+        "text": "エンディングのシナリオ",
         "act": [
           {
             "id": "normal",
@@ -25,7 +25,7 @@
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "eee",
+        "text": "あああ",
         "act": [
           {
             "id": "normal",
@@ -41,13 +41,12 @@
               "value": 0.45
             }
           }
-        ],
-        "ismystery3":true
+        ]
       },
       {
         "background": "img/bg/kari_bg.jpg",
         "name": "アズキ",
-        "text": "fff",
+        "text": "いいい",
         "act": [
           {
             "id": "normal",
@@ -63,8 +62,7 @@
               "value": 0.45
             }
           }
-        ],
-        "isCallSheet2": true
+        ]
       }
     ]
   }
