@@ -74,7 +74,7 @@ class PocketWatch {
 
         console.log(`Characteristic1 value: ${value1}`);
         console.log(`Characteristic2 value: ${value2}`);
-        //ble通信開始を通知
+        // //ble通信開始を通知
         this.ee.emit('Connect');
       })
       .catch(error => { console.error(error); });
@@ -87,15 +87,16 @@ class PocketWatch {
     // console.log(str);
     console.log(str);
 
-    if(str == "4b217b26e5e80"){
-      console.log("探偵");
-      // isMode = false;
-      this.answer = str;
-    } else if (str === "421da9a6e5e81") {
-      console.log("メイド");
-      // isMode = false;
-      this.answer = str;
-    }
+    //ここ要らない気がする
+    // if(str == "4b217b26e5e80"){
+    //   console.log("探偵");
+    //   // isMode = false;
+    //   this.answer = str;
+    // } else if (str === "421da9a6e5e81") {
+    //   console.log("メイド");
+    //   // isMode = false;
+    //   this.answer = str;
+    // }
 
     this.ee.emit('readRFID', str);
   }

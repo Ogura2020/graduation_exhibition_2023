@@ -22,7 +22,8 @@
     'scenarios/scenario-10.json',
     'scenarios/scenario-11.json',
     'scenarios/scenario-12.json',
-    'scenarios/scenario-13.json'
+    'scenarios/scenario-13.json',
+    'scenarios/scenario-14.json'
   ]);
 
   // キャラクターの初期設定をする
@@ -74,7 +75,8 @@
   const mystery3 = new Mystery3('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const backlog = new Backlog();
-  const callsheet = new CallSheet('#select_dialog');
+  const callsheet1 = new CallSheet1('#select_dialog1');
+  const callsheet2 = new CallSheet2('#select_dialog2');
 
   // イベントリスナーを登録する（各インスタンスを紐づける）
   // セリフが切り替わり始めた時の処理
@@ -84,7 +86,8 @@
       actor.onStart(e);
     });
     background.onStart(e);
-    callsheet.onStart(e);
+    callsheet1.onStart(e);
+    callsheet2.onStart(e);
     dialog.onStart(e);
     mystery2.onStart(e);
     mystery3.onStart(e);
@@ -95,7 +98,7 @@
     //   //director.jumpToAnotherScenario();
   });
 
-  //スタート画面とプロローグのアニメーション
+  // //スタート画面とプロローグのアニメーション
   pocketwatch.ee.on('Connect', (e) => {
       console.log("スタートボタンが押されました")
       gsap.to(
@@ -132,7 +135,8 @@
   });
 
   pocketwatch.ee.on('readRFID', (e) => {
-    callsheet.onReadRFID(e);
+    callsheet1.onReadRFID(e);
+    callsheet2.onReadRFID(e);
     dialog.onReadRFID(e);
     //mystery2.onReadRFID(e);
     mystery3.onReadRFID(e);
@@ -143,16 +147,28 @@
   });
 
   // callSheet のダイアログの開閉状態が変わった時の処理
-  callsheet.ee.on('updateModal', (e) => {
+  callsheet1.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
 
     director.updateLock(isOpen); // シナリオのロック状態を更新する
   });
 
   // callSheet のダイアログが開いているときに RFID が読み取られた時の処理
-  callsheet.ee.on('select', (e) => {
+  callsheet1.ee.on('select', (e) => {
     director.onSelect(e);
   });
+
+    // callSheet2 のダイアログの開閉状態が変わった時の処理
+    callsheet2.ee.on('updateModal', (e) => {
+      const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+  
+      director.updateLock(isOpen); // シナリオのロック状態を更新する
+    });
+  
+    // callSheet2 のダイアログが開いているときに RFID が読み取られた時の処理
+    callsheet2.ee.on('select', (e) => {
+      director.onSelect(e);
+    });
 
   // dialog のダイアログの開閉状態が変わった時の処理
   dialog.ee.on('updateModal', (e) => {
