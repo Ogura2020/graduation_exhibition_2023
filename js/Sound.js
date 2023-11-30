@@ -12,12 +12,10 @@ class Sound {
 
     this.ee = new EventEmitter3();
 
-    const sounds = new Howl({
+    this.bgm = new Howl({
+      loop:true,
       src: ['audio/load.mp3'],
       volume: 0.05,
     });
-
-    sounds.play();
-
   }
 }

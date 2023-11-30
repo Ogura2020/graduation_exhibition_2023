@@ -61,6 +61,8 @@
   // 背景画像を読み込む
   await background.load(backgroundPath);
 
+  const sound = new Sound();
+
   // 全体進行を管理する Director クラスのインスタンスを作る
   const director = new Director(
     {
@@ -120,7 +122,10 @@
           //y: 0, // 20px上に移動
           stagger: 4, // 3秒遅れて順番に再生
           ease: "power2.out",
-          
+          onStart: () => {
+            console.log('----------')
+            sound.bgm.play();
+          },
           onComplete: () => {
             gsap.to(
               ".prologue",
