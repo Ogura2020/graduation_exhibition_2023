@@ -166,6 +166,11 @@ class Director {
 
       // }
 
+      //OC用、本番用に改良する。シナリオ1の最後まで行くとリロード
+      if(this.scenarios[this.sequence.scenario].cuts.length === this.sequence.cut){
+        location.reload();
+      }
+
       this.nameBox.insertAdjacentHTML('afterbegin', e.name);
     }
 
