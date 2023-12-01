@@ -36,7 +36,7 @@
 
 <body onselectstart="return false;" onmousedown="return false;">
 
-    <div id="js-start" class="start">
+    <!-- <div id="js-start" class="start">
         <img src="img/logo.png" class="logo">
         <button id="ble_btn1" class="start_btn">start</button>
     </div>
@@ -47,7 +47,7 @@
         <p class="prologue_text">書き記すのは主に事件の内容やその顛末、そして私自身の体験談だ。</p>
         <p class="prologue_text">その中でも、これなくしてその先の事件を語ることはできないとされる、ある探偵との出会いの話がある。</p>
         <p class="prologue_text">今回はそんな風変わりな小さき探偵との出会いと私にとって、初めての事件の物語である。</p>
-    </div>
+    </div> -->
 
     <div id="js-screen" class="screen">
         <!-- BLE接続ボタン -->
@@ -63,15 +63,13 @@
         </div>
 
         <dialog id="nazo_dialog">
-            <p class="mystery_text">ばらばらになってしまった紙を元に戻したとき、中央にくる紙の番号は？</p>
-            <img src="" alt="mystery1" class="mystery_img">
+            <img src="" alt="謎が書かれた紙" class="mystery_img">
+            <img src="" alt="ヒント" class="tips_img">
 
-            <div class="dialog_deco">
-                <img src="img/dialog_deco1.png" class="dialog_deco_img">
-                <img src="img/dialog_deco2.png" class="dialog_deco_img">
-                <img src="img/dialog_deco3.png" class="dialog_deco_img">
-                <img src="img/dialog_deco4.png" class="dialog_deco_img">
-            </div>
+            <div class="dialog_deco1"></div>
+            <div class="dialog_deco2"></div>
+            <div class="dialog_deco3"></div>
+            <div class="dialog_deco4"></div>
         </dialog>
 
         <!-- <dialog id="nazo_dialog2">
@@ -130,7 +128,9 @@
     <script src="js/Background.js"></script>
     <script src="js/CallSheet.js"></script>
     <script src="js/CallSheet2.js"></script>
-    <script src="js/Mystery.js"></script>
+    <script src="js/Mystery0.js"></script>
+    <script src="js/Tutorial.js"></script>
+    <script src="js/Mystery1.js"></script>
     <script src="js/Mystery2.js"></script>
     <script src="js/Mystery3.js"></script>
     <script src="js/Director.js"></script>
