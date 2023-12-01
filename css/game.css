@@ -9,7 +9,6 @@ body{
     width: 100%;
     height: 100%;
     overflow-x: hidden;  /*スクロールバー非表示*/
-    /* font-family: 'Zen Maru Gothic', sans-serif; */
     font-family: "source-han-serif-japanese", serif;
 font-weight: 200;
 font-style: normal;
@@ -46,6 +45,7 @@ font-style: normal;
 .prologue_text{
     padding-bottom: 50px;
 }
+
 
 /* これもいらない？ */
 .screen {
@@ -177,21 +177,26 @@ dialog{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    max-width: 1100px;
+    max-width: 1330px;
     width: 100%;
-    max-height: 780px;
+    max-height: 900px;
     height: 100%;
     opacity: 0;
     transition: opacity 0.6s ease;
-    border: 0;
+    border: 5px solid #A58840;
     border-radius: 10px;
     outline: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    background: #FFFCF6;
+    z-index: 5;
 }
 dialog.open {
   opacity: 1;
 }
+dialog::backdrop {
+    background: rgb(0, 0, 0);
+  }
 
 dialog.select_dialog{
     color: #ffffff;
@@ -211,37 +216,56 @@ dialog.select_dialog{
     margin: 0 15px;
 }
 
-.dialog_deco {
-	display: flex;
-	margin: 0 auto;
-	padding: 20px;
-	width: 100%;
-	height: 100%;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-between;
+.dialog_deco1 {
+    width: 85px; /* 要素の幅を指定 */
+    height: 85px; /* 要素の高さを指定 */
+    background-image: url('../img/dialog_deco1.png'); /* 装飾画像のパスを設定 */
+    background-size: cover; /* 背景画像を要素に合わせて表示 */
+    margin-top: 15px;
+    margin-left: 15px;
 }
-.dialog_deco::after {
-	content: "";
-	width: 100%;
-}
-
-.dialog_deco_img {
-    
-}
-
-.dialog_deco_img:nth-child(n+3) {
-	order: 1;
-}
-
-.mystery_text {
+.dialog_deco2 {
     position: absolute;
-    top: 80px;
+    width: 85px; /* 要素の幅を指定 */
+    height: 85px; /* 要素の高さを指定 */
+    top: 0; /* 上端に配置する場合の位置調整（必要に応じて調整） */
+    right: 0; /* 右端に配置 */
+    background-image: url('../img/dialog_deco2.png'); /* 装飾画像のパスを設定 */
+    background-size: cover; /* 背景画像を要素に合わせて表示 */
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.dialog_deco3 {
+    position: absolute;
+    width: 85px; /* 要素の幅を指定 */
+    height: 85px; /* 要素の高さを指定 */
+    bottom: 0; /* 上端に配置する場合の位置調整（必要に応じて調整） */
+    background-image: url('../img/dialog_deco3.png'); /* 装飾画像のパスを設定 */
+    background-size: cover; /* 背景画像を要素に合わせて表示 */
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.dialog_deco4 {
+    position: absolute;
+    width: 85px; /* 要素の幅を指定 */
+    height: 85px; /* 要素の高さを指定 */
+    bottom: 0; /* 上端に配置する場合の位置調整（必要に応じて調整） */
+    right: 0;
+    background-image: url('../img/dialog_deco4.png'); /* 装飾画像のパスを設定 */
+    background-size: cover; /* 背景画像を要素に合わせて表示 */
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.mystery_img {
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.mystery_img {
+.tips_img {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
