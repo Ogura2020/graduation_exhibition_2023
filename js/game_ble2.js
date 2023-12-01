@@ -70,13 +70,16 @@
     scenarios
   );
 
+  const tutorial = new Tutorial('#nazo_dialog');
   const dialog = new Dialog('#nazo_dialog');
+  const mystery1 = new Mystery1('#nazo_dialog');
   const mystery2 = new Mystery2('#nazo_dialog');
   const mystery3 = new Mystery3('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const backlog = new Backlog();
   const callsheet1 = new CallSheet1('#select_dialog1');
   const callsheet2 = new CallSheet2('#select_dialog2');
+  const sound = new Sound();
 
   // イベントリスナーを登録する（各インスタンスを紐づける）
   // セリフが切り替わり始めた時の処理
@@ -88,7 +91,9 @@
     background.onStart(e);
     callsheet1.onStart(e);
     callsheet2.onStart(e);
+    tutorial.onStart(e);
     dialog.onStart(e);
+    mystery1.onStart(e);
     mystery2.onStart(e);
     mystery3.onStart(e);
   });
@@ -98,51 +103,58 @@
     //   //director.jumpToAnotherScenario();
   });
 
-  // //スタート画面とプロローグのアニメーション
-  pocketwatch.ee.on('Connect', (e) => {
-      console.log("スタートボタンが押されました")
-      gsap.to(
-        '#js-start',
-       {
-         duration:0.5,  //〇秒間かけて
-         autoAlpha: 0,
-       }
-      )
-      gsap.fromTo(
-        ".prologue_text", // アニメーションさせる要素
-        {
-          autoAlpha: 0, // アニメーション開始前は透明
-          //y: 30, // 20px下に移動
-        },
-        {
-          duration:1.5,
-          autoAlpha: 1, // アニメーション後は出現(透過率0)
-          //y: 0, // 20px上に移動
-          stagger: 4, // 3秒遅れて順番に再生
-          ease: "power2.out",
+  // // //スタート画面とプロローグのアニメーション
+  // pocketwatch.ee.on('Connect', (e) => {
+  //     console.log("スタートボタンが押されました")
+  //     gsap.to(
+  //       '#js-start',
+  //      {
+  //        duration:0.5,  //〇秒間かけて
+  //        autoAlpha: 0,
+  //      }
+  //     )
+  //     gsap.fromTo(
+  //       ".prologue_text", // アニメーションさせる要素
+  //       {
+  //         autoAlpha: 0, // アニメーション開始前は透明
+  //         //y: 30, // 20px下に移動
+  //       },
+  //       {
+  //         duration:1.5,
+  //         autoAlpha: 1, // アニメーション後は出現(透過率0)
+  //         //y: 0, // 20px上に移動
+  //         stagger: 4, // 3秒遅れて順番に再生
+  //         ease: "power2.out",
           
-          onComplete: () => {
-            gsap.to(
-              ".prologue",
-              {
-                duration: 2,
-                autoAlpha: 0,
-              }
-            )
-          },
-        }
-      );
-  });
+  //         onComplete: () => {
+  //           gsap.to(
+  //             ".prologue",
+  //             {
+  //               duration: 2,
+  //               autoAlpha: 0,
+  //             }
+  //           )
+  //           sound.everyday.play();
+  //           sound.thinking.fade(0, 1, 5000);
+  //           // sound.rate(5.5);
+  //         },
+  //       }
+  //     );
+  // });
 
   pocketwatch.ee.on('readRFID', (e) => {
     callsheet1.onReadRFID(e);
     callsheet2.onReadRFID(e);
+    tutorial.onReadRFID(e);
     dialog.onReadRFID(e);
+    mystery1.onReadRFID(e);
     //mystery2.onReadRFID(e);
     mystery3.onReadRFID(e);
   });
 
   pocketwatch.ee.on('readAccel', (e) => {
+    tutorial.onReadAccel(e);
+    dialog.onReadAccel(e);
     mystery2.onReadAccel(e);
   });
 
@@ -158,52 +170,89 @@
     director.onSelect(e);
   });
 
-    // callSheet2 のダイアログの開閉状態が変わった時の処理
-    callsheet2.ee.on('updateModal', (e) => {
-      const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+  // callSheet2 のダイアログの開閉状態が変わった時の処理
+  callsheet2.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
   
-      director.updateLock(isOpen); // シナリオのロック状態を更新する
-    });
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+  });
   
-    // callSheet2 のダイアログが開いているときに RFID が読み取られた時の処理
-    callsheet2.ee.on('select', (e) => {
-      director.onSelect(e);
-    });
+  // callSheet2 のダイアログが開いているときに RFID が読み取られた時の処理
+  callsheet2.ee.on('select', (e) => {
+    director.onSelect(e);
+  });
+
+  // tutorial のダイアログの開閉状態が変わった時の処理
+  tutorial.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+    if(e.isOpen){
+      sound.everyday.fade(1, 0, 1000);
+      // sound.thinking.play();
+      // sound.thinking.fade(0, 1, 1000);
+    }else {
+      // sound.thinking.fade(1, 0, 1000);
+      sound.everyday.fade(0, 1, 1000);
+    }
+
+  });
+
+  // tutorial のダイアログが開いているときに RFID が読み取られた時の処理
+  tutorial.ee.on('select', (e) => {
+    
+  });
 
   // dialog のダイアログの開閉状態が変わった時の処理
   dialog.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
-
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    if(e.isOpen){
+      sound.everyday.fade(1, 0, 1000);
+      sound.thinking.play();
+      sound.thinking.fade(0, 1, 1000);
+    }else {
+      sound.thinking.fade(1, 0, 1000);
+      sound.everyday.fade(0, 1, 1000);
+    }
+
   });
 
   // dialog のダイアログが開いているときに RFID が読み取られた時の処理
   dialog.ee.on('select', (e) => {
-    //director.onSelect(e);
+
+  });
+  
+  // mystery1 のダイアログの開閉状態が変わった時の処理
+  mystery1.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+  });
+
+  // mystery1 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery1.ee.on('select', (e) => {
+
   });
 
   // mystery2 のダイアログの開閉状態が変わった時の処理
   mystery2.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
-
     director.updateLock(isOpen); // シナリオのロック状態を更新する
   });
 
   // mystery2 のダイアログが開いているときに RFID が読み取られた時の処理
   mystery2.ee.on('select', (e) => {
-    //director.onSelect(e);
+    
   });
 
   // mystery3 のダイアログの開閉状態が変わった時の処理
   mystery3.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
-
     director.updateLock(isOpen); // シナリオのロック状態を更新する
   });
 
   // mystery3 のダイアログが開いているときに RFID が読み取られた時の処理
   mystery3.ee.on('select', (e) => {
-    //director.onSelect(e);
+    
   });
 
   // pocketwatch.ee.on("readAccel", (e) =>{
