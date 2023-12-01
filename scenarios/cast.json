@@ -21,21 +21,21 @@
         "frame": 2,
         "id": "normal_g",
         "loop": false,
-        "scale": 0.6,
+        "scale": 0.55,
         "sheet": "normal_g.png"
       },
       {
         "frame": 10,
         "id": "wink1",
         "loop": false,
-        "scale": 0.6,
+        "scale": 0.55,
         "sheet": "wink1.png"
       },
       {
         "frame": 12,
         "id": "wink2",
         "loop": false,
-        "scale": 0.6,
+        "scale": 0.55,
         "sheet": "wink2.png"
       }
     ]
@@ -57,6 +57,13 @@
         "loop": false,
         "scale": 0.55,
         "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.55,
+        "sheet": "normal_g.png"
       },
       {
         "frame": 2,
@@ -84,6 +91,40 @@
         "loop": false,
         "scale": 0.55,
         "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.55,
+        "sheet": "normal_g.png"
+      }
+    ]
+  },
+  {
+    "name": "maria",
+    "path": "img/maria/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.55,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.55,
+        "sheet": "normal_g.png"
       }
     ]
   }
