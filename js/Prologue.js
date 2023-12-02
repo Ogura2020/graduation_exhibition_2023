@@ -1,9 +1,9 @@
 // 対象の要素を取得
-const ble_btn1 = document.querySelector("#ble_btn1");
+const start = document.querySelector("#js-start");
 //const js_start = document.querySelector("#js-start");
 const js_prologue = document.querySelector("#js-prologue");
 
-ble_btn1.addEventListener("click", (e) => {
+start.addEventListener("click", (e) => {
   console.log("スタートボタンが押されました")
   gsap.to(
     '#js-start',
