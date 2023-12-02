@@ -82,7 +82,28 @@ class Dialog {
             color: "green"
           }
         ]
+
+        this.nazoDialog = document.querySelector('#nazo_dialog');
+        this.tips = document.querySelector('.tips_img'); // tips 変数に値を設定
+  
+        // ダイアログ内がクリックされたときの処理を追加
+        this.nazoDialog.addEventListener('click', () => {
+          if (this.nazoDialog.classList.contains('mistery')) {
+            this.tips.src = 'img/mystery0/hint.png';
+          }
+  
+          // 画像の表示状態を取得
+          const show = this.tips.style.display === 'block';
+  
+          // 画像の表示状態を切り替える
+          if (show) {
+            this.tips.style.display = 'none'; // 画像を非表示する
+          } else {
+            this.tips.style.display = 'block'; // 画像を表示する
+          }
+        });
     }
+    
 
   /**
    * onStart
@@ -96,29 +117,18 @@ class Dialog {
     // ismystery が true のカットであるかの真偽値
     const nextOpenState = e.hasOwnProperty('ismystery0') && e.ismystery0;
 
+    if (nextOpenState) {
+      this.nazoDialog.classList.add('mistery');
+    } else {
+      this.nazoDialog.classList.remove('mistery');
+    }
+
     // ダイアログ要素が存在するか
     if (this.dialog) {
       if (!this.isOpen && nextOpenState) {
 
         // ダイアログ内の画像を更新
         this.dialog.querySelector('.mystery_img').src = "img/mystery0/0.png"; // ここに新しい画像のパスを設定
-
-        const nazoDialog = document.querySelector("#nazo_dialog");
-        this.tips = document.querySelector(".tips_img"); // tips 変数に値を設定
-        this.tips.src = "img/tutorial/0.png";
-
-        // ダイアログ内がクリックされたときの処理を追加
-        nazoDialog.addEventListener("click", () => {
-          // 画像の表示状態を取得
-          const show = this.tips.style.display === "block";
-
-          // 画像の表示状態を切り替える
-          if (show) {
-            this.tips.style.display = "none"; // 画像を非表示する
-          } else {
-            this.tips.style.display = "block"; // 画像を表示する
-          }
-        });
 
         // シナリオのカットのプロパティ ismystery が true ある場合
         // ダイアログを開く
