@@ -7,7 +7,7 @@
         "text": "・・・・・・・・",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.2
@@ -25,7 +25,7 @@
       {
         "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・ここよね、きっと 。",
+        "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・。ここよね、きっと 。",
         "act": [
           {
             "id": "normal",
@@ -41,8 +41,7 @@
               "value": 0.01
             }
           }
-        ],
-        "tutorial": true
+        ]
       },
       {
         "background": "img/bg/bg2.png",
@@ -87,7 +86,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "”トーマス探偵事務所に用のある者は叩き金を３度叩くように。”か・・・・・これかな？",
         "act": [
@@ -105,11 +104,10 @@
               "value": 0.2
             }
           }
-        ],
-        "ismystery0": true
+        ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "コンッ　コンッ　コンッ",
         "act": [
@@ -130,7 +128,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "・・・・・・・・・・・・・・・・",
         "act": [
@@ -151,7 +149,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（あ、あれ・・・誰も出てこない？叩き金、少し弱すぎたかな？）",
         "act": [
@@ -172,7 +170,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "コンッ！　コンッ！　コンッ！",
         "act": [
@@ -193,7 +191,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "・・・・・・・・・・・・・・・・・・・・・・・",
         "act": [
@@ -214,7 +212,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（応答なし・・・それとも聞こえてない？ま、まさか！留守じゃないよね？！）",
         "act": [
@@ -235,7 +233,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "ガタッ　　　ガチャッ！",
         "act": [
@@ -256,7 +254,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "へっ・・・？",
         "act": [
@@ -277,7 +275,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "　",
         "act": [
@@ -298,7 +296,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "・・・・探偵事務所に御用があっていらっしゃった方でしょうか？",
         "act": [
@@ -319,7 +317,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（こ、子供？ここに住んでいる子かな・・・もしくはトーマスさんのお子さん？）",
         "act": [
@@ -340,7 +338,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "慌ただしくしてしまってごめんなさい！<br>今回はトーマスさんに相談したいことがあって訪ねてきたんだけど・・・。",
         "act": [
@@ -361,7 +359,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "・・・・分かりました。では、お話を伺うのでどうぞお入りになってください。",
         "act": [
@@ -382,9 +380,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "ありがとう！<br>（やっぱりトーマスのお子さんかな・・・話も通じてるみたいだし。それにしてもすごく大人っぽい子だなぁ）",
+        "text": "ありがとう！（やっぱりトーマスのお子さんかな・・・話も通じてるみたいだし。それにしてもすごく大人っぽい子だなぁ。）",
         "act": [
           {
             "id": "normal",
@@ -403,7 +401,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "どうぞ、椅子におかけになってください。",
         "act": [
@@ -424,7 +422,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "あ、ありがとう。",
         "act": [
@@ -445,9 +443,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
-        "text": "普段は使用人のコルセが居るんですけど今日は用事があるとかでいなくて、それで出迎えるのに時間がかかってしまったんです。。",
+        "text": "普段は使用人のコルセが居るんですけど今日は用事があるとかでいなくて、それで出迎えるのに時間がかかってしまったんです。",
         "act": [
           {
             "id": "normal",
@@ -466,7 +464,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "何分、資料の整理中だったもので・・・すみません。<br>今、紅茶を淹れてきますね。",
         "act": [
@@ -487,9 +485,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "あ、いえ！おかまいなく！それよりも・・・。<br>トーマスさんは、どちらにいらっしゃるんでしょう。なるべく早く、相談をお聞きになっていただきたいんですけど・・・。",
+        "text": "あ、いえ！おかまいなく！それよりもトーマスさんは、どちらにいらっしゃるんでしょう。<br>なるべく早く、相談をお聞きになっていただきたいんですけど・・・。",
         "act": [
           {
             "id": "normal",
@@ -508,9 +506,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "（トーマスさん・・・きっとお父様が気に入る位にすごい探偵なのだから、荘厳かつ、いかにも紳士的な見た目をしてて物静かで博識でー・・・。）",
+        "text": "（トーマスさん・・・きっとお父様が気に入る位にすごい探偵なんだから、荘厳かつ、いかにも紳士的な見た目をしてて物静かで博識でー・・・。）",
         "act": [
           {
             "id": "normal",
@@ -529,7 +527,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "はぁ・・・もうすでに先ほどからおりますけど。",
         "act": [
@@ -550,7 +548,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・は？",
         "act": [
@@ -571,7 +569,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "ですから、先ほどからもうすでにお会いしております。というか、今目の前にいます。",
         "act": [
@@ -592,7 +590,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "自己紹介が遅れてしまいましたが、僕がここで私立探偵をしているトーマス・ティム・ロシーです。よろしく。",
         "act": [
@@ -607,13 +605,13 @@
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.01
+              "value": 0.2
             }
           }
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "え・・・・・・・・・・・・え、ええエェーーーーーーーーー！！！？",
         "act": [
@@ -634,7 +632,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "うわ・・・うるさっ・・・。",
         "act": [
@@ -655,7 +653,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "だ、だ、だって私より年下だしまだ未成年だし・・・ていうか小さい！！子供！！！",
         "act": [
@@ -676,7 +674,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "貴女、よく失礼で無神経な単細胞だって言われませんか？",
         "act": [
@@ -697,7 +695,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "しかもすこぶる口が悪くて紳士的じゃない・・・。",
         "act": [
@@ -718,7 +716,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "君のことはこの家に入る前から上で見えていたんですけどね。<br>やっぱり僕の思った通り、無駄な元気を空回りさせた単細胞タイプの女性でしたね。",
         "act": [
@@ -739,7 +737,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "あれ？もしかして、私今すごくけなされてない？というか馬鹿にされてる？",
         "act": [
@@ -760,7 +758,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "正直言って、玄関の時点で勘違いはされていると思っていましたが・・・ここまで驚かれるとは。<br>まぁ、誰でもそのような反応になってしまうんですけど。",
         "act": [
@@ -781,7 +779,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "それはそう・・・。",
         "act": [
@@ -802,7 +800,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "さて・・・・僕の正体が判明したところで、そろそろ本題の方にうつりましょう。<br>貴女は、今回どういった用件で僕を訪ねて来たんですか？",
         "act": [
@@ -823,7 +821,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "え・・・。",
         "act": [
@@ -844,7 +842,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "急ぎの用件であるといった様子ですが。",
         "act": [
@@ -865,7 +863,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（お父様が頼りにするほどの探偵だと聞いてここまで来たのに・・・。こんな子供が探偵？冗談でしょ・・・。<br>どうしよう、もう時間も無いのに！）",
         "act": [
@@ -886,7 +884,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・・・・・・・・。",
         "act": [
@@ -907,7 +905,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "君の名前はアズキ・シェレンベルガー。<br>ブレイダッド警視庁警視総監であるノーマン・シェレンベルガーさんの娘だ。",
         "act": [
@@ -928,7 +926,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・・・・え？",
         "act": [
@@ -949,7 +947,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "特技はおそらく柔道。しかも相当筋がよさそうだ。よく相手を背負い投げで投げ飛ばしていると思う。<br>でも、柔道はこの国では非常に珍しい武術だ。誰から習ったのだろう。",
         "act": [
@@ -970,7 +968,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "えっえ？ちょ、ちょっと",
         "act": [
@@ -991,9 +989,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
-        "text": "君の父であるノーマンさんが住んでいるのはここ、ベイサンクウェルだと思っていたんだが・・・。<br>君の荷物量と靴先についている土を見るに君はこの都市よりも遠方から来たことが分かる。",
+        "text": "君の父であるノーマンさんが住んでいるのは、ここベイサンクウェルだと思っていたんだが・・・。<br>君の荷物量と靴先についている土を見るに君はこの都市よりも遠方から来たことが分かる。",
         "act": [
           {
             "id": "normal",
@@ -1012,7 +1010,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "な、なんでそんなことまで。<br>（土って・・・・靴についてるこの汚れのこと？）",
         "act": [
@@ -1033,7 +1031,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "靴に泥が付着しているが、ベイサンクウェルはここ最近晴れだし、そもそのような土質ではない。<br>重すぎず軽すぎず・・・豊かな土だと察するに君はここから北にあるハイゼン地方からやってきたものと思われる。",
         "act": [
@@ -1054,7 +1052,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "？？！",
         "act": [
@@ -1075,7 +1073,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "何か言いたげだね。<br>どうぞ、好きに問答してもらって構わないよ。",
         "act": [
@@ -1096,7 +1094,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "何も教えてないし言ってないのになんで知ってるの？！てか、全部合ってるし・・・。<br>もしかして、これが例に言う超能力とかっていう・・・・。",
         "act": [
@@ -1117,7 +1115,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "そんな非科学的で根拠もない予想当てゲームをしたつもりは無いよ。",
         "act": [
@@ -1138,7 +1136,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "え・・・じゃ、じゃあどうして。",
         "act": [
@@ -1159,7 +1157,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "推理や予測というものは当てずっぽうで考えるものではないし、そもそも我々が日頃行っている事こそ間違っているんだよ。",
         "act": [
@@ -1180,7 +1178,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・？",
         "act": [
@@ -1201,7 +1199,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "予測して考えるのではなく、数ある情報の中から答えを照らし合わせ導き出す・・・。<br>僕が今君のことを観察し情報を照らし合わせ答えを導き出したようにするのさ。",
         "act": [
@@ -1222,7 +1220,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "む、難しいことを言っているのだけは分かる。",
         "act": [
@@ -1243,7 +1241,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "まぁ、そのうち君にも分かるようになるよ。多分。",
         "act": [
@@ -1264,7 +1262,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（なんかものすごく、無理だろうな・・・って思われてる気がする。）",
         "act": [
@@ -1285,7 +1283,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "それにしたって柔道のことや、私の・・・お父様に関してまでどうして分かったの？",
         "act": [
@@ -1306,7 +1304,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "それはとても簡単だよ。君のお父さんとは、とある一件があってから繋がりがあってね。<br>君のことを知っていたのもお父さんから聞いていたからさ。",
         "act": [
@@ -1327,7 +1325,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "柔道をやっているっていうのは君の耳を見て確信したよ。",
         "act": [
@@ -1348,7 +1346,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "耳？他の人となんら変わりないと思うけど・・・。",
         "act": [
@@ -1369,7 +1367,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "僕にとっては重要な手がかりだよ。<br>柔道は寝技が多く自分の体を駆使して使う武術だ。",
         "act": [
@@ -1390,9 +1388,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
-        "text": "それ故に耳は人に当たったり地面に擦れてしまったりで潰れてしまう。<br>他の人よりも内側に丸みを帯びた耳こそが柔道をしている特徴の一つなんだ。",
+        "text": "それ故に耳は人に当たったり地面に擦れてしまったりで潰れてしまう。<br>他の人よりも内側に丸みを帯びた耳こそが柔道をしている特徴のひとつなんだ。",
         "act": [
           {
             "id": "normal",
@@ -1411,7 +1409,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・・・。",
         "act": [
@@ -1432,7 +1430,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（そ、そんなことまで・・・私ですら知らなかったのに。・・・・まだ、疑いが無くなった訳ではないけど。もし、本当にこの子が評判通りのトーマス・ティム・ロシーなら・・・・・！）",
         "act": [
@@ -1453,7 +1451,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "・・・・では、再度聞こう。今回はどんな用件で探偵事務所を訪ねて来たんだい？",
         "act": [
@@ -1474,7 +1472,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "実は・・・。",
         "act": [
@@ -1495,7 +1493,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "謎の招待状？",
         "act": [
@@ -1516,7 +1514,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "文章を読む限りは招待状なんだと思うんだけど。でも、少し変わった内容で・・・。",
         "act": [
@@ -1537,7 +1535,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "というのは？",
         "act": [
@@ -1558,7 +1556,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "これなんだけど・・・・・。",
         "act": [
@@ -1579,8 +1577,8 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
-        "name": " ",
+        "background": "img/bg/bg2.png",
+        "name": "　",
         "text": "シェレンベルガー家　息女アズキ・シェレンベルガー様<br>ハイゼン地方シーフィールドにある森奥の館ピユーヴルにて謎解きゲームを催させていただきます。<br>ゲーム優勝者には賞金として６００００￡贈られます。",
         "act": [
           {
@@ -1600,8 +1598,8 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
-        "name": " ",
+        "background": "img/bg/bg2.png",
+        "name": "　",
         "text": "なお、余興としての謎解きを一つ招待状とともに同封します。<br>正解者には記念品であるブローチを館にてお贈りしますのでぜひご参加下さいませ。<br>貴女様の来訪を心よりお待ちしております。　　ゲーム主催者",
         "act": [
           {
@@ -1621,7 +1619,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "確かに変わってるね・・・。<br>そも、主催者がゲームを催すメリットなんて見当たらないし、普通はこんな怪しげな招待状気にかけもしないと思うけど。",
         "act": [
@@ -1642,7 +1640,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "お金にも困ってはいなさそうだし。<br>君はなぜそんなにもこれを気にかけるんだい？",
         "act": [
@@ -1663,7 +1661,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・・・・ごめんなさい。<br>今はまだ、貴方に話すことはできない。",
         "act": [
@@ -1684,7 +1682,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "そう・・・。まぁ、しつこく聞くつもりは無いから安心してくれ。<br>さてと、それで？君はもちろんこの館に行くつもりなんだね？",
         "act": [
@@ -1705,7 +1703,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "うん。",
         "act": [
@@ -1726,7 +1724,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "行くだけなら僕をわざわざ訪ねる事は無いと思うけど・・・。",
         "act": [
@@ -1747,7 +1745,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "うっ・・・。確かにそれはそうなんだけど。<br>貴方を訪ねて来たのは、ある依頼を引き受けてほしくて。",
         "act": [
@@ -1768,7 +1766,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "依頼？",
         "act": [
@@ -1789,7 +1787,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "招待状の謎もそうなんだけど、私と一緒に館で行われるゲームに参加してほしいの！",
         "act": [
@@ -1810,7 +1808,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "ふむ・・・。",
         "act": [
@@ -1831,7 +1829,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "最初は自分だけで、謎もゲーム参加も何とかしようと考えていたんだけど・・・。<br>全然謎は分かんないし、謎を解くことが出来ない私だけじゃゲームに参加したとしても勝つことは出来ないと思って。",
         "act": [
@@ -1852,7 +1850,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "貴方の言った通り、私はお金目当てでゲームに参加するわけじゃない。<br>私の目的のためにもゲームで勝たなければ意味がないの。<br>だから・・・。",
         "act": [
@@ -1873,7 +1871,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "なるほどね。<br>それでわざわざ僕の所まで訪ねて来たわけだ。",
         "act": [
@@ -1894,7 +1892,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "うーん、まぁ急ぎの用も無いしここのところ時間を持て余しすぎていたしな・・・その依頼、引き受けることは出来るけど。",
         "act": [
@@ -1915,7 +1913,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "ほ、ほんと！？",
         "act": [
@@ -1936,7 +1934,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "でも、その前にまずは招待状と一緒に入っていたっていう謎かけを見せてもらおうかな。",
         "act": [
@@ -1957,9 +1955,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "？これを？<br>助力は願ったりだけど、どうして？",
+        "text": "これを？<br>助力は願ったりだけど、どうして？",
         "act": [
           {
             "id": "normal",
@@ -1978,7 +1976,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "僕の退屈をしのぐ事が出来るかどうかを見極めるためさ。<br>さ、それを見せて。",
         "act": [
@@ -1999,7 +1997,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "・・・・・・・・・・・・・・・・・・・・・ふむ。<br>なるほどね、分かったよ。",
         "act": [
@@ -2020,7 +2018,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "え？",
         "act": [
@@ -2041,7 +2039,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "これだけじゃ、まだそこまで全てを把握できる訳じゃないけど。<br>なかなかこれは面白そうだ。",
         "act": [
@@ -2062,7 +2060,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "ちょちょ、ちょっとまって！<br>分かったって・・・何が？面白そうってなに？",
         "act": [
@@ -2083,7 +2081,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "何がって、謎を解いたんだよ。<br>この同封されていた謎かけを。",
         "act": [
@@ -2104,7 +2102,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・・・・・・・・う、ウソ・・・・。",
         "act": [
@@ -2125,7 +2123,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "嘘じゃないさ。<br>まぁ、これぐらいなら少し考えれば分かりそうなものだけど。",
         "act": [
@@ -2146,7 +2144,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "考えればって・・・私もさんざん考えたけど、何のことだかサッパリで・・・。",
         "act": [
@@ -2167,7 +2165,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "説明してもいいけど、あくまで僕は付き添い人だからね。<br>君自身もおんぶに抱っこでは、面白くないだろ？",
         "act": [
@@ -2188,7 +2186,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "うぐゥ・・・・・・・・ンンーーー",
         "act": [
@@ -2209,7 +2207,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "本当に分からないのかい？ふむ・・・ちょっと待っていたまえ。<br>そんな君に良いものがある。",
         "act": [
@@ -2230,9 +2228,9 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "？良いもの？",
+        "text": "良いもの？",
         "act": [
           {
             "id": "normal",
@@ -2251,7 +2249,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "僕のある友人から譲り受けた物なんだがね、悲しいことに僕には必要の無いものなんだ。",
         "act": [
@@ -2272,7 +2270,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "なに？杖とか骨董品とか？<br>私、宗教とかオカルトとかっていうの信じないけどそういうの？",
         "act": [
@@ -2293,7 +2291,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "そんな訳ないだろ・・・ただの懐中時計だよ。",
         "act": [
@@ -2314,7 +2312,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "懐中時計？",
         "act": [
@@ -2335,7 +2333,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "そう・・・・確かこの辺に・・・お、あったあった。<br>はい、どうぞ。",
         "act": [
@@ -2356,7 +2354,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "え？あ、ど、どうも。<br>だいぶ古そう・・・。それに装飾とか、あまり類に見ない変わったデザインしてるね。",
         "act": [
@@ -2377,7 +2375,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "だろ？だいぶデザインも変わっていて面白いんだが、それ以上に面白い秘密がある。<br>試しにその時計を持って目を閉じてごらんよ。",
         "act": [
@@ -2398,7 +2396,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "こういうこと？<br>だいぶ古そう・・・。・・・・・ッ！？急に光り出したと思ったら何か頭に思い浮かんで・・・。",
         "act": [
@@ -2420,7 +2418,7 @@
         "tutorial":true
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "面白いだろ？<br>呪いか神秘的な力かは分からないんだが、時計から謎かけに応じてカギとなる情報が頭に思い浮かんでくるんだ。",
         "act": [
@@ -2441,7 +2439,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "面白いどころか、かえって不気味なんだけど・・・。<br>（呪われた品だったらどうしよう・・・。）",
         "act": [
@@ -2462,7 +2460,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "じゃあ、再度その謎について考えてみようか。",
         "act": [
@@ -2483,7 +2481,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "これが、君に届いたという謎かけの手紙・・・。<br>気になる点は多々あるが、まずは本題の方を解かなければね。",
         "act": [
@@ -2504,7 +2502,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "まずは自力で解いてみることをお勧めするが、本当に困った場合には僕がきっかけとなるヒントを伝えてあげよう。<br>それまでは自分の力と時計でぜひ頑張ってみてくれ。",
         "act": [
@@ -2525,7 +2523,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・・・・・こういうことだったんだ。",
         "act": [
@@ -2547,7 +2545,7 @@
         "ismystery0":true
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "うん、分かったみたいだね。",
         "act": [
@@ -2568,7 +2566,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "すごい・・・どんなに考えたって分かりっこないと思ってたのに。<br>こんなすぐ・・・。",
         "act": [
@@ -2589,7 +2587,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "どうやら、それは君が一番役立ててくれそうだ。<br>良かったらそれ、君にあげるよ。",
         "act": [
@@ -2610,7 +2608,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "え？！いいの？こんな貴重そうな不思議時計もらちゃって・・・。",
         "act": [
@@ -2631,7 +2629,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "さっきも言った通り僕には必要の無いものだし、埃を被って仕舞われているよりも君が持っていた方が時計も喜ぶさ。<br>（・・・・不思議時計？？）",
         "act": [
@@ -2652,7 +2650,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "そっか・・・じゃあ、お言葉に甘えて頂いちゃおうかな。<br>ありがとうございます！トーマス先生！",
         "act": [
@@ -2673,7 +2671,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "トーマス先生？",
         "act": [
@@ -2694,7 +2692,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "いや、これから一緒に同行してもらうしトーマスさんは探偵なわけでしょ。<br>だったら先生って呼んだ方がしっくりくるし良いかなって思って。",
         "act": [
@@ -2715,7 +2713,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "よしておくれよ・・・・先生は。<br>外でもその呼び方でいくってことだろ？周りから白い目で見られそうだ。",
         "act": [
@@ -2736,7 +2734,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "トーマス",
         "text": "・・・僕のことはティムでいいよ。<br>その方が気が楽でいいし。",
         "act": [
@@ -2757,7 +2755,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "そう？じゃあ、遠慮なくティムって呼ばせてもらうね！<br>私のことはー。",
         "act": [
@@ -2778,7 +2776,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "ティム",
         "text": "アズキって呼ばせてもらおうかな。",
         "act": [
@@ -2799,7 +2797,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "私が答える前に言っちゃうんだ・・・。まぁ、別にいいけど。！<br>そういえばティム、何か砕けた口調になってない？最初は敬語だったのに。",
         "act": [
@@ -2820,7 +2818,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "ティム",
         "text": "初対面で敬語を使わない方が不自然だろ。<br>それに、ちゃんと目上の人には終始敬語を使うようにしてるよ。",
         "act": [
@@ -2841,7 +2839,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "え・・・？じゃあ私は？",
         "act": [
@@ -2862,7 +2860,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "ティム",
         "text": "・・・・・・・・・・・・・・・・・・・・・。",
         "act": [
@@ -2883,7 +2881,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "ちょっちょっと？？！何よその無言は！！",
         "act": [
@@ -2904,7 +2902,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "ティム",
         "text": "そんなことよりも、謎は無事解くことができた。<br>次はいよいよ本拠地の方へのりこみに行くわけだが・・・。",
         "act": [
@@ -2925,7 +2923,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "そんなこと・・・・？！",
         "act": [
@@ -2946,7 +2944,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "ティム",
         "text": "場所は確かハイゼン地方のシーフィールドだったね。<br>『ピユーヴルの館』か・・・・・これは退屈しなさそうだ。",
         "act": [
@@ -2967,7 +2965,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "ティム",
         "text": "善は急げだ、すぐに旅支度をしよう。<br>今日はもう遅いし、明日の早朝にでもここを出ようか。",
         "act": [
@@ -2988,7 +2986,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.jpg",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "こうして、依頼人である私アズキと変わり者で小さくも、凄い探偵であるティムとの最初の事件にして、出会いの物語が始まったのだった。",
         "act": [
@@ -3009,9 +3007,9 @@
         ]
       },
       {
-        "background": "img/bg/bg0.jpg",
+        "background": "img/bg/bg0.png",
         "name": "　",
-        "text": "続きは2月に開催される卒展で展示予定です。",
+        "text": "続きは2月に開催される卒展で展示予定です。<br>遊んでいただきありがとうございました。",
         "act": [
           {
             "id": "normal",
