@@ -76,7 +76,7 @@
   const mystery2 = new Mystery2('#nazo_dialog');
   const mystery3 = new Mystery3('#nazo_dialog');
   const pocketwatch = new PocketWatch();
-  const backlog = new Backlog();
+  // const backlog = new Backlog();
   const callsheet1 = new CallSheet1('#select_dialog1');
   const callsheet2 = new CallSheet2('#select_dialog2');
   const sound = new Sound();
@@ -84,7 +84,7 @@
   // イベントリスナーを登録する（各インスタンスを紐づける）
   // セリフが切り替わり始めた時の処理
   director.ee.on('start', (e) => {
-    backlog.onStart(e)
+    //backlog.onStart(e)
     actors.forEach((actor) => {
       actor.onStart(e);
     });
@@ -104,43 +104,43 @@
   });
 
   // // //スタート画面とプロローグのアニメーション
-  // pocketwatch.ee.on('Connect', (e) => {
-  //     console.log("スタートボタンが押されました")
-  //     gsap.to(
-  //       '#js-start',
-  //      {
-  //        duration:0.5,  //〇秒間かけて
-  //        autoAlpha: 0,
-  //      }
-  //     )
-  //     gsap.fromTo(
-  //       ".prologue_text", // アニメーションさせる要素
-  //       {
-  //         autoAlpha: 0, // アニメーション開始前は透明
-  //         //y: 30, // 20px下に移動
-  //       },
-  //       {
-  //         duration:1.5,
-  //         autoAlpha: 1, // アニメーション後は出現(透過率0)
-  //         //y: 0, // 20px上に移動
-  //         stagger: 4, // 3秒遅れて順番に再生
-  //         ease: "power2.out",
+  pocketwatch.ee.on('Connect', (e) => {
+      console.log("スタートボタンが押されました")
+      gsap.to(
+        '#js-start',
+       {
+         duration:0.5,  //〇秒間かけて
+         autoAlpha: 0,
+       }
+      )
+      gsap.fromTo(
+        ".prologue_text", // アニメーションさせる要素
+        {
+          autoAlpha: 0, // アニメーション開始前は透明
+          //y: 30, // 20px下に移動
+        },
+        {
+          duration:1.5,
+          autoAlpha: 1, // アニメーション後は出現(透過率0)
+          //y: 0, // 20px上に移動
+          stagger: 4, // 3秒遅れて順番に再生
+          ease: "power2.out",
           
-  //         onComplete: () => {
-  //           gsap.to(
-  //             ".prologue",
-  //             {
-  //               duration: 2,
-  //               autoAlpha: 0,
-  //             }
-  //           )
-  //           sound.everyday.play();
-  //           sound.thinking.fade(0, 1, 5000);
-  //           // sound.rate(5.5);
-  //         },
-  //       }
-  //     );
-  // });
+          onComplete: () => {
+            gsap.to(
+              ".prologue",
+              {
+                duration: 2,
+                autoAlpha: 0,
+              }
+            )
+            sound.everyday.play();
+            sound.thinking.fade(0, 1, 5000);
+            // sound.rate(5.5);
+          },
+        }
+      );
+  });
 
   pocketwatch.ee.on('readRFID', (e) => {
     callsheet1.onReadRFID(e);
@@ -208,10 +208,10 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     if(e.isOpen){
       sound.everyday.fade(1, 0, 1000);
-      sound.thinking.play();
-      sound.thinking.fade(0, 1, 1000);
+      // sound.thinking.play();
+      // sound.thinking.fade(0, 1, 1000);
     }else {
-      sound.thinking.fade(1, 0, 1000);
+      // sound.thinking.fade(1, 0, 1000);
       sound.everyday.fade(0, 1, 1000);
     }
 
