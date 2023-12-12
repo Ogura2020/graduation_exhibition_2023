@@ -25,7 +25,7 @@ class PocketWatch {
     // navigator.bluetooth.requestDeviceを呼び出す
     const port = navigator.bluetooth.requestDevice({
       filters: [{
-        name: 'NimBLE-Arduino'
+        name: '懐中時計'
       }],
       optionalServices: [0x7A20] // 後でサービスにアクセスするために必要です。
     })

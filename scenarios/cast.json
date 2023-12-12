@@ -14,29 +14,36 @@
         "frame": 2,
         "id": "normal",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal.png"
       },
       {
         "frame": 2,
         "id": "normal_g",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal_g.png"
       },
       {
         "frame": 10,
         "id": "wink1",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "wink1.png"
       },
       {
         "frame": 12,
         "id": "wink2",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "wink2.png"
+      },
+      {
+        "frame": 11,
+        "id": "al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "al.png"
       }
     ]
   },
@@ -55,14 +62,14 @@
         "frame": 2,
         "id": "normal",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal.png"
       },
       {
         "frame": 2,
         "id": "normal_g",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal_g.png"
       },
       {
@@ -71,6 +78,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "wink1.png"
+      },
+      {
+        "frame": 11,
+        "id": "al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "al.png"
       }
     ]
   },
@@ -89,14 +103,14 @@
         "frame": 2,
         "id": "normal",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal.png"
       },
       {
         "frame": 2,
         "id": "normal_g",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal_g.png"
       }
     ]
@@ -116,14 +130,14 @@
         "frame": 2,
         "id": "normal",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal.png"
       },
       {
         "frame": 2,
         "id": "normal_g",
         "loop": false,
-        "scale": 0.55,
+        "scale": 0.6,
         "sheet": "normal_g.png"
       }
     ]

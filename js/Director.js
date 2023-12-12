@@ -78,7 +78,7 @@ class Director {
               },
               {
                 // シナリオの text の文字列が空だと start イベントが発生しないので、仮想の1文字を足しておく
-                duration: (cut.text.length + 1) * 0.07,
+                duration: (cut.text.length + 1) * 0.05,
                 ease: 'none',
                 text: cut.text,
                 onComplete: () => {

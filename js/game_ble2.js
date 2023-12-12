@@ -136,7 +136,6 @@
             )
             sound.everyday.play();
             sound.thinking.fade(0, 1, 5000);
-            // sound.rate(5.5);
           },
         }
       );
@@ -188,10 +187,10 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     if(e.isOpen){
       sound.everyday.fade(1, 0, 1000);
-      // sound.thinking.play();
-      // sound.thinking.fade(0, 1, 1000);
+      sound.thinking.play();
+      sound.thinking.fade(0, 1, 1000);
     }else {
-      // sound.thinking.fade(1, 0, 1000);
+      sound.thinking.fade(1, 0, 1000);
       sound.everyday.fade(0, 1, 1000);
     }
 
@@ -208,10 +207,10 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     if(e.isOpen){
       sound.everyday.fade(1, 0, 1000);
-      // sound.thinking.play();
-      // sound.thinking.fade(0, 1, 1000);
+      sound.thinking.play();
+      sound.thinking.fade(0, 1, 1000);
     }else {
-      // sound.thinking.fade(1, 0, 1000);
+      sound.thinking.fade(1, 0, 1000);
       sound.everyday.fade(0, 1, 1000);
     }
 

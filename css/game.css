@@ -101,6 +101,7 @@ font-style: normal;
     padding: 0 1em;
 }
 .name_Box {
+    font-size: 17px;
     display: inline-block;
     padding: 0 28px;
     line-height: 34px;
@@ -162,10 +163,11 @@ font-style: normal;
     background-size: cover;
 }
 .scenario_Box{
+    height: 210px;
     color: #fff;
-    padding: 40px 50px;
-    min-height: 8em;
-    font-size: 20px;
+    padding: 45px 50px;
+    font-size: 21px;
+    line-height: 2em;
 }
 
 .btn{
