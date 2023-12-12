@@ -7,10 +7,10 @@
         "text": "・・・・・・・・",
         "act": [
           {
-            "id": "normal_g",
+            "id": "al",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -25,13 +25,13 @@
       {
         "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・。ここよね、きっと 。",
+        "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・。<br>ここよね、きっと 。",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -52,7 +52,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -73,7 +73,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -94,14 +94,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -115,14 +115,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -136,14 +136,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -157,14 +157,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -178,14 +178,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -199,14 +199,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -220,14 +220,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -241,14 +241,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -262,14 +262,14 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -283,14 +283,14 @@
             "id": "none",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
-            "id": "normal",
+            "id": "al",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -304,14 +304,14 @@
             "id": "none",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -329,7 +329,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -350,7 +350,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -364,7 +364,7 @@
         "text": "・・・・分かりました。では、お話を伺うのでどうぞお入りになってください。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -392,7 +392,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -406,7 +406,7 @@
         "text": "どうぞ、椅子におかけになってください。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -434,7 +434,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -448,7 +448,7 @@
         "text": "普段は使用人のコルセが居るんですけど今日は用事があるとかでいなくて、それで出迎えるのに時間がかかってしまったんです。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -469,7 +469,7 @@
         "text": "何分、資料の整理中だったもので・・・すみません。<br>今、紅茶を淹れてきますね。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -497,7 +497,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -518,7 +518,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -532,7 +532,7 @@
         "text": "はぁ・・・もうすでに先ほどからおりますけど。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -560,7 +560,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -574,7 +574,7 @@
         "text": "ですから、先ほどからもうすでにお会いしております。というか、今目の前にいます。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -605,7 +605,7 @@
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
@@ -623,7 +623,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -637,7 +637,7 @@
         "text": "うわ・・・うるさっ・・・。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -665,7 +665,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -679,7 +679,7 @@
         "text": "貴女、よく失礼で無神経な単細胞だって言われませんか？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -707,7 +707,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -721,7 +721,7 @@
         "text": "君のことはこの家に入る前から上で見えていたんですけどね。<br>やっぱり僕の思った通り、無駄な元気を空回りさせた単細胞タイプの女性でしたね。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -749,7 +749,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -763,7 +763,7 @@
         "text": "正直言って、玄関の時点で勘違いはされていると思っていましたが・・・ここまで驚かれるとは。<br>まぁ、誰でもそのような反応になってしまうんですけど。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -791,7 +791,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -805,7 +805,7 @@
         "text": "さて・・・・僕の正体が判明したところで、そろそろ本題の方にうつりましょう。<br>貴女は、今回どういった用件で僕を訪ねて来たんですか？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -833,7 +833,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -847,7 +847,7 @@
         "text": "急ぎの用件であるといった様子ですが。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -875,7 +875,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -896,7 +896,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -910,7 +910,7 @@
         "text": "君の名前はアズキ・シェレンベルガー。<br>ブレイダッド警視庁警視総監であるノーマン・シェレンベルガーさんの娘だ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -938,7 +938,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -952,7 +952,7 @@
         "text": "特技はおそらく柔道。しかも相当筋がよさそうだ。よく相手を背負い投げで投げ飛ばしていると思う。<br>でも、柔道はこの国では非常に珍しい武術だ。誰から習ったのだろう。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -980,7 +980,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -994,7 +994,7 @@
         "text": "君の父であるノーマンさんが住んでいるのは、ここベイサンクウェルだと思っていたんだが・・・。<br>君の荷物量と靴先についている土を見るに君はこの都市よりも遠方から来たことが分かる。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1022,7 +1022,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1036,7 +1036,7 @@
         "text": "靴に泥が付着しているが、ベイサンクウェルはここ最近晴れだし、そもそのような土質ではない。<br>重すぎず軽すぎず・・・豊かな土だと察するに君はここから北にあるハイゼン地方からやってきたものと思われる。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1064,7 +1064,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1078,7 +1078,7 @@
         "text": "何か言いたげだね。<br>どうぞ、好きに問答してもらって構わないよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1106,7 +1106,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1120,7 +1120,7 @@
         "text": "そんな非科学的で根拠もない予想当てゲームをしたつもりは無いよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1148,7 +1148,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1162,7 +1162,7 @@
         "text": "推理や予測というものは当てずっぽうで考えるものではないし、そもそも我々が日頃行っている事こそ間違っているんだよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1190,7 +1190,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1204,7 +1204,7 @@
         "text": "予測して考えるのではなく、数ある情報の中から答えを照らし合わせ導き出す・・・。<br>僕が今君のことを観察し情報を照らし合わせ答えを導き出したようにするのさ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1232,7 +1232,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1246,7 +1246,7 @@
         "text": "まぁ、そのうち君にも分かるようになるよ。多分。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1274,7 +1274,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1295,7 +1295,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1309,7 +1309,7 @@
         "text": "それはとても簡単だよ。君のお父さんとは、とある一件があってから繋がりがあってね。<br>君のことを知っていたのもお父さんから聞いていたからさ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1330,7 +1330,7 @@
         "text": "柔道をやっているっていうのは君の耳を見て確信したよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1358,7 +1358,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1372,7 +1372,7 @@
         "text": "僕にとっては重要な手がかりだよ。<br>柔道は寝技が多く自分の体を駆使して使う武術だ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1393,7 +1393,7 @@
         "text": "それ故に耳は人に当たったり地面に擦れてしまったりで潰れてしまう。<br>他の人よりも内側に丸みを帯びた耳こそが柔道をしている特徴のひとつなんだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1421,7 +1421,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1442,7 +1442,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1456,7 +1456,7 @@
         "text": "・・・・では、再度聞こう。今回はどんな用件で探偵事務所を訪ねて来たんだい？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1484,7 +1484,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1498,7 +1498,7 @@
         "text": "謎の招待状？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1526,7 +1526,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1540,7 +1540,7 @@
         "text": "というのは？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1568,7 +1568,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1624,7 +1624,7 @@
         "text": "確かに変わってるね・・・。<br>そも、主催者がゲームを催すメリットなんて見当たらないし、普通はこんな怪しげな招待状気にかけもしないと思うけど。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1645,7 +1645,7 @@
         "text": "お金にも困ってはいなさそうだし。<br>君はなぜそんなにもこれを気にかけるんだい？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1673,7 +1673,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1687,7 +1687,7 @@
         "text": "そう・・・。まぁ、しつこく聞くつもりは無いから安心してくれ。<br>さてと、それで？君はもちろんこの館に行くつもりなんだね？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1715,7 +1715,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1729,7 +1729,7 @@
         "text": "行くだけなら僕をわざわざ訪ねる事は無いと思うけど・・・。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1757,7 +1757,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1771,7 +1771,7 @@
         "text": "依頼？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1799,7 +1799,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1813,7 +1813,7 @@
         "text": "ふむ・・・。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1841,7 +1841,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1862,7 +1862,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1876,7 +1876,7 @@
         "text": "なるほどね。<br>それでわざわざ僕の所まで訪ねて来たわけだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1897,7 +1897,7 @@
         "text": "うーん、まぁ急ぎの用も無いしここのところ時間を持て余しすぎていたしな・・・その依頼、引き受けることは出来るけど。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1925,7 +1925,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1939,7 +1939,7 @@
         "text": "でも、その前にまずは招待状と一緒に入っていたっていう謎かけを見せてもらおうかな。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1967,7 +1967,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1981,7 +1981,7 @@
         "text": "僕の退屈をしのぐ事が出来るかどうかを見極めるためさ。<br>さ、それを見せて。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2002,7 +2002,7 @@
         "text": "・・・・・・・・・・・・・・・・・・・・・ふむ。<br>なるほどね、分かったよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2030,7 +2030,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2044,7 +2044,7 @@
         "text": "これだけじゃ、まだそこまで全てを把握できる訳じゃないけど。<br>なかなかこれは面白そうだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2072,7 +2072,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2086,7 +2086,7 @@
         "text": "何がって、謎を解いたんだよ。<br>この同封されていた謎かけを。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2114,7 +2114,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2128,7 +2128,7 @@
         "text": "嘘じゃないさ。<br>まぁ、これぐらいなら少し考えれば分かりそうなものだけど。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2156,7 +2156,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2170,7 +2170,7 @@
         "text": "説明してもいいけど、あくまで僕は付き添い人だからね。<br>君自身もおんぶに抱っこでは、面白くないだろ？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2198,7 +2198,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2212,7 +2212,7 @@
         "text": "本当に分からないのかい？ふむ・・・ちょっと待っていたまえ。<br>そんな君に良いものがある。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2240,7 +2240,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2254,7 +2254,7 @@
         "text": "僕のある友人から譲り受けた物なんだがね、悲しいことに僕には必要の無いものなんだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2282,7 +2282,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2296,7 +2296,7 @@
         "text": "そんな訳ないだろ・・・ただの懐中時計だよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2324,7 +2324,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2338,7 +2338,7 @@
         "text": "そう・・・・確かこの辺に・・・お、あったあった。<br>はい、どうぞ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2366,7 +2366,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2380,7 +2380,7 @@
         "text": "だろ？だいぶデザインも変わっていて面白いんだが、それ以上に面白い秘密がある。<br>試しにその時計を持って目を閉じてごらんよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2408,7 +2408,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2423,7 +2423,7 @@
         "text": "面白いだろ？<br>呪いか神秘的な力かは分からないんだが、時計から謎かけに応じてカギとなる情報が頭に思い浮かんでくるんだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2451,7 +2451,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2465,7 +2465,7 @@
         "text": "じゃあ、再度その謎について考えてみようか。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2486,7 +2486,7 @@
         "text": "これが、君に届いたという謎かけの手紙・・・。<br>気になる点は多々あるが、まずは本題の方を解かなければね。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2507,7 +2507,7 @@
         "text": "まずは自力で解いてみることをお勧めするが、本当に困った場合には僕がきっかけとなるヒントを伝えてあげよう。<br>それまでは自分の力と時計でぜひ頑張ってみてくれ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2535,7 +2535,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2550,7 +2550,7 @@
         "text": "うん、分かったみたいだね。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2578,7 +2578,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2592,7 +2592,7 @@
         "text": "どうやら、それは君が一番役立ててくれそうだ。<br>良かったらそれ、君にあげるよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2610,7 +2610,7 @@
       {
         "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "え？！いいの？こんな貴重そうな不思議時計もらちゃって・・・。",
+        "text": "え？！いいの？こんな貴重そうな不思議時計もらっちゃって・・・。",
         "act": [
           {
             "id": "normal",
@@ -2620,7 +2620,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2634,7 +2634,7 @@
         "text": "さっきも言った通り僕には必要の無いものだし、埃を被って仕舞われているよりも君が持っていた方が時計も喜ぶさ。<br>（・・・・不思議時計？？）",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2662,7 +2662,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2676,7 +2676,7 @@
         "text": "トーマス先生？",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2704,7 +2704,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2718,7 +2718,7 @@
         "text": "よしておくれよ・・・・先生は。<br>外でもその呼び方でいくってことだろ？周りから白い目で見られそうだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2739,7 +2739,7 @@
         "text": "・・・僕のことはティムでいいよ。<br>その方が気が楽でいいし。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2767,7 +2767,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2781,7 +2781,7 @@
         "text": "アズキって呼ばせてもらおうかな。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2799,7 +2799,7 @@
       {
         "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "私が答える前に言っちゃうんだ・・・。まぁ、別にいいけど。！<br>そういえばティム、何か砕けた口調になってない？最初は敬語だったのに。",
+        "text": "私が答える前に言っちゃうんだ・・・。まぁ、別にいいけど！<br>そういえばティム、何か砕けた口調になってない？最初は敬語だったのに。",
         "act": [
           {
             "id": "normal",
@@ -2809,7 +2809,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2823,7 +2823,7 @@
         "text": "初対面で敬語を使わない方が不自然だろ。<br>それに、ちゃんと目上の人には終始敬語を使うようにしてるよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2851,7 +2851,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2865,7 +2865,7 @@
         "text": "・・・・・・・・・・・・・・・・・・・・・。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2893,7 +2893,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2907,7 +2907,7 @@
         "text": "そんなことよりも、謎は無事解くことができた。<br>次はいよいよ本拠地の方へのりこみに行くわけだが・・・。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2935,7 +2935,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2949,7 +2949,7 @@
         "text": "場所は確かハイゼン地方のシーフィールドだったね。<br>『ピユーヴルの館』か・・・・・これは退屈しなさそうだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2970,7 +2970,7 @@
         "text": "善は急げだ、すぐに旅支度をしよう。<br>今日はもう遅いし、明日の早朝にでもここを出ようか。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2991,38 +2991,17 @@
         "text": "こうして、依頼人である私アズキと変わり者で小さくも、凄い探偵であるティムとの最初の事件にして、出会いの物語が始まったのだった。",
         "act": [
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.01
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "background": "img/bg/bg0.png",
-        "name": "　",
-        "text": "続きは2月に開催される卒展で展示予定です。<br>遊んでいただきありがとうございました。",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.2
             }
           },
           {
             "id": "none",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.01
             }
           }
         ]
