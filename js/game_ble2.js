@@ -110,42 +110,42 @@
   });
 
   // // //スタート画面とプロローグのアニメーション
-  pocketwatch.ee.on('Connect', (e) => {
-      console.log("スタートボタンが押されました")
-      gsap.to(
-        '#js-start',
-       {
-         duration:0.5,  //〇秒間かけて
-         autoAlpha: 0,
-       }
-      )
-      gsap.fromTo(
-        ".prologue_text", // アニメーションさせる要素
-        {
-          autoAlpha: 0, // アニメーション開始前は透明
-          //y: 30, // 20px下に移動
-        },
-        {
-          duration:1.5,
-          autoAlpha: 1, // アニメーション後は出現(透過率0)
-          //y: 0, // 20px上に移動
-          stagger: 4, // 3秒遅れて順番に再生
-          ease: "power2.out",
+  // pocketwatch.ee.on('Connect', (e) => {
+  //     console.log("スタートボタンが押されました")
+  //     gsap.to(
+  //       '#js-start',
+  //      {
+  //        duration:0.5,  //〇秒間かけて
+  //        autoAlpha: 0,
+  //      }
+  //     )
+  //     gsap.fromTo(
+  //       ".prologue_text", // アニメーションさせる要素
+  //       {
+  //         autoAlpha: 0, // アニメーション開始前は透明
+  //         //y: 30, // 20px下に移動
+  //       },
+  //       {
+  //         duration:1.5,
+  //         autoAlpha: 1, // アニメーション後は出現(透過率0)
+  //         //y: 0, // 20px上に移動
+  //         stagger: 4, // 3秒遅れて順番に再生
+  //         ease: "power2.out",
           
-          onComplete: () => {
-            gsap.to(
-              ".prologue",
-              {
-                duration: 2,
-                autoAlpha: 0,
-              }
-            )
-            sound.everyday.play();
-            sound.thinking.fade(0, 1, 5000);
-          },
-        }
-      );
-  });
+  //         onComplete: () => {
+  //           gsap.to(
+  //             ".prologue",
+  //             {
+  //               duration: 2,
+  //               autoAlpha: 0,
+  //             }
+  //           )
+  //           sound.everyday.play();
+  //           sound.thinking.fade(0, 1, 5000);
+  //         },
+  //       }
+  //     );
+  // });
 
   pocketwatch.ee.on('readRFID', (e) => {
     callsheet1.onReadRFID(e);

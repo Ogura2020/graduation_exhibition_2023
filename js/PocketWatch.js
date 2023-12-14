@@ -13,11 +13,11 @@ class PocketWatch {
     this.ee = new EventEmitter3();
     //カード番号
     this.answer = "";
-    const start = document.querySelector("#js-start");
+    // const start = document.querySelector("#js-start");
     const ble_btn2 = document.querySelector("#ble_btn2");
 
     // Connectボタンをクリックした時の処理をConnectbtn関数に移動します
-    start.addEventListener('click', this.onConnect.bind(this));
+    // start.addEventListener('click', this.onConnect.bind(this));
     ble_btn2.addEventListener('click', this.onConnect.bind(this));
   }
 
@@ -76,7 +76,7 @@ class PocketWatch {
         console.log(`Characteristic1 value: ${value1}`);
         console.log(`Characteristic2 value: ${value2}`);
         // //ble通信開始を通知
-        this.ee.emit('Connect');
+        // this.ee.emit('Connect');
       })
       .catch(error => { console.error(error); });
   }

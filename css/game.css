@@ -171,7 +171,7 @@ body{
 }
 
 .menu_btn{
-    background-image: url(../img/menu.png);
+    background-image: url("../img/menu.png");
     background-size: 100px;
     width: 100px;
     height: 100px;
@@ -181,7 +181,7 @@ body{
     right: 10px;
 }
 .menu_btn.is-active{
-    background-image: url(../img/menu_close.png);
+    background-image: url("../img/menu_close.png");
 
 }
 
