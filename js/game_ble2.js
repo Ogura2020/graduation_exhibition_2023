@@ -70,13 +70,19 @@
     scenarios
   );
 
+  $(".menu_btn").click(function () {//ボタンがクリックされたら
+    console.log("ok")
+    $(".menu_btn").toggleClass('is-active');//ナビゲーションにis-activeクラスを付与
+    $(".menu_nav").toggleClass('is-active');//ナビゲーションにis-activeクラスを付与
+  });
+
   const tutorial = new Tutorial('#nazo_dialog');
   const dialog = new Dialog('#nazo_dialog');
   const mystery1 = new Mystery1('#nazo_dialog');
   const mystery2 = new Mystery2('#nazo_dialog');
   const mystery3 = new Mystery3('#nazo_dialog');
   const pocketwatch = new PocketWatch();
-  // const backlog = new Backlog();
+  const backlog = new Backlog();
   const callsheet1 = new CallSheet1('#select_dialog1');
   const callsheet2 = new CallSheet2('#select_dialog2');
   const sound = new Sound();
@@ -84,7 +90,7 @@
   // イベントリスナーを登録する（各インスタンスを紐づける）
   // セリフが切り替わり始めた時の処理
   director.ee.on('start', (e) => {
-    //backlog.onStart(e)
+    backlog.onStart(e)
     actors.forEach((actor) => {
       actor.onStart(e);
     });
