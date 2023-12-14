@@ -18,27 +18,26 @@ class Backlog {
 
       const back_btn = document.querySelector("#back_btn");
   
-      // Connectボタンをクリックした時の処理をConnectbtn関数に移動します
-      back_btn.addEventListener('click', this.toggleBacklog.bind(this));
+      // back_btnボタンをクリックした時の処理をback_btn関数に移動します
+      back_btn.addEventListener('click', this.showBacklog.bind(this));
 
       this.backlog = document.getElementById("backlog");
       this.logList = document.getElementById("logList");
+
+      this.backlog.addEventListener('click', this.hideBacklog.bind(this));
     }
   
     // メッセージを記録するメソッド
     onStart(e) {
-        console.log('[Backlog] onStart', e.text);
-        console.log('バックログ', this.log);
-        this.log.push(e.text);
-    }
 
-    // バックログを表示・非表示に切り替えるメソッド
-    toggleBacklog() {
-        if (this.backlogVisible) {
-            this.hideBacklog();
-        } else {
-            this.showBacklog();
-        }
+        // e.text内の<br>タグを改行に変換
+        const logText = e.text.replace(/<br>/g, '\n');
+
+        console.log('[Backlog] onStart', e.name, logText);
+        console.log('バックログ', this.log);
+        const log = `${e.name}\n${logText}`;
+    
+        this.log.push(log);
     }
 
     // バックログを表示するメソッド
@@ -46,6 +45,9 @@ class Backlog {
         this.populateBacklog();
         this.backlog.style.display = "block";
         this.backlogVisible = true;
+
+        // リストの最後の要素にスクロール
+        this.logList.scrollTop = this.logList.scrollHeight;
     }
 
     // バックログを非表示にするメソッド
@@ -61,6 +63,9 @@ class Backlog {
         this.log.forEach((text, index) => {
             const listItem = document.createElement("li");
             listItem.textContent = `${text}`;
+
+            // クラス名を追加
+            listItem.classList.add("log_list_text");
             this.logList.appendChild(listItem);
         });
     }

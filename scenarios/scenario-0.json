@@ -274,27 +274,7 @@
           }
         ]
       },
-      {
-        "background": "img/bg/bg2.png",
-        "name": "　",
-        "text": "　",
-        "act": [
-          {
-            "id": "none",
-            "position": {
-              "aligh": "left",
-              "value": 0.18
-            }
-          },
-          {
-            "id": "al",
-            "position": {
-              "aligh": "right",
-              "value": 0.18
-            }
-          }
-        ]
-      },
+
       {
         "background": "img/bg/bg2.png",
         "name": "トーマス",
@@ -308,7 +288,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "al",
             "position": {
               "aligh": "right",
               "value": 0.18
