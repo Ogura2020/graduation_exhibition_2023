@@ -40,6 +40,7 @@ class Director {
       this.ee = new EventEmitter3();
       this.scenarioBox = document.querySelector(selectors.scenarioBox);
       this.nameBox = document.querySelector(selectors.nameBox);
+
       this.scenarios = scenarios;
       this.sequence = {
         scenario: 0,
@@ -111,7 +112,7 @@ class Director {
         });
   
         //テキストエリアをクリックするとテキストが進む
-        const text = document.querySelector(".text");
+        const text = document.querySelector(".screen");
         text.addEventListener('click', this.onPlay.bind(this));
         this.ee.on('start', this.#onStart.bind(this));
   
@@ -137,6 +138,15 @@ class Director {
       console.log('[Director] #onStart', e);
       console.log(this.selectedScenarios.size);
       console.log(this.scenarios[this.sequence.scenario].cuts.length);
+
+      const nameBox_display = document.querySelector('#name_area');
+
+      //もし名前欄が空白だったら#name_areaを非表示、入力されていたら表示
+      if (e.name === '　'){
+        nameBox_display.style.display = 'none';
+      } else {
+        nameBox_display.style.display = 'block';
+      }
 
       // //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
       // if(e.cutIndex == this.sequence.cut){
