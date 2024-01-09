@@ -116,7 +116,36 @@ class Director {
         text.addEventListener('click', this.onPlay.bind(this));
         this.ee.on('start', this.#onStart.bind(this));
   
+        // スキップボタンをクリックで謎解きやキャラ選択まで移動する
+        const skip = document.getElementById("skip");
+        skip.addEventListener('click', auto.bind(this));
+
+        // テキストをオートで進める関数
+        function auto() {
+          console.log("スキップボタンクリック")
+          // ここにオートモードでのテキスト進行処理を実装します
+          // カットごとにテキストを進める処理を行います
+          const nowScenario = this.scenarios[this.sequence.scenario];
+          const nowCutIndex = this.sequence.cut;
+          // console.log(nowScenario)
+          // console.log(nowCutIndex)
+
+          // 現在のカットから条件を検証し、該当するカットまでシナリオを進める
+          //謎解き、キャラ選択のひとつ前のテキストまで飛ばす
+          for (let i = nowCutIndex; i < nowScenario.cuts.length; i++) {
+              const cut = nowScenario.cuts[i];
+              //console.log(cut)
+
+            //謎解き分増やすの忘れない
+            if (cut.tutorial || cut.ismystery0 || cut.isCallSheet1 || cut.isCallSheet2) {
+              this.onPlay({ cut: i - 1}); // +1 することで次のカットに進みます
+              break; // 条件が満たされたらループを抜けます
+            }
+          }
+        }
+
         this.onPlay();
+
       }
 
       // 選択済みのシナリオのセット
@@ -140,12 +169,20 @@ class Director {
       console.log(this.scenarios[this.sequence.scenario].cuts.length);
 
       const nameBox_display = document.querySelector('#name_area');
+      const textBox_display = document.querySelector('#text_area');
 
       //もし名前欄が空白だったら#name_areaを非表示、入力されていたら表示
       if (e.name === '　'){
         nameBox_display.style.display = 'none';
       } else {
         nameBox_display.style.display = 'block';
+      }
+
+      //もし名前欄が空白だったら#text_areaを非表示、入力されていたら表示
+      if (e.text === '　'){
+        textBox_display.style.display = 'none';
+      } else {
+        textBox_display.style.display = 'block';
       }
 
       // //オーキャン用に最後のテキストまで行ったら最初に戻るように設定
