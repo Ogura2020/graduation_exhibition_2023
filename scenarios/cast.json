@@ -141,5 +141,194 @@
         "sheet": "normal_g.png"
       }
     ]
+  },
+  {
+    "name": "ron",
+    "path": "img/ron/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal_g.png"
+      }
+    ]
+  },
+  {
+    "name": "azuma",
+    "path": "img/azuma/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal_g.png"
+      }
+    ]
+  },
+  {
+    "name": "avril",
+    "path": "img/avril/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal_g.png"
+      }
+    ]
+  },
+  {
+    "name": "mary",
+    "path": "img/mary/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal_g.png"
+      }
+    ]
+  },
+  {
+    "name": "wick",
+    "path": "img/wick/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal_g.png"
+      }
+    ]
+  },
+  {
+    "name": "griffith",
+    "path": "img/griffith/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal_g.png"
+      }
+    ]
+  },
+  {
+    "name": "south",
+    "path": "img/south/",
+    "acts": [
+      {
+        "frame": 2,
+        "id": "none",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "none.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "normal_g.png"
+      }
+    ]
   }
 ]
