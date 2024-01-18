@@ -11,13 +11,14 @@ class PocketWatch {
     console.log('[PocketWatch] constructor');
 
     this.ee = new EventEmitter3();
-    //カード番号
-    this.answer = "";
-    // const start = document.querySelector("#js-start");
+
+    this.dialogOpen = false; // ダイアログの初期状態は閉じている
+    
+    //const start = document.querySelector("#js-start");
     const ble_btn2 = document.querySelector("#ble_btn2");
 
     // Connectボタンをクリックした時の処理をConnectbtn関数に移動します
-    // start.addEventListener('click', this.onConnect.bind(this));
+    //start.addEventListener('click', this.onConnect.bind(this));
     ble_btn2.addEventListener('click', this.onConnect.bind(this));
   }
 
@@ -56,12 +57,19 @@ class PocketWatch {
         const characteristic1 = characteristics[0];
         const characteristic2 = characteristics[1];
 
-        // Characteristic1とCharacteristic2の処理を行う
-        characteristic1.startNotifications();
-        characteristic1.addEventListener('characteristicvaluechanged', this.handleCharacteristic1Changed.bind(this));
+        // ダイアログの開閉状態に応じて通信を開始
+        //this.setDialogOpenStatus(true);
+        console.log(this.dialogOpen)
 
-        characteristic2.startNotifications();
-        characteristic2.addEventListener('characteristicvaluechanged', this.handleCharacteristic2Changed.bind(this));
+        if (!this.dialogOpen) { // ダイアログが開いている場合のみ処理を行う
+          console.log("ダイアログが開いたとき、通信を開始")
+          // Characteristic1とCharacteristic2の処理を行う
+          characteristic1.startNotifications();
+          characteristic1.addEventListener('characteristicvaluechanged', this.handleCharacteristic1Changed.bind(this));
+  
+          characteristic2.startNotifications();
+          characteristic2.addEventListener('characteristicvaluechanged', this.handleCharacteristic2Changed.bind(this));
+        }
 
         // Characteristic1とCharacteristic2の初期値を読み取る
         return Promise.all([
@@ -76,38 +84,64 @@ class PocketWatch {
         console.log(`Characteristic1 value: ${value1}`);
         console.log(`Characteristic2 value: ${value2}`);
         // //ble通信開始を通知
-        // this.ee.emit('Connect');
+        //this.ee.emit('Connect');
       })
       .catch(error => { console.error(error); });
   }
 
   handleCharacteristic1Changed(event) {
+    if (!this.dialogOpen) {
+      // ダイアログが閉じている場合、通知を無視
+      return;
+    }
+
     const value = event.target.value;
     const decoder = new TextDecoder('utf-8');
     const str = decoder.decode(value);
     // console.log(str);
     console.log(str);
 
-    //ここ要らない気がする
-    // if(str == "4b217b26e5e80"){
-    //   console.log("探偵");
-    //   // isMode = false;
-    //   this.answer = str;
-    // } else if (str === "421da9a6e5e81") {
-    //   console.log("メイド");
-    //   // isMode = false;
-    //   this.answer = str;
-    // }
-
     this.ee.emit('readRFID', str);
   }
 
   handleCharacteristic2Changed(event) {
+    if (!this.dialogOpen) {
+      // ダイアログが閉じている場合、通知を無視
+      return;
+    }
+
     const value = event.target.value;
     const decoder = new TextDecoder('utf-8');
     const str = decoder.decode(value);
     //console.log(str);
 
     this.ee.emit('readAccel', str);
-  }  
+  }
+
+    // ダイアログの開閉状態を設定するメソッド
+    setDialogOpenStatus(isOpen) {
+      this.dialogOpen = isOpen;
+      console.log(this.dialogOpen)
+  
+      // ダイアログが閉じた場合、通信を停止する
+      if (!isOpen) {
+        // Characteristic1とCharacteristic2の通信を停止
+        console.log("ダイアログが閉じたとき、通信を停止")
+        this.stopCharacteristicNotifications();
+      }
+    }
+  
+    // Characteristic1とCharacteristic2の通信を停止するメソッド
+    stopCharacteristicNotifications() {
+    // Characteristic1とCharacteristic2が存在する場合にのみ停止する
+    if (this.characteristic1) {
+      this.characteristic1.stopNotifications();
+      this.characteristic1.removeEventListener('characteristicvaluechanged', this.handleCharacteristic1Changed.bind(this));
+    }
+
+    if (this.characteristic2) {
+      this.characteristic2.stopNotifications();
+      this.characteristic2.removeEventListener('characteristicvaluechanged', this.handleCharacteristic2Changed.bind(this));
+    }
+    }
 }

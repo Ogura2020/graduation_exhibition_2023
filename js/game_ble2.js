@@ -129,7 +129,7 @@
   //         duration:1.5,
   //         autoAlpha: 1, // アニメーション後は出現(透過率0)
   //         //y: 0, // 20px上に移動
-  //         stagger: 4, // 3秒遅れて順番に再生
+  //         stagger: 0.1, // 4秒遅れて順番に再生 出てくる速さ
   //         ease: "power2.out",
           
   //         onComplete: () => {
@@ -166,7 +166,6 @@
   // callSheet のダイアログの開閉状態が変わった時の処理
   callsheet1.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
-
     director.updateLock(isOpen); // シナリオのロック状態を更新する
   });
 
@@ -178,7 +177,6 @@
   // callSheet2 のダイアログの開閉状態が変わった時の処理
   callsheet2.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
-  
     director.updateLock(isOpen); // シナリオのロック状態を更新する
   });
   
@@ -191,12 +189,10 @@
   tutorial.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
     if(e.isOpen){
       sound.everyday.fade(1, 0, 1000);
-      sound.thinking.play();
-      sound.thinking.fade(0, 1, 1000);
     }else {
-      sound.thinking.fade(1, 0, 1000);
       sound.everyday.fade(0, 1, 1000);
     }
 
@@ -211,12 +207,10 @@
   dialog.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
     if(e.isOpen){
       sound.everyday.fade(1, 0, 1000);
-      sound.thinking.play();
-      sound.thinking.fade(0, 1, 1000);
     }else {
-      sound.thinking.fade(1, 0, 1000);
       sound.everyday.fade(0, 1, 1000);
     }
 
