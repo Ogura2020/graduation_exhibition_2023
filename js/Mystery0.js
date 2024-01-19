@@ -91,7 +91,7 @@ class Dialog {
   
         // ダイアログ内がクリックされたときの処理を追加
         this.nazoDialog.addEventListener('click', () => {
-          if (this.nazoDialog.classList.contains('mistery')) {
+          if (this.nazoDialog.classList.contains('mystery')) {
             this.tips.src = 'img/mystery0/hint.png';
           }
   
@@ -115,15 +115,15 @@ class Dialog {
     //console.log('[Dialog] onStart', e);
 
     // 画像ファイル名のリスト
-    this.imageList = ['star.png', 'kasa.png', 'taiyou.png', 'clover.png']; 
+    this.imageList = ['star.png', 'kasa.png', 'taiyou.png', 'clover.png', 'sankaku.png', 'daiya.png', 'batu.png', 'maru.png', 'supedo.png', 'heart.png', 'sikaku.png']; 
     
     // ismystery が true のカットであるかの真偽値
     const nextOpenState = e.hasOwnProperty('ismystery0') && e.ismystery0;
 
     if (nextOpenState) {
-      this.nazoDialog.classList.add('mistery');
+      this.nazoDialog.classList.add('mystery');
     } else {
-      this.nazoDialog.classList.remove('mistery');
+      this.nazoDialog.classList.remove('mystery');
     }
 
     // ダイアログ要素が存在するか
