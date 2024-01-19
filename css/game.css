@@ -177,8 +177,8 @@ body{
     height: 100px;
     position: absolute;
     z-index: 6;
-    top: 20px;
-    right: 30px;
+    top: 90px;
+    right: 40px;
 }
 .menu_btn.is-active{
     background-image: url("../img/menu_close.png");
@@ -206,10 +206,12 @@ body{
 }
 ul{
     list-style: none;
-    text-align: center;
 }
 li{
     margin: 65px;
+}
+ul.menu_list{
+    text-align: center;
 }
 .btn{
     color: rgb(255, 245, 200);
