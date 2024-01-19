@@ -137,7 +137,7 @@ class Director {
               //console.log(cut)
 
             //謎解き分増やすの忘れない
-            if (cut.tutorial || cut.ismystery0 || cut.isCallSheet1 || cut.isCallSheet2) {
+            if (cut.tutorial || cut.ismystery0 || cut.ismystery1 || cut.ismystery2 || cut.ismystery3 || cut.ismystery4 || cut.ismystery5 || cut.ismystery6 || cut.ismystery7 || cut.ismystery8 || cut.ismystery9 || cut.ismystery10 || cut.ismystery11 || cut.ismystery12 || cut.isCallSheet1 || cut.isCallSheet2) {
               this.onPlay({ cut: i - 1}); // +1 することで次のカットに進みます
               break; // 条件が満たされたらループを抜けます
             }
@@ -214,9 +214,9 @@ class Director {
       // }
 
       //OC用、本番用に改良する。シナリオ1の最後まで行くとリロード
-      if(this.scenarios[this.sequence.scenario].cuts.length === this.sequence.cut){
-        location.reload();
-      }
+      // if(this.scenarios[this.sequence.scenario].cuts.length === this.sequence.cut){
+      //   location.reload();
+      // }
 
       this.nameBox.insertAdjacentHTML('afterbegin', e.name);
     }

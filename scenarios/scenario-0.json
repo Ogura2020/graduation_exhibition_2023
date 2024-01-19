@@ -23,7 +23,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
         "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・。<br>ここよね、きっと 。",
         "act": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg5.png",
         "name": "アズキ",
         "text": "（私の侍女が調べてくれた情報によると、ここの探偵事務所のトーマスさんは幾度もの難事件を解決している凄い人・・・。<br>そんな凄い人が私の依頼を受けてくれるかは分からないけど・・・でも、もう猶予も時間もない！）",
         "act": [
@@ -62,10 +62,11 @@
               "value": 0.01
             }
           }
-        ]
+        ],
+        "ismystery12":true
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg6.png",
         "name": "アズキ",
         "text": "・・・どうか、留守じゃありませんように！",
         "act": [
@@ -86,7 +87,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg7.png",
         "name": "アズキ",
         "text": "”トーマス探偵事務所に用のある者は叩き金を３度叩くように。”か・・・・・これかな？",
         "act": [
@@ -107,7 +108,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg8.png",
         "name": "　",
         "text": "コンッ　コンッ　コンッ",
         "act": [
@@ -128,7 +129,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg3.png",
         "name": "　",
         "text": "・・・・・・・・・・・・・・・・",
         "act": [
@@ -149,7 +150,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/niwa.png",
         "name": "アズキ",
         "text": "（あ、あれ・・・誰も出てこない？叩き金、少し弱すぎたかな？）",
         "act": [
@@ -170,7 +171,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg9.png",
         "name": "　",
         "text": "コンッ！　コンッ！　コンッ！",
         "act": [
@@ -274,7 +275,27 @@
           }
         ]
       },
-
+      {
+        "background": "img/bg/bg2.png",
+        "name": "　",
+        "text": "　",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
       {
         "background": "img/bg/bg2.png",
         "name": "トーマス",
@@ -288,7 +309,7 @@
             }
           },
           {
-            "id": "al",
+            "id": "normal",
             "position": {
               "aligh": "right",
               "value": 0.18
@@ -2984,7 +3005,8 @@
               "value": 0.01
             }
           }
-        ]
+        ],
+        "isCallSheet1": true
       }
     ]
 }
