@@ -16,7 +16,6 @@ class Tutorial extends Dialog {
           if (this.nazoDialog.classList.contains('tutorial')) {
             this.tips.src = 'img/tutorial/hint.png';
           }
-  
 
         });
     }
@@ -28,7 +27,7 @@ class Tutorial extends Dialog {
     //console.log('[Dialog] onStart', e);
 
     // 画像ファイル名のリスト
-    this.imageList = ['white.png', 'blue.png', 'purple.png', 'red.png']; 
+    this.imageList = ['white.png', 'blue.png', 'purple.png', 'red.png', 'yellow.png', 'light_green.png', 'light_blue.png', 'pink.png', 'black.png', 'orange.png', 'green.png']; 
 
     // ismystery が true のカットであるかの真偽値
     const nextOpenState = e.hasOwnProperty('tutorial') && e.tutorial;
@@ -44,9 +43,11 @@ class Tutorial extends Dialog {
       if (!this.isOpen && nextOpenState) {
 
         // ダイアログ内の画像を更新
-        this.dialog.querySelector('.mystery_img').src = "img/tutorial/0.png"; // ここに新しい画像のパスを設定
+        this.dialog.querySelector('.mystery_img').src = "img/tutorial/0.png"; // ここに新しい画像のパスを設定(初めに表示される画像)
 
-
+        //BGM再生
+        this.sound.thinking.play();
+        this.sound.thinking.fade(0, 1, 3000);
 
         // シナリオのカットのプロパティ ismystery が true ある場合
         // ダイアログを開く
@@ -68,6 +69,7 @@ class Tutorial extends Dialog {
     if (this.isOpen) {
       console.log('[Dialog] onReadRFID', e);
       this.ee.emit('select', e);
+      this.id = e;
       this.imgElement = this.dialog.querySelector('.mystery_img');
 
       //ヒントが表示されていないとき、それぞれにあった画像に入れ替える
@@ -85,6 +87,27 @@ class Tutorial extends Dialog {
       } else if (e === this.status[3].id) {
         this.sound.select_3.play();
         this.imgElement.src = "img/tutorial/" + this.imageList[3];
+      } else if (e === this.status[4].id) {
+        this.sound.select_4.play();
+        this.imgElement.src = "img/tutorial/" + this.imageList[4];
+      } else if (e === this.status[5].id) {
+        this.sound.select_5.play();
+        this.imgElement.src = "img/tutorial/" + this.imageList[5];
+      } else if (e === this.status[6].id) {
+        this.sound.select_6.play();
+        this.imgElement.src = "img/tutorial/" + this.imageList[6];
+      } else if (e === this.status[7].id) {
+        this.sound.select_7.play();
+        this.imgElement.src = "img/tutorial/" + this.imageList[7];
+      } else if (e === this.status[8].id) {
+        this.sound.select_8.play();
+        this.imgElement.src = "img/tutorial/" + this.imageList[8];
+      } else if (e === this.status[9].id) {
+        this.sound.select_9.play();
+        this.imgElement.src = "img/tutorial/" + this.imageList[9];
+      } else if (e === this.status[10].id) {
+        this.sound.select_10.play();
+        this.imgElement.src = "img/tutorial/" + this.imageList[10];
       }
     }
   }
@@ -106,15 +129,34 @@ class Tutorial extends Dialog {
         console.log("ヒント表示中（block）の時は何も起こらない")
       } else if (Math.abs(accel[0]) > 1.0 && this.imgElement.src.endsWith(this.imageList[2])) {
         console.log("正解かつヒントが表示されていない場合、進む")
-        this.sound.clear.play();
+
+        // 音が再生されていない場合にのみ音を再生
+        if (!this.isClear) {
+          this.sound.clear.play();
+          this.isClear = true; // 音が再生されたことを記録
+        }
+
         this.dialog.close();
         this.dialog.classList.remove('open');
         this.ee.emit('updateModal', { isOpen: false });
+        this.isOpen = false
+        //BGM停止
+        this.sound.thinking.fade(1, 0, 1000);
       } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[2]) && this.imgElement.src.endsWith("img/tutorial/0.png")) {
         console.log("選択されてない場合、振っても何も起こらない");
       } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[2]) ) {
-        this.sound.miss.play();
-        console.log("不正解の場合に音が鳴る");
+
+        // １つ前に選択したカード（ID）と違っていたらisMissをfalseにする
+        if (this.select !== this.id){
+          this.isMiss = false;
+          // 音が再生されていない場合にのみ音を再生
+          if (!this.isMiss) {
+            this.sound.miss.play();
+            console.log("不正解の場合に音が鳴る");
+            this.isMiss = true; // 音が再生されたことを記録
+            this.select = this.id
+          }
+        }
       } 
 
     }
