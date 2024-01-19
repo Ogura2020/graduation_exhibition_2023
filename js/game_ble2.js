@@ -81,6 +81,7 @@
   const mystery1 = new Mystery1('#nazo_dialog');
   const mystery2 = new Mystery2('#nazo_dialog');
   const mystery3 = new Mystery3('#nazo_dialog');
+  const mystery12 = new Mystery12('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const backlog = new Backlog();
   const callsheet1 = new CallSheet1('#select_dialog1');
@@ -102,6 +103,7 @@
     mystery1.onStart(e);
     mystery2.onStart(e);
     mystery3.onStart(e);
+    mystery12.onStart(e);
   });
 
   director.ee.on('complete', (e) => {
@@ -153,20 +155,25 @@
     tutorial.onReadRFID(e);
     dialog.onReadRFID(e);
     mystery1.onReadRFID(e);
-    //mystery2.onReadRFID(e);
+    mystery2.onReadRFID(e);
     mystery3.onReadRFID(e);
+    mystery12.onReadRFID(e);
   });
 
   pocketwatch.ee.on('readAccel', (e) => {
     tutorial.onReadAccel(e);
     dialog.onReadAccel(e);
+    mystery1.onReadAccel(e);
     mystery2.onReadAccel(e);
+    mystery3.onReadAccel(e);
+    mystery12.onReadAccel(e);
   });
 
   // callSheet のダイアログの開閉状態が変わった時の処理
   callsheet1.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
   });
 
   // callSheet のダイアログが開いているときに RFID が読み取られた時の処理
@@ -178,6 +185,7 @@
   callsheet2.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
   });
   
   // callSheet2 のダイアログが開いているときに RFID が読み取られた時の処理
@@ -195,7 +203,6 @@
     }else {
       sound.everyday.fade(0, 1, 1000);
     }
-
   });
 
   // tutorial のダイアログが開いているときに RFID が読み取られた時の処理
@@ -213,7 +220,6 @@
     }else {
       sound.everyday.fade(0, 1, 1000);
     }
-
   });
 
   // dialog のダイアログが開いているときに RFID が読み取られた時の処理
@@ -225,6 +231,12 @@
   mystery1.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.everyday.fade(1, 0, 1000);
+    }else {
+      sound.everyday.fade(0, 1, 1000);
+    }
   });
 
   // mystery1 のダイアログが開いているときに RFID が読み取られた時の処理
@@ -236,6 +248,12 @@
   mystery2.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.everyday.fade(1, 0, 1000);
+    }else {
+      sound.everyday.fade(0, 1, 1000);
+    }
   });
 
   // mystery2 のダイアログが開いているときに RFID が読み取られた時の処理
@@ -247,6 +265,12 @@
   mystery3.ee.on('updateModal', (e) => {
     const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
     director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.everyday.fade(1, 0, 1000);
+    }else {
+      sound.everyday.fade(0, 1, 1000);
+    }
   });
 
   // mystery3 のダイアログが開いているときに RFID が読み取られた時の処理
@@ -254,7 +278,20 @@
     
   });
 
-  // pocketwatch.ee.on("readAccel", (e) =>{
-  //   console.log(e)
-  // })
+  // mystery12 のダイアログの開閉状態が変わった時の処理
+  mystery12.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.everyday.fade(1, 0, 1000);
+    }else {
+      sound.everyday.fade(0, 1, 1000);
+    }
+  });
+
+  // mystery12 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery12.ee.on('select', (e) => {
+    
+  });
 })();
