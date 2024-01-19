@@ -93,16 +93,16 @@ class Dialog {
         this.nazoDialog.addEventListener('click', () => {
           if (this.nazoDialog.classList.contains('mystery')) {
             this.tips.src = 'img/mystery0/hint.png';
-          }
-  
-          // 画像の表示状態を取得
-          const show = this.tips.style.display === 'block';
-  
-          // 画像の表示状態を切り替える
-          if (show) {
-            this.tips.style.display = 'none'; // 画像を非表示する
-          } else {
-            this.tips.style.display = 'block'; // 画像を表示する
+
+            // 画像の表示状態を取得
+            const show = this.tips.style.display === 'block';
+
+            // 画像の表示状態を切り替える
+            if (show) {
+              this.tips.style.display = 'none'; // 画像を非表示する
+            } else {
+              this.tips.style.display = 'block'; // 画像を表示する
+            }
           }
         });
     }
