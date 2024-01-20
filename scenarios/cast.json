@@ -40,7 +40,7 @@
       },
       {
         "frame": 11,
-        "id": "al",
+        "id": "fade",
         "loop": false,
         "scale": 0.6,
         "sheet": "al.png"
@@ -81,7 +81,7 @@
       },
       {
         "frame": 11,
-        "id": "al",
+        "id": "fade",
         "loop": false,
         "scale": 0.6,
         "sheet": "al.png"
