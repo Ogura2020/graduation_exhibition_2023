@@ -8,13 +8,23 @@ class Tutorial extends Dialog {
         console.log('[tutorial] constructor ');
         super(selector);
 
-        this.nazoDialog = document.querySelector("#nazo_dialog");
-        this.tips = document.querySelector(".tips_img"); // tips 変数に値を設定
+        // this.nazoDialog = document.querySelector("#nazo_dialog");
+        // this.tips = document.querySelector(".tips_img"); // tips 変数に値を設定
 
         // ダイアログ内がクリックされたときの処理を追加
         this.nazoDialog.addEventListener('click', () => {
           if (this.nazoDialog.classList.contains('tutorial')) {
             this.tips.src = 'img/tutorial/hint.png';
+            
+          // 画像の表示状態を取得
+          const show = this.tips.style.display === 'block';
+
+          // 画像の表示状態を切り替える
+          if (show) {
+            this.tips.style.display = 'none'; // 画像を非表示する
+          } else {
+            this.tips.style.display = 'block'; // 画像を表示する
+          }
           }
 
         });

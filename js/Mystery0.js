@@ -89,22 +89,7 @@ class Dialog {
         this.nazoDialog = document.querySelector('#nazo_dialog');
         this.tips = document.querySelector('.tips_img'); // tips 変数に値を設定
   
-        // ダイアログ内がクリックされたときの処理を追加
-        this.nazoDialog.addEventListener('click', () => {
-          if (this.nazoDialog.classList.contains('mystery')) {
-            this.tips.src = 'img/mystery0/hint.png';
-          }
-  
-          // 画像の表示状態を取得
-          const show = this.tips.style.display === 'block';
-  
-          // 画像の表示状態を切り替える
-          if (show) {
-            this.tips.style.display = 'none'; // 画像を非表示する
-          } else {
-            this.tips.style.display = 'block'; // 画像を表示する
-          }
-        });
+
     }
     
 
@@ -113,6 +98,22 @@ class Dialog {
    */
   onStart(e) {
     //console.log('[Dialog] onStart', e);
+    // ダイアログ内がクリックされたときの処理を追加
+    this.nazoDialog.addEventListener('click', () => {
+      if (this.nazoDialog.classList.contains('mystery')) {
+        this.tips.src = 'img/mystery0/hint.png';
+
+        // 画像の表示状態を取得
+        const show = this.tips.style.display === 'block';
+
+        // 画像の表示状態を切り替える
+        if (show) {
+          this.tips.style.display = 'none'; // 画像を非表示する
+        } else {
+          this.tips.style.display = 'block'; // 画像を表示する
+        }
+      }
+    });
 
     // 画像ファイル名のリスト
     this.imageList = ['star.png', 'kasa.png', 'taiyou.png', 'clover.png', 'sankaku.png', 'daiya.png', 'batu.png', 'maru.png', 'supedo.png', 'heart.png', 'sikaku.png']; 
