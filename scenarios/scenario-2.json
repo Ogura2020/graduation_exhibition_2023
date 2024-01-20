@@ -1,10 +1,10 @@
 {
-    "actorIdsArray": [0, 1],
+    "actorIdsArray": [3, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "aaaaa",
+        "text": "マリアとのシナリオです",
         "act": [
           {
             "id": "normal",
@@ -23,7 +23,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": " bbbbb",
         "act": [
@@ -42,10 +42,10 @@
             }
           }
         ],
-        "ismystery2":true
+        "ismystery0":true
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "ccc",
         "act": [

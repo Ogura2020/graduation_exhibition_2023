@@ -1,10 +1,10 @@
 {
-    "actorIdsArray": [0, 1],
+    "actorIdsArray": [2, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "…………。",
+        "text": "シャロットのシナリオです",
         "act": [
           {
             "id": "normal",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "す、すみませ～ん。 ",
         "act": [
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "誰もいないのかな？<br>あっドアが開いてる。",
         "act": [
@@ -68,7 +68,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "少年",
         "text": "次は誰に話しかけよう",
         "act": [
@@ -76,21 +76,21 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             },
             "display": "false" 
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "少年",
         "text": "なにか御用ですか？",
         "act": [
@@ -98,20 +98,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "あっあの、探偵さんは…?",
         "act": [
@@ -119,7 +119,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -132,7 +132,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "少年",
         "text": "………。",
         "act": [
@@ -140,7 +140,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -153,7 +153,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "少年",
         "text": "僕ですけど。",
         "act": [
@@ -161,20 +161,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "えっ…!?",
         "act": [
@@ -182,7 +182,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -195,7 +195,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "え～～～～！？",
         "act": [
@@ -203,7 +203,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -217,7 +217,7 @@
         "ismystery1":true
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "あなたがあのトーマス・ティム・ロシーなの！？<br>こんな子どもが…！？",
         "act": [
@@ -225,7 +225,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -238,7 +238,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "ティム",
         "text": "失礼な人ですね。<br>同業者のくせにそんなことも知らずにここに来たんですか？",
         "act": [
@@ -246,20 +246,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "なっなんで私も探偵だって知ってるの？",
         "act": [
@@ -267,7 +267,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -280,7 +280,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "ティム",
         "text": "そんなことより、何の用なんですか？",
         "act": [
@@ -288,20 +288,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "ティム",
         "text": "探偵が探偵に依頼するなんて聞いたことがないし。<br>僕、面倒ごとは嫌いなんですけど。",
         "act": [
@@ -309,20 +309,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "あなたの言う通り変なのは分かってる。<br>だけど、あなたしか頼れる人がいなくてここまで来たの！",
         "act": [
@@ -330,7 +330,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -343,7 +343,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "知り合いの情報屋からなかなかできるヤツだって聞いたわ。<br>(噂でもよく聞くし…。子どもとは知らなかったけど。)",
         "act": [
@@ -351,7 +351,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -364,7 +364,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "お願い…！！",
         "act": [
@@ -372,7 +372,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -385,7 +385,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "ティム",
         "text": "…分かった。話を聞いてから決めるよ。<br>中に入って。",
         "act": [
@@ -393,20 +393,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "ありがとう！",
         "act": [
@@ -414,7 +414,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -427,7 +427,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "ティム",
         "text": "そういえば名前を聞いていなかったね。名前は？",
         "act": [
@@ -435,20 +435,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "…アズキ。アズキ・シェレンベルカー。",
         "act": [
@@ -456,7 +456,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "ティム",
         "text": "シェレンベルカー？<br>シェレンベルカー家のお嬢様がなんで探偵なんてやっているんだ？",
         "act": [
@@ -477,20 +477,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "家の話はいいんです。<br>この手紙を見てみてください。",
         "act": [
@@ -498,7 +498,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -511,7 +511,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "私、この手紙を解読して何としても手に入れないといけないものがあるんです！<br>でもどうしても解けなくて…。だからあなたを頼ってここに。",
         "act": [
@@ -519,7 +519,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
@@ -532,7 +532,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "ティム",
         "text": "ふ～ん。見せてみて。<br>これは…。",
         "act": [
@@ -540,20 +540,20 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.2
+              "value": 0.18
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "　",
         "text": "続く",
         "act": [
@@ -561,7 +561,7 @@
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.2
+              "value": 0.18
             }
           },
           {

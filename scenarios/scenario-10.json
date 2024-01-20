@@ -1,10 +1,10 @@
 {
-    "actorIdsArray": [0, 1],
+    "actorIdsArray": [10, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "eee",
+        "text": "サウスのシナリオです",
         "act": [
           {
             "id": "normal",
@@ -21,12 +21,12 @@
             }
           }
         ],
-        "ismystery3":true
+        "ismystery0":true
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "fff",
+        "text": "謎が解けてすっきりしました。ありがとうございます。",
         "act": [
           {
             "id": "normal",
@@ -45,7 +45,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "fff",
         "act": [

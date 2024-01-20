@@ -20,6 +20,7 @@ class Director {
       'epi2': 12,
       'epi3': 13,
       'epi4': 14,
+      'epi5': 15,
     };
   
     /**
@@ -54,6 +55,9 @@ class Director {
       // タイムラインをセットアップする
       this.timeline.addLabel(startLabel);
       this.labels.push(startLabel);
+
+      this.part = 1;
+      console.log("飛んだ" + this.part)
   
       // this.ee.on('complete', (e) => {
       //   // テキストが特定の条件を満たすかどうかを確認  "ここに書いたテキストに反応"
@@ -137,7 +141,7 @@ class Director {
               //console.log(cut)
 
             //謎解き分増やすの忘れない
-            if (cut.tutorial || cut.ismystery0 || cut.ismystery1 || cut.ismystery2 || cut.ismystery3 || cut.ismystery4 || cut.ismystery5 || cut.ismystery6 || cut.ismystery7 || cut.ismystery8 || cut.ismystery9 || cut.ismystery10 || cut.ismystery11 || cut.ismystery12 || cut.isCallSheet1 || cut.isCallSheet2) {
+            if (cut.tutorial || cut.ismystery0 || cut.ismystery1 || cut.ismystery2 || cut.ismystery3 || cut.ismystery4 || cut.ismystery5 || cut.ismystery6 || cut.ismystery7 || cut.ismystery8 || cut.ismystery9 || cut.ismystery10 || cut.ismystery11 || cut.ismystery12 || cut.isCallSheet1 || cut.isCallSheet2|| cut.isCallSheet3) {
               this.onPlay({ cut: i - 1}); // +1 することで次のカットに進みます
               break; // 条件が満たされたらループを抜けます
             }
@@ -167,6 +171,7 @@ class Director {
       console.log('[Director] #onStart', e);
       console.log(this.selectedScenarios.size);
       console.log(this.scenarios[this.sequence.scenario].cuts.length);
+      console.log("現在のシナリオ"+this.sequence.scenario);
 
       const nameBox_display = document.querySelector('#name_area');
       const textBox_display = document.querySelector('#text_area');
@@ -200,13 +205,15 @@ class Director {
       }
   
       // 特定の条件を満たす場合、特定のシナリオに飛ばす（例: 3つのシナリオに飛んだ場合）
-      if (this.part !== 2 && this.selectedScenarios.size === 2 && this.scenarios[this.sequence.scenario].cuts.length <= this.sequence.cut) {
+      if (this.part === 1 && this.selectedScenarios.size === 2 && this.scenarios[this.sequence.scenario].cuts.length <= this.sequence.cut) {
         this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epi2']);
         this.selectedScenarios = new Set();
         this.part = 2;
-        console.log("飛んだ",this.selectedScenarios.size, this.selectedScenarios,this.part)
+        console.log("飛んだ前半",this.selectedScenarios.size, this.selectedScenarios,this.part)
       } else if (this.part === 2 && this.selectedScenarios.size === 2 && this.scenarios[this.sequence.scenario].cuts.length <= this.sequence.cut) {
         this.jumpToAnotherScenario(Director.SCENARIO_INDEX['epi3']);
+        this.part = 3;
+        console.log("飛んだ後半",this.selectedScenarios.size, this.selectedScenarios,this.part)
       }
 
       // if(this.scenarios[12] && this.selectedScenarios.size === 2){
@@ -232,10 +239,9 @@ class Director {
       console.log(this.scenarios[scenarioIndex].cuts.length);
 
       // カード0,4,7,8,9かつまだ選択されていないシナリオの場合、プロローグ以外で(scenarioIndex !== 0 && )
-      if (this.part !== 2 && !this.selectedScenarios.has(scenarioIndex) && ([11, 4, 7, 8, 9].includes(scenarioIndex))) {
+      if (this.part === 1 && !this.selectedScenarios.has(scenarioIndex) && ([11, 4, 7, 8, 9].includes(scenarioIndex))) {
         // シナリオを変更する
         this.selectedScenarios.add(scenarioIndex); // シナリオを選択済みに設定
-
         // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
         this.isMode = false;
         // シナリオの最初のカットから再生を開始する
@@ -243,10 +249,10 @@ class Director {
           scenario: scenarioIndex,
           cut: 0,
         });
+        console.log("飛んだ" + this.part)
       } else if(this.part === 2 && !this.selectedScenarios.has(scenarioIndex) && ([1, 2, 3, 5, 6, 10].includes(scenarioIndex))) {
         // シナリオを変更する
         this.selectedScenarios.add(scenarioIndex); // シナリオを選択済みに設定
-
         // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
         this.isMode = false;
         // シナリオの最初のカットから再生を開始する
@@ -254,7 +260,32 @@ class Director {
           scenario: scenarioIndex,
           cut: 0,
         });
+        console.log("飛んだ" + this.part)
       }
+
+      if(this.sequence.scenario === 13 && rfid === "421da9a6e5e81") {
+        this.seikai = 0;
+        // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
+        this.isMode = false;
+        // シナリオの最初のカットから再生を開始する
+        this.onPlay({
+          scenario: Director.SCENARIO_INDEX['epi4'],
+          cut: 0,
+        });
+        console.log("飛んだ正解" + this.part)
+      } else if(this.sequence.scenario === 13 && rfid !== "460c6b2c11190" && rfid !== "46623b2c11190" && rfid !== "45399b2c11191" && rfid !== "421da9a6e5e81") {
+        this.seikai = 1;
+        // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする
+        this.isMode = false;
+        // シナリオの最初のカットから再生を開始する
+        this.onPlay({
+          scenario: Director.SCENARIO_INDEX['epi5'],
+          cut: 0,
+        });
+        console.log("飛んだ不正解" + this.part)
+      }
+
+
       console.log(this.selectedScenarios.size, this.selectedScenarios, this.part)
 
       //console.log(this.selectedScenarios);

@@ -1,8 +1,8 @@
 {
-    "actorIdsArray": [0, 1],
+    "actorIdsArray": [4, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "ロンベル・ティガーとのシナリオです",
         "act": [
@@ -21,10 +21,10 @@
             }
           }
         ],
-        "ismystery3":true
+        "ismystery0":true
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "fff",
         "act": [
@@ -45,7 +45,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
         "text": "",
         "act": [

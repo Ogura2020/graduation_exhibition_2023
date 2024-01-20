@@ -23,7 +23,8 @@
     'scenarios/scenario-11.json',
     'scenarios/scenario-12.json',
     'scenarios/scenario-13.json',
-    'scenarios/scenario-14.json'
+    'scenarios/scenario-14.json',
+    'scenarios/scenario-15.json'
   ]);
 
   // キャラクターの初期設定をする
@@ -86,6 +87,7 @@
   const backlog = new Backlog();
   const callsheet1 = new CallSheet1('#select_dialog1');
   const callsheet2 = new CallSheet2('#select_dialog2');
+  const callsheet3 = new CallSheet3('#select_dialog3');
   const sound = new Sound();
 
   // イベントリスナーを登録する（各インスタンスを紐づける）
@@ -98,6 +100,7 @@
     background.onStart(e);
     callsheet1.onStart(e);
     callsheet2.onStart(e);
+    callsheet3.onStart(e);
     tutorial.onStart(e);
     dialog.onStart(e);
     mystery1.onStart(e);
@@ -152,6 +155,7 @@
   pocketwatch.ee.on('readRFID', (e) => {
     callsheet1.onReadRFID(e);
     callsheet2.onReadRFID(e);
+    callsheet3.onReadRFID(e);
     tutorial.onReadRFID(e);
     dialog.onReadRFID(e);
     mystery1.onReadRFID(e);
@@ -192,6 +196,18 @@
   callsheet2.ee.on('select', (e) => {
     director.onSelect(e);
   });
+
+    // callSheet3 のダイアログの開閉状態が変わった時の処理
+    callsheet3.ee.on('updateModal', (e) => {
+      const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+      director.updateLock(isOpen); // シナリオのロック状態を更新する
+      pocketwatch.setDialogOpenStatus(isOpen)
+    });
+    
+    // callSheet3 のダイアログが開いているときに RFID が読み取られた時の処理
+    callsheet3.ee.on('select', (e) => {
+      director.onSelect(e);
+    });
 
   // tutorial のダイアログの開閉状態が変わった時の処理
   tutorial.ee.on('updateModal', (e) => {

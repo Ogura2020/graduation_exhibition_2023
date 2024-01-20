@@ -4,7 +4,7 @@
       {
         "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "今日はもう遅いから明日にしよう！",
+        "text": "エンディングのシナリオ2",
         "act": [
           {
             "id": "normal",
@@ -25,7 +25,7 @@
       {
         "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "起床後、後半パートのキャラクターに話しかけます",
+        "text": "犯人不正解ルート",
         "act": [
           {
             "id": "normal",
@@ -46,7 +46,7 @@
       {
         "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "この時話しかけれるキャラクターは６人です。",
+        "text": "いいい",
         "act": [
           {
             "id": "normal",
@@ -63,28 +63,6 @@
             }
           }
         ]
-      },
-      {
-        "background": "img/bg/kari_bg.png",
-        "name": "アズキ",
-        "text": "",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          }
-        ],
-        "isCallSheet2": true
       }
     ]
   }

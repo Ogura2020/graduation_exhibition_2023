@@ -2,9 +2,9 @@
     "actorIdsArray": [0, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "3つの部屋のシナリオ",
+        "text": "書斎にいく流れに…。",
         "act": [
           {
             "id": "normal",
@@ -23,9 +23,9 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "あああ",
+        "text": "扉を開けるとおじが死んでる！！",
         "act": [
           {
             "id": "normal",
@@ -44,9 +44,95 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.jpg",
+        "background": "img/bg/kari_bg.png",
         "name": "アズキ",
-        "text": "いいい",
+        "text": "あれっ！なんか落ちてる（３つの部屋の謎）",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/kari_bg.png",
+        "name": "アズキ",
+        "text": "答はこれだね",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ],
+        "ismystery12":true
+      },
+      {
+        "background": "img/bg/kari_bg.png",
+        "name": "アズキ",
+        "text": "さぁ、調査を続けよう",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/kari_bg.png",
+        "name": "アズキ",
+        "text": "キャラクター選択",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.45
+            }
+          }
+        ],
+        "isCallSheet3":true
+      },
+      {
+        "background": "img/bg/kari_bg.png",
+        "name": "アズキ",
+        "text": "aaaa",
         "act": [
           {
             "id": "normal",
