@@ -100,7 +100,7 @@ class Dialog {
     //console.log('[Dialog] onStart', e);
     // ダイアログ内がクリックされたときの処理を追加
     this.nazoDialog.addEventListener('click', () => {
-      if (this.nazoDialog.classList.contains('mystery')) {
+      if (this.nazoDialog.classList.contains('mystery0')) {
         this.tips.src = 'img/mystery0/hint.png';
 
         // 画像の表示状態を取得
@@ -122,9 +122,9 @@ class Dialog {
     const nextOpenState = e.hasOwnProperty('ismystery0') && e.ismystery0;
 
     if (nextOpenState) {
-      this.nazoDialog.classList.add('mystery');
+      this.nazoDialog.classList.add('mystery0');
     } else {
-      this.nazoDialog.classList.remove('mystery');
+      this.nazoDialog.classList.remove('mystery0');
     }
 
     // ダイアログ要素が存在するか
