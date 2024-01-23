@@ -17,9 +17,15 @@ class Sound {
       volume: 0.05,
     });
 
+    this.title = new Howl({
+      src: ['audio/title.mp3'],
+      loop: true,
+      volume: 0.1,
+    });
+
     //なぞ解きBGM
     this.thinking = new Howl({
-      src: ['audio/thinking_roop.mp3'],
+      src: ['audio/thinking.mp3'],
       loop: true,
       volume: 0.3,
     });
@@ -28,12 +34,11 @@ class Sound {
     this.everyday = new Howl({
       src: ['audio/everyday.mp3'],
       loop: true,
-      volume: 0.1,
     });
 
     //正解
     this.clear = new Howl({
-      src: ['audio/clear.mp3'],
+      src: ['audio/clear1.mp3'],
     });
 
     //不正解
