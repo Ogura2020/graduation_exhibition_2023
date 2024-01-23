@@ -303,6 +303,15 @@ dialog.select_dialog{
     margin: 0 15px;
 }
 
+.select_dialog_chara_suspect{
+    margin-top: 70px;
+}
+.select_dialog_chara_img_suspect{
+    width: 20%;
+    height: 25%;
+    margin: 50px 15px 0;
+}
+
 .dialog_deco1 {
     position: absolute;
     width: 85px; /* 要素の幅を指定 */
