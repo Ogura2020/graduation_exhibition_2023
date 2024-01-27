@@ -82,6 +82,7 @@
   const mystery1 = new Mystery1('#nazo_dialog');
   const mystery2 = new Mystery2('#nazo_dialog');
   const mystery3 = new Mystery3('#nazo_dialog');
+  const mystery4 = new Mystery4('#nazo_dialog');
   const mystery12 = new Mystery12('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const backlog = new Backlog();
@@ -89,6 +90,9 @@
   const callsheet2 = new CallSheet2('#select_dialog2');
   const callsheet3 = new CallSheet3('#select_dialog3');
   const sound = new Sound();
+
+  //タイトルBGM
+  //sound.title.play();
 
   // イベントリスナーを登録する（各インスタンスを紐づける）
   // セリフが切り替わり始めた時の処理
@@ -106,6 +110,7 @@
     mystery1.onStart(e);
     mystery2.onStart(e);
     mystery3.onStart(e);
+    mystery4.onStart(e);
     mystery12.onStart(e);
   });
 
@@ -145,8 +150,9 @@
   //               autoAlpha: 0,
   //             }
   //           )
+  //           sound.title.stop();
   //           sound.everyday.play();
-  //           sound.thinking.fade(0, 1, 5000);
+  //           //sound.thinking.fade(0, 1, 5000);
   //         },
   //       }
   //     );
@@ -161,6 +167,7 @@
     mystery1.onReadRFID(e);
     mystery2.onReadRFID(e);
     mystery3.onReadRFID(e);
+    mystery4.onReadRFID(e);
     mystery12.onReadRFID(e);
   });
 
@@ -170,6 +177,7 @@
     mystery1.onReadAccel(e);
     mystery2.onReadAccel(e);
     mystery3.onReadAccel(e);
+    mystery4.onReadAccel(e);
     mystery12.onReadAccel(e);
   });
 
@@ -292,6 +300,23 @@
   // mystery3 のダイアログが開いているときに RFID が読み取られた時の処理
   mystery3.ee.on('select', (e) => {
     
+  });
+
+  // mystery4 のダイアログの開閉状態が変わった時の処理
+  mystery4.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.everyday.fade(1, 0, 1000);
+    }else {
+      sound.everyday.fade(0, 1, 1000);
+    }
+  });
+
+  // mystery4 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery4.ee.on('select', (e) => {
+
   });
 
   // mystery12 のダイアログの開閉状態が変わった時の処理

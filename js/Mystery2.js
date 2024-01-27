@@ -164,5 +164,4 @@ onReadAccel(e) {
 
   }
 }
-// && this.id !== (this.status[0].id || this.status[2].id || this.status[4].id || this.status[9].id)
 }

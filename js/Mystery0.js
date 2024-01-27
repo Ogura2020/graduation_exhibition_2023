@@ -206,7 +206,7 @@ class Dialog {
   onReadAccel(e) {
     // ダイアログが開いた状態であれば 加速度 の読み取りを行う
     if (this.isOpen) {
-      console.log('[Mystery1] onReadAccel', e);
+      console.log('[Mystery0] onReadAccel', e);
       this.ee.emit('select', e);
 
       let accel = e.split(',')
