@@ -2,3 +2,119 @@
 .btn{
     font-size: 48px;
 }
+
+html{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: medium;
+}
+body{
+    background-image: url('../img/dia.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#mainvisual {
+    display: flex; /* 子要素を横並びに配置 */
+    align-items: center; /* 垂直方向中央に配置 */
+    gap: 15%;
+}
+
+.mainvisual_img {
+    width: 50%;
+    /* height: 250px; */
+    object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.mainvisual_logo {
+    width: 20%;
+
+}
+
+#story{
+    background: radial-gradient(rgb(206, 206, 206) 30%, #646464 10%, #000000 80%);
+    padding: 100px 0;
+}
+.story_img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 560px;
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.849));
+
+}
+
+#system{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 50px 0 120px;
+}
+.system_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+.system_head_img{
+    width: 250px;
+}
+.system_head_text{
+    color: #C9A063;
+}
+.system_swiper {
+    width: 920px;
+    height: 620px;
+
+}
+.swiper-slide_bg{
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #FFFDE2;
+    border-radius: 5px;
+}
+.system_img{
+    width: 920px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    margin: -200px;
+    --swiper-navigation-color: #C9A063; 
+}
+
+#chara{
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+.chara_table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 130px;
+    /* padding-top: 100px; */
+}
+.chara_table_text{
+    width: 190px;
+    margin: 25px;
+}
+.chara_table_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 17px;
+}
+.chara_table_img{
+    width: 100%;
+    height: 150px;
+}
+
+
+.swiper-main-img{
+    display: block;
+    margin: 0 auto; /* 左右中央配置 */
+    width: 80%;
+}
+

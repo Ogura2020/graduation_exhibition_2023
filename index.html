@@ -4,24 +4,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script> -->
 <!--
     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
     <script src="js/main.js"></script>
 -->
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script> -->
     <link href="css/ress.css" rel="stylesheet">
     <link href="css/top.css" rel="stylesheet">
-    <title>謎解き</title>
+    
+    <!-- swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- フォントのリンク -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- 本みたいにページがめくれるプラグイン…断念…。 -->
+    <!-- <script type="text/javascript" src="js/onebook/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/onebook/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="js/onebook/three.min.js"></script>
+    <script type="text/javascript" src="js/onebook/jquery.onebook3d-2.33.js"></script> -->
+
+    <title>私立探偵備忘録</title>
 </head>
 
 <body>
+    <main>
+        <div id="mainvisual" class="section">
+            <img class="mainvisual_img" src="img/main2.jpg">
+            <img class="mainvisual_logo" src="img/logo_white.png">
+        </div>
+
+        <div id="story" class="section">
+            <div class="story_img">
+                <img class="story_img_mail" src="img/mail.png">
+            </div>
+        </div>
+
+        <div id="system" class="section">
+            <div class="system_head">
+                <img src="img/system/SYSTEM.png" class="system_head_img">
+                <p class="system_head_text">
+                    懐中時計の力を借りて出題される謎を解き明かせ
+                </p>
+            </div>
+            <div class="system_swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide_bg">
+                    <img src="img/system/0.png" alt="" class="system_img">
+                  </div>
+                  <div class="swiper-slide swiper-slide_bg">
+                    <img src="img/system/2.png" alt="" class="system_img">
+                  </div>
+                  <div class="swiper-slide swiper-slide_bg">
+                    <img src="img/system/3.png" alt="" class="system_img">
+                  </div>
+                  <div class="swiper-slide swiper-slide_bg">
+                    <img src="img/system/4.png" alt="" class="system_img">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+        </div>
+
+        <div id="chara" class="section">
+            <div class="chara_table">
+                <img src="img/profile/deco1.png" alt="" class="chara_table_deco">
+                <img src="img/profile/CHARACTER.png" alt="" class="chara_table_text">
+                <div class="chara_table_list">
+                    <div>
+                        <img src="img/profile/tim_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/azuki_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/wick_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/avril_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/mary_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/maria_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/griffith_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/ron_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/azuma_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/chalotte_s.png" alt="" class="chara_table_img">
+                    </div>
+                    <div>
+                        <img src="img/profile/south_s.png" alt="" class="chara_table_img">
+                    </div>
+                </div>
+                <img src="img/profile/deco2.png" alt="" class="chara_table_deco">
+            </div>
+
+            <div class="swiper">
+                <div class="swiper-main">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide01">
+                            <img src="img/profile/tim.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide02">
+                            <img src="img/profile/azuki.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide03">
+                            <img src="img/profile/wick.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide04">
+                            <img src="img/profile/avril.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide05">
+                            <img src="img/profile/mary.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide06">
+                            <img src="img/profile/maria.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide07">
+                            <img src="img/profile/griffith.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide08">
+                            <img src="img/profile/ron.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide09">
+                            <img src="img/profile/azuma.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide10">
+                            <img src="img/profile/chalotte.png" alt="" class="swiper-main-img">
+                        </div>
+                        <div class="swiper-slide swiper-slide11">
+                            <img src="img/profile/south.png" alt="" class="swiper-main-img">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
     <div class="btn">
         <a href="game_ble.html">ゲームの画面に移動</a>
     </div>
-    
+
+    <script src="js/index.js"></script>
+
     <script type="text/javascript">
+
     </script>
 
 </body>
