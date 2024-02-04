@@ -83,6 +83,7 @@
   const mystery2 = new Mystery2('#nazo_dialog');
   const mystery3 = new Mystery3('#nazo_dialog');
   const mystery4 = new Mystery4('#nazo_dialog');
+  const mystery5 = new Mystery5('#nazo_dialog');
   const mystery12 = new Mystery12('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const backlog = new Backlog();
@@ -111,6 +112,7 @@
     mystery2.onStart(e);
     mystery3.onStart(e);
     mystery4.onStart(e);
+    mystery5.onStart(e);
     mystery12.onStart(e);
   });
 
@@ -176,6 +178,7 @@
     mystery2.onReadRFID(e);
     mystery3.onReadRFID(e);
     mystery4.onReadRFID(e);
+    mystery5.onReadRFID(e);
     mystery12.onReadRFID(e);
   });
 
@@ -186,6 +189,7 @@
     mystery2.onReadAccel(e);
     mystery3.onReadAccel(e);
     mystery4.onReadAccel(e);
+    mystery5.onReadAccel(e);
     mystery12.onReadAccel(e);
   });
 
@@ -265,9 +269,9 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     pocketwatch.setDialogOpenStatus(isOpen)
     if(e.isOpen){
-      sound.everyday.fade(1, 0, 1000);
+      sound.yakata.fade(1, 0, 1000);
     }else {
-      sound.everyday.fade(0, 1, 1000);
+      sound.yakata.fade(0, 1, 1000);
     }
   });
 
@@ -282,9 +286,9 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     pocketwatch.setDialogOpenStatus(isOpen)
     if(e.isOpen){
-      sound.everyday.fade(1, 0, 1000);
+      sound.yakata.fade(1, 0, 1000);
     }else {
-      sound.everyday.fade(0, 1, 1000);
+      sound.yakata.fade(0, 1, 1000);
     }
   });
 
@@ -299,9 +303,9 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     pocketwatch.setDialogOpenStatus(isOpen)
     if(e.isOpen){
-      sound.everyday.fade(1, 0, 1000);
+      sound.yakata.fade(1, 0, 1000);
     }else {
-      sound.everyday.fade(0, 1, 1000);
+      sound.yakata.fade(0, 1, 1000);
     }
   });
 
@@ -316,14 +320,31 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     pocketwatch.setDialogOpenStatus(isOpen)
     if(e.isOpen){
-      sound.everyday.fade(1, 0, 1000);
+      sound.yakata.fade(1, 0, 1000);
     }else {
-      sound.everyday.fade(0, 1, 1000);
+      sound.yakata.fade(0, 1, 1000);
     }
   });
 
   // mystery4 のダイアログが開いているときに RFID が読み取られた時の処理
   mystery4.ee.on('select', (e) => {
+
+  });
+
+  // mystery5 のダイアログの開閉状態が変わった時の処理
+  mystery5.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.yakata.fade(1, 0, 1000);
+    }else {
+      sound.yakata.fade(0, 1, 1000);
+    }
+  });
+
+  // mystery5 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery5.ee.on('select', (e) => {
 
   });
 
@@ -333,9 +354,9 @@
     director.updateLock(isOpen); // シナリオのロック状態を更新する
     pocketwatch.setDialogOpenStatus(isOpen)
     if(e.isOpen){
-      sound.everyday.fade(1, 0, 1000);
+      sound.yakata.fade(1, 0, 1000);
     }else {
-      sound.everyday.fade(0, 1, 1000);
+      sound.yakata.fade(0, 1, 1000);
     }
   });
 

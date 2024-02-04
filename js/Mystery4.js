@@ -39,7 +39,7 @@ onStart(e) {
   //console.log('[Dialog] onStart', e);
 
   // 画像ファイル名のリスト
-  this.imageList = ['paper1.png', 'paper2.png', 'paper3.png', 'paper4.png', 'paper5.png', 'paper6.png', 'paper7.png', 'paper8.png', 'paper9.png']; 
+  this.imageList = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png']; 
 
   // ismystery が true のカットであるかの真偽値
   const nextOpenState = e.hasOwnProperty('ismystery4') && e.ismystery4;
@@ -121,7 +121,7 @@ onReadRFID(e) {
 onReadAccel(e) {
   // ダイアログが開いた状態であれば 加速度 の読み取りを行う
   if (this.isOpen) {
-    console.log('[mystery1] onReadAccel', e);
+    console.log('[mystery4] onReadAccel', e);
     this.ee.emit('select', e);
 
     let accel = e.split(',')
@@ -130,7 +130,7 @@ onReadAccel(e) {
     
     if (Math.abs(accel[0]) > 1.0 &&  this.tips.style.display === "block") {
       console.log("ヒント表示中（block）の時は何も起こらない")
-    } else if (Math.abs(accel[0]) > 1.0 && this.imgElement.src.endsWith(this.imageList[0])) {
+    } else if (Math.abs(accel[0]) > 1.0 && this.imgElement.src.endsWith(this.imageList[4])) {
       console.log("正解かつヒントが表示されていない場合、進む")
 
       // 音が再生されていない場合にのみ音を再生
@@ -145,9 +145,9 @@ onReadAccel(e) {
       this.isOpen = false
       //BGM停止
       this.sound.thinking.fade(1, 0, 1000);
-    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[0]) && this.imgElement.src.endsWith("img/mystery1/paper0.png")) {
+    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[4]) && this.imgElement.src.endsWith("img/mystery4/0.png")) {
       console.log("選択されてない場合、振っても何も起こらない");
-    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[0]) ) {
+    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[4]) ) {
 
       // １つ前に選択したカード（ID）と違っていたらisMissをfalseにする
       if (this.select !== this.id){
