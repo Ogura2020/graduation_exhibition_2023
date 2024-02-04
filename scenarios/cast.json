@@ -44,6 +44,111 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "al.png"
+      },
+      {
+        "frame": 11,
+        "id": "cha_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_al.png"
+      },
+      {
+        "frame": 11,
+        "id": "av_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_al.png"
+      },
+      {
+        "frame": 11,
+        "id": "gr_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "gr_al.png"
+      },
+      {
+        "frame": 11,
+        "id": "so_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "so_al.png"
+      },
+      {
+        "frame": 11,
+        "id": "wick_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "wick_al.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "gr_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "gr_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "gr_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "gr_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "so_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "so_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "so_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "so_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "wick_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "wick_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "wick_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "wick_normal_g.png"
       }
     ]
   },
@@ -85,6 +190,104 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "al.png"
+      },
+      {
+        "frame": 11,
+        "id": "azu_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "azu_al.png"
+      },
+      {
+        "frame": 11,
+        "id": "mari_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_al.png"
+      },
+      {
+        "frame": 11,
+        "id": "mary_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mary_al.png"
+      },
+      {
+        "frame": 11,
+        "id": "ron_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_al.png"
+      },
+      {
+        "frame": 2,
+        "id": "azu_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "azu_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "azu_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "azu_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "mary_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "mary_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mary_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_normal_g.png"
       }
     ]
   },
@@ -112,6 +315,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "cha_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_al.png"
       }
     ]
   },
@@ -139,6 +349,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "mari_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_al.png"
       }
     ]
   },
@@ -166,6 +383,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "ron_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_al.png"
       }
     ]
   },
@@ -193,6 +417,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "azu_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "azu_al.png"
       }
     ]
   },
@@ -220,6 +451,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "av_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_al.png"
       }
     ]
   },
@@ -247,6 +485,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "mary_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mary_al.png"
       }
     ]
   },
@@ -274,6 +519,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "wick_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "wick_al.png"
       }
     ]
   },
@@ -301,6 +553,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "gr_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "gr_al.png"
       }
     ]
   },
@@ -328,6 +587,13 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "normal_g.png"
+      },
+      {
+        "frame": 11,
+        "id": "so_al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "so_al.png"
       }
     ]
   }
