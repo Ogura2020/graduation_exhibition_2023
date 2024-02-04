@@ -30,15 +30,21 @@ class Sound {
       volume: 0.3,
     });
 
-    //BGM
+    //BGM_事務所
     this.everyday = new Howl({
       src: ['audio/everyday.mp3'],
+      loop: true,
+    });
+    
+    //BGM_館
+    this.yakata = new Howl({
+      src: ['audio/yakata.mp3'],
       loop: true,
     });
 
     //正解
     this.clear = new Howl({
-      src: ['audio/clear1.mp3'],
+      src: ['audio/clear2.mp3'],
     });
 
     //不正解

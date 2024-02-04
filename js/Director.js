@@ -170,8 +170,12 @@ class Director {
     #onStart (e) {
       console.log('[Director] #onStart', e);
       console.log(this.selectedScenarios.size);
+      console.log(this.sequence.cut);
       console.log(this.scenarios[this.sequence.scenario].cuts.length);
       console.log("現在のシナリオ"+this.sequence.scenario);
+
+      //BGMやSE
+      this.ee.emit('bgm', this.sequence.scenario, this.sequence.cut);
 
       const nameBox_display = document.querySelector('#name_area');
       const textBox_display = document.querySelector('#text_area');
