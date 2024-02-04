@@ -1,87 +1,2173 @@
 {
-    "actorIdsArray": [7, 1],
+    "actorIdsArray": [1, 0, 7, 6],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "ジキル・フォン・メアリとのシナリオです",
+        "text": "あれ?さっきまで2人いたのに、1人だけになってる。<br>ま、いっか!すみませーん！",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.18
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "………………？？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "mary_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "eee",
+        "text": "えっと、ここの館に同じく招かれた方ですよね？よければお名前とお話を伺ってもいいですか？",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "…………………………あ、え、その……………。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "………………………………………。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },    
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "(う、俯いちゃった……どうしたんだろ？)",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "……………ふむ。<br>アズキ、悪いけど少しの間席を外してもらってもいいだろうか。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "えっ？なんで？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "いいから、少しの間だけあそこのテーブルで待っていてくれ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "う、うん。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "さて、と。<br>お姉さん、もし話しづらいならそのままでも大丈夫だから、僕にお姉さんの名前と事情を聞かせてもらってもいいかな？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "………え？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "僕はほら、お姉さんよりも背が低いし年齢も下だから気兼ねなくお話できるかなと思って！<br>無理にとは言わないけど…教えてくれたら嬉しいな。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "……………きみは、さっきの子の…弟くん？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "ん〜、まぁそんな感じ！<br>お姉さんは?さっきはもう1人お姉さんに似た女の人が居たみたいだけど…。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "あ、えっと……あの人は私の姉で、招待されたのは私だったんだけど心配で付いて来てくれたの。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "へ〜！そうなんだ。<br>(なるほどな…てことは彼女は妹さんなわけだ)",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "弟…くんは、名前なんていうの？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "僕？僕はトーマス・ティム・ロシーっていうんだ。<br>ティムでもトーマスでも好きな名前で呼んでよ！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "そっか。ティムくん…素敵な名前だね。<br>私の名前はジキル・フォン・メアリっていうの。お姉ちゃんの方はアヴリルって名前なんだ。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "わ〜、2人共可愛い名前だね!",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "ふふ、ありがとう……。<br>ティムくんは、お姉さんの付き添いで来たの？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そうだよ！お姉ちゃんだけだとやっぱり心配で…！<br>メアリさんの方にも招待状と手紙って来た？あの招待状に入ってた謎かけがすっごい難しくってさ…。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "あ……てことは、君のお姉さんの方にも入ってたんだ…あの手紙と謎かけ…。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "うん、入ってたよ！手紙と謎かけってどんなだったか覚えてる？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "え？うーんと…………手紙の詳細までは覚えてないけど、確かーー。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "ちょっと、メアリ！誰と話してるの！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "av_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "!",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "誰？この子。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "お、お姉ちゃん……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "……こんにちは！メアリさんのお姉さん！<br>実は今、少しだけお話を聞かせてもらっててー。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アヴリル",
+        "text": "話？話って、メアリはなにも………ハッ！！<br>まさか、怪しげな勧誘か何かじゃないでしょうね？！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "え……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "ちょ、ちょっと！お姉ちゃん！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アヴリル",
+        "text": "少し目を離した隙になんてこと……。これ以上、何もお話は出来ないですしすることもありません。<br>行くよ、メアリ。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "え、う、うん……。<br>ごめんねティムくん…お姉ちゃんが…。よかったらこれ……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "招待状……！いいの？渡しちゃっても…？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "うん…私はゲームに参加する気は無いし……どっちかというと乗り気なのはお姉ちゃんの方だから……。<br>それに、お姉ちゃんはもう解けてたみたいだし……ティムくんの手助けになるかどうかは分かんないけど。<br>手紙の方も、全部思い出せたらその時に教えるね。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "！！うん！ありがとう",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アヴリル",
+        "text": "ちょっとー！メアリー！？何してるのー？！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "メアリ",
+        "text": "あ、じゃあ私はこれで………お姉さんにもよろしくね。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "うん！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "姉妹の人たち行っちゃったんだけど……私何も聞けてないのに。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "アズキ、君の分まで僕が彼女から聞いてきたから安心してくれたまえ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "よく言うわ……のけ者にしたくせに。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "彼女は相当な恥ずかしがり屋に見えたからね。君がいたんでは話すのに時間がかかると判断したんだ。<br>のけ者にしてしまったのは謝るよ。すまないね。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "………まぁ、色々情報が聞けたんなら良かったけど。<br>今度は私もガンガン喋りにいってやるんだから！！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "(それは……逆効果な気がするけど)<br>やる気に満ち溢れているそんな君にプレゼントだ。はい。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "なに？………ってこれ招待状じゃない！<br>一体どこから……もしかして彼女の？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そう、メアリさんに送られてきたっていう招待状だよ。彼女はもう必要ないと言っていたから頂いて来たんだ。<br>本当は手紙の方も聞いておきたかったんだが……まぁ、これだけでも今は充分だろう。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "やっぱり私の所に届いた招待状となんら変わりはなさそう…。<br>謎かけが違うぐらいかな？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "この謎かけ、また違った感じで面白いね。<br>君、一回解いてみてごらんよ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "え！？この謎かけを？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "この先ゲームに参加するうえで君自身の考える力もつけていかなくてはならないからね。<br>ものは試しだ、やってみたまえ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "うーん、なんか丸め込まれてる感じするけど。<br>ま、言ってることは間違ってないしやりますか！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "や、やったー！解けた！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ],
-        "ismystery0":true
+        "ismystery4": true
       },
       {
-        "background": "img/bg/kari_bg.png",
-        "name": "アズキ",
-        "text": "fff",
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "うん…どこもおかしな理屈はないし、ちゃんと理解もできてる。よく頑張ったね。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "fff",
+        "text": "うう～…こんなに頭使うの、久しぶり過ぎる。",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "普段の生活が伺いしれてしまう発言は控えたほうがいいよ君……。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "へ？？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "………………。(何が？って顔だなこれは)",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "　",
+        "text": "メアリー編 end",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ],

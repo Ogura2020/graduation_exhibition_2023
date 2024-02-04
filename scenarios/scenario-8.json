@@ -1,87 +1,927 @@
 {
-    "actorIdsArray": [8, 1],
+    "actorIdsArray": [1, 0, 8],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "ジキル・ウィックマンとのシナリオです",
+        "text": "(う、うわーー…すっごい気難しそう…。煙草めちゃめちゃふかしてるし…)<br>あ、あのー……。",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.18
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "…………………………………………………。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "wick_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "eee",
+        "text": "(う、うう…………)",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "すみません、ジキル・ウィックマンさん、ですね？ジキル金融会社社長の。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "(えっ！？ティ、ティム？！！)",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ウィックマン",
+        "text": "…………………………………………………。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "僕の名前はトーマス・ティム・ロシー。隣りにいる彼女に雇われた探偵です。<br>よければ、今回のゲームに参加する動機や貴方のもとに届いたであろう招待状と手紙に関してお話を伺いたいのですが。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ウィックマン",
+        "text": "……………探偵だと？<br>バカにしているのか。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そんなつもりは一切ありません。<br>僕は本当のことを述べているのです。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ウィックマン",
+        "text": "……………ふん。嘘だろうが、真だろうがワシには一切興味ない。<br>失礼する。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "行ってしまったか。<br>彼からの情報は有力そうだと考えていたんだが…。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "な、な、なによあの態度〜〜！！<br>ぶっきらぼうで偉そうで、話もろくに聞かずにさっさと出て行っちゃって……！！<br>ムカツク〜〜〜！！！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "(さっきまで萎縮してたのに、切り替えが早いな……)<br>聞きに行く前から、一番苦労するのはあの人だと分かっていたから予想はできていたけど。<br>まさかここまで人嫌いだとは。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "にしても、度が過ぎるでしょ！<br>なんなのよアイツ〜……せめて、招待状か手紙が見れれば…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "………？",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "どうしたのティム？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "これは………。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "ダストボックス？中になにか入ってるの？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "…………！<br>どうやら、成果が得られなかった訳でも無さそうだ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "それってどういう…。あっ！それって…！！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "招待状…のようだね。握り潰されてはいるが、読めないわけじゃない。<br>どうやら、彼宛に送られたもののようだ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "なんて書いてあるの？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "書かれているのは、招待する文章だな。それと、同封されていた謎かけもある。<br>君が見せてくれた招待状と酷似しているね。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "そっか。なら、あんまり手がかりはなさそうだなー。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "手がかりはないが、謎かけはある。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "な、なに？その含みのあるような言い方。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "何事も、経験あるのみ…だろ？",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "何このやるしかないような空気感…。<br>まぁ、気分を紛らわせるのに丁度いいからやってもいいけど…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "解いてみて思ったんだけど、さっきのアイツはこれ解けたのかな。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ],
-        "ismystery0":true
+        "ismystery5": true
       },
       {
-        "background": "img/bg/kari_bg.png",
-        "name": "アズキ",
-        "text": "謎が解けたよ。ありがとう。",
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そうだな……断言はできないが、恐らく見てすらいないだろう。<br>ああいう人物は、自分に利益のあるようにしか動けないし動かない。<br>これが捨てられていたのも、ゲームには興味がないっていう証拠だ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "aiueo",
+        "text": "聞けば聞くほどまたムカムカが戻ってくる……。<br>でも、それじゃあなんでこの館にわざわざ来たんだろう？ゲームに参加しないのに……。",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "…………そうだね。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "　",
+        "text": "ウィックマン編 end",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ],

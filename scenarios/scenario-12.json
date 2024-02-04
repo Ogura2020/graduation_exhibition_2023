@@ -1,86 +1,527 @@
 {
-    "actorIdsArray": [0, 1],
+    "actorIdsArray": [1, 0],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
-        "name": "アズキ",
-        "text": "今日はもう遅いから明日にしよう！",
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "さてと…話が聞けそうな人たちには、一通り回れたかな。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "起床後、後半パートのキャラクターに話しかけます",
+        "text": "いつの間にか大広間から居なくなっちゃってた人たちには話聞けなかったけどね…。",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
             }
           },
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
-        "name": "アズキ",
-        "text": "この時話しかけれるキャラクターは６人です。",
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そればっかりは仕方がないさ。",
         "act": [
           {
-            "id": "normal",
+            "id": "normal_g",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "",
+        "text": "そういえば、ゲームに関する説明をしてくれるってあの使用人さん言ってたけどいつ話すんだろう？",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "おや？噂をすれば…じゃないか？",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "サウス",
+        "text": "皆様、遠路はるばるようこそおいで下さいました。<br>私はこの館でシャロットと共に使用人をしております、サウス・リチャードソンと申します。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "so_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "サウス",
+        "text": "この大広間にてお集まりの皆様にゲームの詳細をお話しますが、今この場にいない方々については、後ほど客室にてお伝えしようと思います。<br>ゲームが行われるのは明日からの約3日間。皆様宛に今回の主催者からある一つの問題が言い渡されていますので、それを見事解くことができた者がゲームの勝利者です。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "so_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "サウス",
+        "text": "主催者様から言い渡された言葉は次のようになります。<br>「この館にて秘密の箱を隠した。ヒントはこの館の中にある」",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "so_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "館の…中に…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "サウス",
+        "text": "ゲーム開催は明日からとなりますので、今日は各々客室にて、長旅の疲れを癒してください。<br>お食事は、各客室にお届け致しますのでご安心なされますよう。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "so_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "サウス",
+        "text": "明日早朝9時にまた大広間にお集まりいただきます。<br>人数が集まり次第、ゲームを開始するのでお早めにお越し下さいますよう願いします。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "so_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "明日から、か。<br>皆もそれぞれ部屋に戻りだしてるし、私達も今日はもう休む？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そうだね。僕も流石に疲れたから、早めに休みたい。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "よーしじゃあ、部屋に戻ろっか！<br>夜食かぁ～、どんなの出てくるんだろ。楽しみ～！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "今からもう食べ物のこと考えてるなんて、君って意外と食い意地が張ってるんだな。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "そんなことないわよ！<br>誰だってどんな美味しい物が出てくるんだろとか考えたりするでしょ！ふつう！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そのような思考の仕方こそ、食い意地の張っている証拠だと思うんだが……。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "あーもう、うるさいうるさい！<br>私、先に部屋帰っちゃうから！じゃ！また明日！！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "足早で行ってしまった……。今日の夜食、か。<br>………………ピーマン、出ないといいな。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg0.png",
+        "name": "　",
+        "text": "　",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg9.png",
+        "name": "ウィックマン",
+        "text": "くだらん……こんな児戯に付き合っている暇は、ワシにはない。<br>手紙を送ってきた人物………あの事件を知っているということは、恐らくアイツに違いないが……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "wick_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg9.png",
+        "name": "　",
+        "text": "コンコンコンッ",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "wick_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg9.png",
+        "name": "ウィックマン",
+        "text": "…………誰だ、こんな夜更けに……。<br>マリアか？今はそんな気分では………。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "wick_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg9.png",
+        "name": "ウィックマン",
+        "text": "なんだ？紙切れ？<br>………………………！！<br>こ、これは……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "wick_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg9.png",
+        "name": "ウィックマン",
+        "text": "なんだ？紙切れ？<br>………………………！！<br>こ、これは……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "wick_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
             }
           }
         ],

@@ -1,66 +1,1291 @@
 {
-    "actorIdsArray": [4, 1],
+    "actorIdsArray": [1, 0, 4],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "ロンベル・ティガーとのシナリオです",
+        "text": "あの…。",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.18
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          }
-        ],
-        "ismystery0":true
-      },
-      {
-        "background": "img/bg/kari_bg.png",
-        "name": "アズキ",
-        "text": "fff",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
-              "aligh": "left",
-              "value": 0.45
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "たく、散々だな…。まさか拳銃を忘れるなんて…。<br>あいつが俺を誘き出すために手紙を出したんだと考えてわざわざこんな辺境まで来たっていうのに…。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "ron_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "",
+        "text": "あ、あのー！",
         "act": [
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "………………ん？なんだ君は？<br>俺になんか用か？",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "いや…その、少しお話を…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "あー、嬢ちゃん悪いんだが俺は今それどころじゃなくてな。<br>話なら他の奴らに…。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "一つのことに集中すると他のことが頭に入らなくなるその癖……どうやら君は、以前となんら変わってないみたいだな、ロンベル。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
             }
           },
           {
             "id": "normal",
             "position": {
               "aligh": "left",
-              "value": 0.45
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "……その、イヤミったらしい俺をバカにするような物言いは……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "やぁ。元気だったかい？<br>あの事件以来かな？こうして面と向かって会うのは。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "げ、ゲェーーーッッ！！と、トーマス・ティム・ロシィー？！<br>なんでこいつがこんなところに……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "………「こいつ」？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "あ、いや！久しぶりですね！トーマス先生！あの時は大変お世話になりました！<br>せ、先生はどうしてここに…？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "君がさっきないがしろにしていた彼女に依頼されてね。僕も同行しているという訳さ。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "な、なるほど。ということは貴女は先生の依頼者の方だったんですね！<br>先程はすみませんでした。ろくに話も聞かずに…俺の名前はロンベル・ティガー。<br>ベイサンクウェル市警で、刑事をやっている者です。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "え、えっと……アズキ・シェレンベルガーって言います。<br>どうぞよろしく…(なにこの変わりよう…)",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "アズキ……？んん？どっかで聞いたことがあるような……。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "それで？君はどうしてここに？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "あ、ああ。本当はあまり他言したくはないんですが、先生に隠し事をしても仕方ないですしね…。<br>実は自分の所にも、招待状の入った手紙が来まして。招待状自体にはなんら変わりはないんですが、どうももう一枚の手紙に気になる文章がありましてね…。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "というと？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "その手紙には、「10年前に起きた事件についてお前の知らない事実を知っている。知りたければ、この館まで来い。」と書かれていたんですよ。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "「10年前の事件」か……。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "……………!<br>(私のところにも入っていた「手紙」の内容と似てる…!10年前…やっぱり私の、「祖父」に関して主催者は何か知ってるんだ…!)",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "あの事件が起きた時、俺はまだ刑事として未熟でどれだけ捜査しても犯人を捕まえるに至れなかった……。<br>だが、こうして犯人追跡への手がかりを掴んだ今、行動あるのみだと思いここへやって来たんですよ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そうか…。君のそういう真っ直ぐに物事に向き合う姿勢も前と変わっていなくて安心したよ。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "さすが、刑事さん！でも、私のところに入ってた手紙とは内容が少し違うみたいだけど招待状はほぼ同じだったってことですよね。<br>じゃあ、ロンベルさんも同封されてた謎かけは解いたってことですか？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "(ギクッ)",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "まぁ、ベイサンクウェル市警の刑事さんな訳ですから解けないはずはないですし、きっとパパッと分かっちゃったんですよね！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "(ギクギクッ)",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "そう？僕は解けてないと思うけど。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "なっ……！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "ええー！そんなバカな！解けてますよね？ね？<br>一体どんな問題が入ってたんです？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "………！<br>嬢ちゃん、気になるんなら見てみるか？なんなら試しに解いてみたって良いぞ！",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "ほら、やっぱり解けなかったんじゃないか。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "い、いや！ちゃんと解けましたよ！？ただ俺は彼女にもぜひやってみてほしいなと思って…！<br>ほら、嬢ちゃん！これだよ！",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "……………………………。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "ほぉ～。嬢ちゃん、ティム先生に付き添いを頼んだって言ったが案外お前さんもなかなかやるじゃないか！",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ],
+        "ismystery3":true
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "えへへ…。それほどでも〜！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "まぁ時計を使っているとはいえ、ロンベルくんよりかは優秀かもしれないな。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "うぐッ……………。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "？どうしたんですか？急にうめいて。<br>あ、そういえばロンベルさんもゲームには参加なさるんですか？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "ああ…一応参加はしようと思っているが、俺には俺の目的があるからな。<br>その時はそっちを優先するつもりでいる。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "そっか…でも、刑事さんも館に居るって思うとやっぱり心強いです！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "フッフッフ！そりゃあ、なんてったってベイサンクウェルの誇る刑事でもあるからなぁ！いざって時は俺が守ってやるさ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "拳銃は忘れたようだけど……まぁ少しは期待してるよ、ロンベルくん。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ロンベル",
+        "text": "ぐッ………(このクソガキィ……)",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "　",
+        "text": "ロンベル編 end",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
             }
           }
         ],

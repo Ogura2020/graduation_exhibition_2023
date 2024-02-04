@@ -23,7 +23,7 @@
         ]
       },
       {
-        "background": "img/bg/bg4.png",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・。<br>ここよね、きっと 。",
         "act": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "background": "img/bg/bg5.png",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（私の侍女が調べてくれた情報によると、ここの探偵事務所のトーマスさんは幾度もの難事件を解決している凄い人・・・。<br>そんな凄い人が私の依頼を受けてくれるかは分からないけど・・・でも、もう猶予も時間もない！）",
         "act": [
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "background": "img/bg/bg6.png",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "・・・どうか、留守じゃありませんように！",
         "act": [
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "background": "img/bg/bg7.png",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "”トーマス探偵事務所に用のある者は叩き金を３度叩くように。”か・・・・・これかな？",
         "act": [
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "background": "img/bg/bg8.png",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "コンッ　コンッ　コンッ",
         "act": [
@@ -128,7 +128,7 @@
         ]
       },
       {
-        "background": "img/bg/bg3.png",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "・・・・・・・・・・・・・・・・",
         "act": [
@@ -149,7 +149,7 @@
         ]
       },
       {
-        "background": "img/bg/niwa.png",
+        "background": "img/bg/bg2.png",
         "name": "アズキ",
         "text": "（あ、あれ・・・誰も出てこない？叩き金、少し弱すぎたかな？）",
         "act": [
@@ -170,7 +170,7 @@
         ]
       },
       {
-        "background": "img/bg/bg9.png",
+        "background": "img/bg/bg2.png",
         "name": "　",
         "text": "コンッ！　コンッ！　コンッ！",
         "act": [
@@ -1577,19 +1577,19 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/letter.png",
         "name": "　",
-        "text": "シェレンベルガー家　息女アズキ・シェレンベルガー様<br>ハイゼン地方シーフィールドにある森奥の館ピユーヴルにて謎解きゲームを催させていただきます。<br>ゲーム優勝者には賞金として６００００￡贈られます。",
+        "text": "シェレンベルガー家　息女アズキ・シェレンベルガー様<br>ハイゼン地方シーフィールドにあるピユーヴルの館にて謎解きゲームを催させていただきます。<br>ゲーム優勝者には賞金として６００００￡贈られます。",
         "act": [
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.01
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1598,19 +1598,19 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/letter.png",
         "name": "　",
-        "text": "なお、余興としての謎解きを一つ招待状とともに同封します。<br>正解者には記念品であるブローチを館にてお贈りしますのでぜひご参加下さいませ。<br>貴女様の来訪を心よりお待ちしております。　　ゲーム主催者",
+        "text": "なお、余興としての謎解きを一つ招待状とともに同封します。<br>正解者には記念品であるブローチを館にてお贈りしますのでぜひご参加下さいませ。<br>貴女様の来訪を心よりお待ちしております。　　ゲームマスター",
         "act": [
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.01
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2987,6 +2987,27 @@
       },
       {
         "background": "img/bg/bg2.png",
+        "name": "アズキ",
+        "text": "人の話を無視するなァーーーー！！！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg0.png",
         "name": "　",
         "text": "こうして、依頼人である私アズキと変わり者で小さくも、凄い探偵であるティムとの最初の事件にして、出会いの物語が始まったのだった。",
         "act": [
@@ -2995,6 +3016,1287 @@
             "position": {
               "aligh": "left",
               "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg0.png",
+        "name": "　",
+        "text": "私達は、謎を無事解いた次の日早朝にベイサンクウェルを出立。<br>列車で4時間余り、シーフィールドのアクスタ駅から馬車で揺られること40分、森奥の館ピユーヴルへ無事到着した。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "や、やっと着いた…!ここまで来るのに約5時間だなんて…どんだけ辺境にあるのよ、信じられないわ…。<br> ……にしても、シーフィールドの森奥にこんな立派な洋館があるなんて。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "ティム",
+        "text": "僕もシーフィールドには来たことがあったが、このような洋館は初めて見たよ。<br> 建てられたのは大分前らしいが、よく綺麗に手入れされている。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "そうね…まぁ確かに少し古そうではあるけど、綺麗で素敵な洋館って感じ。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "ティム",
+        "text": "さて、小話はここまでにして館の方へ早速伺ってみようか。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "うん。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "うーん？この門、呼び鈴がどこにも見当たらないけどどうやって開けてもらえるのかな…門番さんも居ないみたいだし。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "ティム",
+        "text": "そうだね………ん？<br> 館の方から、誰か来るみたいだ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "え……？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "　",
+        "text": "　",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "???",
+        "text": "しょ、招待状でここに…やってきた方々でしょうか？",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "はい、そうですけど…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "???",
+        "text": "手紙の方を…拝見させていただいても？",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "ああ、はい！どうぞ。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "???",
+        "text": "・・・・・・・・。はい、確認しました。<br>これから行われるゲームの説明は館内でしますので、どうぞ中へお入りください。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "ティム",
+        "text": "いよいよか…さてどんな事が待ち受けているか、楽しみになってきた。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "アズキ",
+        "text": "よくそんな事言えるなぁ…私は緊張で、気が気で無いのに…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg3.png",
+        "name": "???",
+        "text": "貴方がた以外の参加者の方たちはもう既に大広間にてお集まりになっています……。<br>館につきましたら、各お部屋までご案内致しますのでお荷物を置いた後、大広間にお集まりいただきますようお願いします。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg0.png",
+        "name": "　",
+        "text": "　",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "ここが大広間…外から見た時も大きいとは思っていたけど、中も相当広い！",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "正面玄関も廊下も、厳かな家具が見受けられた…ここの持ち主は相当な富豪のようだ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "そうみたい…あっ！あそこに集まってる人たちが、使用人さんの言ってた参加者達かな。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "はい…そうなります。",
+        "act": [
+          {
+            "id": "none",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_al",
+            "position": {
+              "aligh": "right",
+              "value": 0.18
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "やっぱり…………って、ンギャァッ！！？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "す、すみませんすみません！<br>入口付近で、お話しているものですから気になって…。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "だからってそんなヒッソリいなくても…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "すみません…本当に驚かせるつもりは…。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "貴方は先程の……失礼でなければお名前を伺っても？",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "え……？き、君は？",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "ああ、申し遅れました。 今回アズキくんの連れ添いで来た、トーマス・ティム・ロシーです。<br>気軽にティムでもトーマスでも、好きな名前で読んでください。",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "???",
+        "text": "はぁ…連れ添い、ですか。 少し幼く見えますが…。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "えっと…見た目は確かに幼く感じるんですが、こう見えても私立探偵をやっていてそれなりに多くの難事件を解決してきているんですよ！<br> (とは言っても、私自身まだ半信半疑なんだけど…)",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "それなりは余計だけど…すぐに信用してもらおうとは思っていません。まぁ、僕のことは彼女のおまけぐらいに考えていただければ。<br>それで、貴女のことについてなんですがー",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "あ、はい……。私、シャロット・ウィンキソンっていいます。この館で使用人をやらせて頂いています。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "となると……今回のゲーム以前から館で働いていらしたんですか？",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "いえ……元々は別のお屋敷で働かせてもらっていたんですが、そのお屋敷からクビを切られてしまいまして…。<br>途方に暮れていたときに今回のお話を主催者から頂いたんです。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "なるほど…そうだったんですね。失礼なことを聞いてしまってすみません。",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "いえ、大丈夫です。先程も同じようなことを聞かれたので…。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "同じこと…ですか？",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "ええ…あそこにいる青髪の男性に詳しい話を聞かせてほしいと言われて…。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "なるほど。<br>よろしければ今回参加している方々について、お話を伺うことはできますか？",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "お話ですか…。私も詳しくは知らないのでお名前ぐらいしかお教えできないのですが…。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "ええ、はい。名前だけでも大丈夫なので。",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "………分かりました。お教えすると言っても本当に名前だけになるのですが……。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },      
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "先程の話の人物、あそこに佇んでいる青髪の男性が、グリフィス・S・マーティン様。<br>その隣にいらっしゃる女性がマリア・レイ・ローレン様で今回招待された内の一人になります。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "少し離れた所に固まって座っている二人は、姉妹のジキル・フォン・メアリ様とジキル・フォン・アブリル様。<br>その姉妹の父親であり現ジキル家の当主でもあるのが葉巻を吸っている男性、ジキル・ウィックマン様になります。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "それと…隅のほうで椅子に腰掛け本を読んでいる方は東都有一様、彼も招待された内の一人です。<br>あとは、私と同じくこの館に雇われた使用人のサウス・リチャード様とあそこに立っているー。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "……！彼もここに招かれていたのか…。",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "お知り合いの方ですか？",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "いや、探偵業の方で少しね…顔を合わせたことがあるくらいですよ。",
+        "act": [
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "ふ～ん。名前は覚えてるの？",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "ああ、覚えているよ。<br>ロンベル・ティガー、ベイサンクウェル市警の刑事さんだよ。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "へ〜、ってけ、刑事さんなの？！なんでこんなところに刑事さんが…。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "シャロット",
+        "text": "……理由は分かりかねますが、彼もこの館に招待された一人だと聞いています。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "あ、ああ…なるほど？(刑事さんもこのゲームに興味があるってこと？)",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "cha_normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "さて…名前を教えてもらえたところで、今回のゲームに関する情報や参加者たちの関係性を知るためにも、彼らに詳しく話を伺いに行こうか。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "事情聴取ってことね。私もなんとなく参加者たちやこの館に関して気になっていたから、聞きに行くのは賛成！<br> そもそもこんな怪しいゲームに参加しようってなってる人たちだもの…何か、ゲームに関して事情を知っているかもしれないものね。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "情報を知っているのと知らないのとでは雲泥の差がある。何事もまず、情報を集めなければね。<br>じゃあ僕たちはこれで。色々とありがとう、シャロットさん。",
+        "act": [
+          {
+            "id": "normal_g",
+            "position": {
+              "aligh": "left",
+              "value": 0.01
+            }
+          },
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "ティム",
+        "text": "いえ……私もこれくらいしか出来ないので…。<br>何かありましたらまた、気兼ねなくお申し付けくださいませ。",
+        "act": [
+          {
+            "id": "cha_normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "アズキ",
+        "text": "よーし、じゃあ誰から話を聞きにいく？。",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
+            }
+          },
+          {
+            "id": "none",
+            "position": {
+              "aligh": "right",
+              "value": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "background": "img/bg/bg4.png",
+        "name": "　",
+        "text": "チャプター１ end",
+        "act": [
+          {
+            "id": "normal",
+            "position": {
+              "aligh": "left",
+              "value": 0.18
             }
           },
           {
