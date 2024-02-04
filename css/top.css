@@ -9,9 +9,10 @@ html{
 }
 body{
     background-image: url('../img/dia.png');
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 #mainvisual {
