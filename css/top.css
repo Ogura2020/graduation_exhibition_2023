@@ -1,7 +1,4 @@
 @charset "UTF-8";
-.btn{
-    font-size: 48px;
-}
 
 html{
     font-family: 'Noto Serif JP', serif;
@@ -119,3 +116,14 @@ body{
     width: 80%;
 }
 
+#footer {
+    padding: 10px;
+    background-color: #000000;
+    color: #C9A063;    
+    font-size: 12px;
+    text-align: center;
+}
+a{
+    color: #C9A063;
+    text-decoration:none;
+}

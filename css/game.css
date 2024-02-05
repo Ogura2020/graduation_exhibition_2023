@@ -23,10 +23,21 @@ body{
     position: absolute;
     z-index: 10;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
-    background: #FFFCF6;
+    gap: 20%;
+    background: #16161F;
+}
+
+.mainvisual_img {
+    height: 100vh;
+    /* height: 250px; */
+    object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.mainvisual_logo {
+    width: 20%;
+
 }
 
 .prologue{
