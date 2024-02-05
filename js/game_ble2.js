@@ -145,14 +145,14 @@
           duration:1.5,
           autoAlpha: 1, // アニメーション後は出現(透過率0)
           //y: 0, // 20px上に移動
-          stagger: 0.1, // 4秒遅れて順番に再生 出てくる速さ
+          stagger: 3.5, // 4秒遅れて順番に再生 出てくる速さ
           ease: "power2.out",
           
           onComplete: () => {
             gsap.to(
               ".prologue",
               {
-                duration: 2,
+                duration: 4,
                 autoAlpha: 0,
               }
             )
@@ -175,6 +175,14 @@
     } else if (!yakataPlayed && sinairo ==0 && cut === 204){
       sound.everyday.stop();
       sound.yakata.play();
+    }
+
+    if(sinairo ==0 && cut === 6){
+      sound.knock.play();
+    } else if (sinairo ==0 && cut === 9){
+      sound.knock.play();
+    } else if (sinairo ==0 && cut === 12){
+      sound.door.play();
     }
   });
 
