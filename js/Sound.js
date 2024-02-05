@@ -31,13 +31,13 @@ class Sound {
     });
 
     //BGM_事務所
-    this.everyday = new Howl({
+    this.yakata = new Howl({
       src: ['audio/everyday.mp3'],
       loop: true,
     });
     
     //BGM_館
-    this.yakata = new Howl({
+    this.everyday = new Howl({
       src: ['audio/yakata.mp3'],
       loop: true,
     });
@@ -95,6 +95,18 @@ class Sound {
 
     this.select_10 = new Howl({
       src: ['audio/select_10.mp3'],
+    });
+
+    this.door = new Howl({
+      src: ['audio/door.mp3'],
+    });
+
+    this.knock = new Howl({
+      src: ['audio/knock.mp3'],
+    });
+
+    this.gasagoso = new Howl({
+      src: ['audio/gasagoso.mp3'],
     });
   }
 }
