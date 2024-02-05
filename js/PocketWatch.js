@@ -14,11 +14,11 @@ class PocketWatch {
 
     this.dialogOpen = false; // ダイアログの初期状態は閉じている
     
-    //const start = document.querySelector("#js-start");
+    const start = document.querySelector("#js-start");
     const ble_btn2 = document.querySelector("#ble_btn2");
 
     // Connectボタンをクリックした時の処理をConnectbtn関数に移動します
-    //start.addEventListener('click', this.onConnect.bind(this));
+    start.addEventListener('click', this.onConnect.bind(this));
     ble_btn2.addEventListener('click', this.onConnect.bind(this));
   }
 
@@ -57,10 +57,6 @@ class PocketWatch {
         const characteristic1 = characteristics[0];
         const characteristic2 = characteristics[1];
 
-        // ダイアログの開閉状態に応じて通信を開始
-        //this.setDialogOpenStatus(true);
-        console.log(this.dialogOpen)
-
         if (!this.dialogOpen) { // ダイアログが開いている場合のみ処理を行う
           console.log("ダイアログが開いたとき、通信を開始")
           // Characteristic1とCharacteristic2の処理を行う
@@ -84,7 +80,7 @@ class PocketWatch {
         console.log(`Characteristic1 value: ${value1}`);
         console.log(`Characteristic2 value: ${value2}`);
         // //ble通信開始を通知
-        //this.ee.emit('Connect');
+        this.ee.emit('Connect');
       })
       .catch(error => { console.error(error); });
   }

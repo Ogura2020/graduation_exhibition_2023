@@ -23,7 +23,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "大丈夫・・・ちゃんと住所は事前に確認してきたし、看板もある・・・・・。<br>ここよね、きっと 。",
         "act": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "（私の侍女が調べてくれた情報によると、ここの探偵事務所のトーマスさんは幾度もの難事件を解決している凄い人・・・。<br>そんな凄い人が私の依頼を受けてくれるかは分からないけど・・・でも、もう猶予も時間もない！）",
         "act": [
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "・・・どうか、留守じゃありませんように！",
         "act": [
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "”トーマス探偵事務所に用のある者は叩き金を３度叩くように。”か・・・・・これかな？",
         "act": [
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "　",
         "text": "コンッ　コンッ　コンッ",
         "act": [
@@ -128,7 +128,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "　",
         "text": "・・・・・・・・・・・・・・・・",
         "act": [
@@ -149,7 +149,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "（あ、あれ・・・誰も出てこない？叩き金、少し弱すぎたかな？）",
         "act": [
@@ -170,7 +170,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "　",
         "text": "コンッ！　コンッ！　コンッ！",
         "act": [
@@ -191,7 +191,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "　",
         "text": "・・・・・・・・・・・・・・・・・・・・・・・",
         "act": [
@@ -212,7 +212,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "（応答なし・・・それとも聞こえてない？ま、まさか！留守じゃないよね？！）",
         "act": [
@@ -233,7 +233,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "　",
         "text": "ガタッ　　　ガチャッ！",
         "act": [
@@ -254,7 +254,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "へっ・・・？",
         "act": [
@@ -275,7 +275,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "　",
         "text": "　",
         "act": [
@@ -296,7 +296,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "トーマス",
         "text": "・・・・探偵事務所に御用があっていらっしゃった方でしょうか？",
         "act": [
@@ -317,7 +317,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "（こ、子供？ここに住んでいる子かな・・・もしくはトーマスさんのお子さん？）",
         "act": [
@@ -338,7 +338,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "慌ただしくしてしまってごめんなさい！<br>今回はトーマスさんに相談したいことがあって訪ねてきたんだけど・・・。",
         "act": [
@@ -359,7 +359,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "トーマス",
         "text": "・・・・分かりました。では、お話を伺うのでどうぞお入りになってください。",
         "act": [
@@ -380,7 +380,7 @@
         ]
       },
       {
-        "background": "img/bg/bg2.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "ありがとう！（やっぱりトーマスのお子さんかな・・・話も通じてるみたいだし。それにしてもすごく大人っぽい子だなぁ。）",
         "act": [
@@ -4269,7 +4269,7 @@
       {
         "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "よーし、じゃあ誰から話を聞きにいく？。",
+        "text": "よーし、じゃあ誰から話を聞きにいく？",
         "act": [
           {
             "id": "normal",

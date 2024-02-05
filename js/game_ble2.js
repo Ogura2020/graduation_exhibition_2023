@@ -164,9 +164,15 @@
       );
   });
 
+  let yakataPlayed = false;
+
   director.ee.on('bgm', (sinairo , cut) => {
     console.log(sinairo, cut)
-    if(sinairo ==0 && (cut === 164 || cut === 204)){
+    if(!yakataPlayed && sinairo ==0 && cut === 164){
+      sound.everyday.stop();
+      sound.yakata.play();
+      yakataPlayed = true;
+    } else if (!yakataPlayed && sinairo ==0 && cut === 204){
       sound.everyday.stop();
       sound.yakata.play();
     }

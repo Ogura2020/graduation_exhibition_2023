@@ -15,7 +15,7 @@ class Mystery7 extends Dialog {
       this.nazoDialog.addEventListener('click', () => {
         if (this.nazoDialog.classList.contains('mystery7')) {
           console.log('mystery7');
-          this.tips.src = 'img/myster7/hint.png';
+          this.tips.src = 'img/mystery7/hint.png';
 
           // 画像の表示状態を取得
           const show = this.tips.style.display === 'block';
