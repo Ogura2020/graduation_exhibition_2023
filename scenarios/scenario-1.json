@@ -2,7 +2,7 @@
     "actorIdsArray": [2, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "シャロットのシナリオです",
         "act": [
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "す、すみませ～ん。 ",
         "act": [
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "誰もいないのかな？<br>あっドアが開いてる。",
         "act": [
@@ -68,7 +68,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "少年",
         "text": "次は誰に話しかけよう",
         "act": [
@@ -90,7 +90,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "少年",
         "text": "なにか御用ですか？",
         "act": [
@@ -111,7 +111,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "あっあの、探偵さんは…?",
         "act": [
@@ -132,7 +132,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "少年",
         "text": "………。",
         "act": [
@@ -153,7 +153,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "少年",
         "text": "僕ですけど。",
         "act": [
@@ -174,7 +174,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "えっ…!?",
         "act": [
@@ -195,7 +195,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "え～～～～！？",
         "act": [
@@ -217,7 +217,7 @@
         "ismystery1":true
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "あなたがあのトーマス・ティム・ロシーなの！？<br>こんな子どもが…！？",
         "act": [
@@ -238,7 +238,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "ティム",
         "text": "失礼な人ですね。<br>同業者のくせにそんなことも知らずにここに来たんですか？",
         "act": [
@@ -259,7 +259,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "なっなんで私も探偵だって知ってるの？",
         "act": [
@@ -280,7 +280,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "ティム",
         "text": "そんなことより、何の用なんですか？",
         "act": [
@@ -301,7 +301,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "ティム",
         "text": "探偵が探偵に依頼するなんて聞いたことがないし。<br>僕、面倒ごとは嫌いなんですけど。",
         "act": [
@@ -322,7 +322,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "あなたの言う通り変なのは分かってる。<br>だけど、あなたしか頼れる人がいなくてここまで来たの！",
         "act": [
@@ -343,7 +343,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "知り合いの情報屋からなかなかできるヤツだって聞いたわ。<br>(噂でもよく聞くし…。子どもとは知らなかったけど。)",
         "act": [
@@ -364,7 +364,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "お願い…！！",
         "act": [
@@ -385,7 +385,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "ティム",
         "text": "…分かった。話を聞いてから決めるよ。<br>中に入って。",
         "act": [
@@ -406,7 +406,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "ありがとう！",
         "act": [
@@ -427,7 +427,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "ティム",
         "text": "そういえば名前を聞いていなかったね。名前は？",
         "act": [
@@ -448,7 +448,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "…アズキ。アズキ・シェレンベルカー。",
         "act": [
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "ティム",
         "text": "シェレンベルカー？<br>シェレンベルカー家のお嬢様がなんで探偵なんてやっているんだ？",
         "act": [
@@ -490,7 +490,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "家の話はいいんです。<br>この手紙を見てみてください。",
         "act": [
@@ -511,7 +511,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "私、この手紙を解読して何としても手に入れないといけないものがあるんです！<br>でもどうしても解けなくて…。だからあなたを頼ってここに。",
         "act": [
@@ -532,7 +532,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "ティム",
         "text": "ふ～ん。見せてみて。<br>これは…。",
         "act": [
@@ -553,7 +553,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "　",
         "text": "続く",
         "act": [

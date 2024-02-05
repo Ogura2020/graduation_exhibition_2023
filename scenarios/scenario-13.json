@@ -2,7 +2,7 @@
     "actorIdsArray": [0, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "書斎にいく流れに…。",
         "act": [
@@ -23,7 +23,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "扉を開けるとおじが死んでる！！",
         "act": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "あれっ！なんか落ちてる（３つの部屋の謎）",
         "act": [
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "答はこれだね",
         "act": [
@@ -87,7 +87,7 @@
         "ismystery12":true
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "さぁ、調査を続けよう",
         "act": [
@@ -108,7 +108,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "キャラクター選択",
         "act": [
@@ -130,7 +130,7 @@
         "isCallSheet3":true
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "aaaa",
         "act": [

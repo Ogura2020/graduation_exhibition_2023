@@ -2,7 +2,7 @@
     "actorIdsArray": [0, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "エンディングのシナリオ2",
         "act": [
@@ -23,7 +23,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "犯人不正解ルート",
         "act": [
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "いいい",
         "act": [

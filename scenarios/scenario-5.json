@@ -2,7 +2,7 @@
     "actorIdsArray": [5, 1],
     "cuts": [
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "アズマのシナリオです",
         "act": [
@@ -24,7 +24,7 @@
         "ismystery1":true
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "fff",
         "act": [
@@ -45,7 +45,7 @@
         ]
       },
       {
-        "background": "img/bg/kari_bg.png",
+        "background": "img/bg/bg1.png",
         "name": "アズキ",
         "text": "fff",
         "act": [
