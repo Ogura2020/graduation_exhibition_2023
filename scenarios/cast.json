@@ -193,6 +193,13 @@
       },
       {
         "frame": 11,
+        "id": "al",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "al2.png"
+      },
+      {
+        "frame": 11,
         "id": "azu_al",
         "loop": false,
         "scale": 0.6,

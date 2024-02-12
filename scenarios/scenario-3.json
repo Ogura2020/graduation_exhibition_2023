@@ -1,70 +1,385 @@
 {
-    "actorIdsArray": [1, 0],
-    "cuts": [
-      {
-        "background": "img/bg/bg1.png",
-        "name": "アズキ",
-        "text": "アズキのシナリオです",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
+  "actorIdsArray": [1, 0],
+  "cuts": [
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "ティムって、私から見てもすごく不思議な子供だと思う。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
           }
-        ]
-      },
-      {
-        "background": "img/bg/bg1.png",
-        "name": "アズキ",
-        "text": "eee",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
           }
-        ],
-        "ismystery1":true
-      },
-      {
-        "background": "img/bg/bg1.png",
-        "name": "アズキ",
-        "text": "fff",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "急にどうしたんだい、君。何か拾い食いでもした？",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
           }
-        ],
-        "isCallSheet2": true
-      }
-    ]
-  }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "してないわよ！<br>いや、だって普通はこんな辺境まで一緒に来てくれなんて言われても大体は断られるだろうし。<br>そも依頼料も想像より高くは無かったし。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "お金には別に困ってないからね、僕は。<br>ただ、自分がしたいようにしているだけだよ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "自分がしたいことって…探偵業のこと？",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "そう。僕は人助けだの正義の為にだの、そういう理由で探偵をやってはいないからね。ほぼ自己満足活動に近いものだ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "自己満足…でも私まだティムに今回の依頼理由話してないけど、やっぱり気になったりするの？",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "まぁ聞かなくても大体は分かっているけど、興味はあるね。<br> だけど、君はまだ明かしたくはないんだろう？",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "……うん。少しややこしい話にもなるから今は話せない。<br>でも、この旅のどこかで絶対話すよ。ティムにはすごく感謝してもしきれないくらいお世話になっているから！",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "……その時が来るまで、楽しみにしてるよ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "…ありがとう、ティム！",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "さて、決意も新たにしたところでいつもの脳の準備運動といこう！",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "さっきまで良い感じで話が終わっていたのに唐突な謎かけを入れてくる……。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "どうしたんだい？そんなジトっとして。<br>さ、やろうやろう！",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "しっかり難しかった…。<br>ほんと不思議というか変わっているというか…謎解き大好き少年ね。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ],
+      "ismystery8": true
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "徐々にではあるが、君も考え方が変わってきて良い傾向だ。この調子でゲームも頑張っていこう!",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "なんか、私よりもやる気に満ち溢れてイキイキしてる…。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "アズキ編 end",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ],
+      "isCallSheet2": true
+    }
+  ]
+}
