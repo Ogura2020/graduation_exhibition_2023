@@ -86,6 +86,8 @@
   const mystery5 = new Mystery5('#nazo_dialog');
   const mystery6 = new Mystery6('#nazo_dialog');
   const mystery7 = new Mystery7('#nazo_dialog');
+  const mystery8 = new Mystery8('#nazo_dialog');
+  const mystery9 = new Mystery9('#nazo_dialog');
   const mystery12 = new Mystery12('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const backlog = new Backlog();
@@ -117,6 +119,8 @@
     mystery5.onStart(e);
     mystery6.onStart(e);
     mystery7.onStart(e);
+    mystery8.onStart(e);
+    mystery9.onStart(e);
     mystery12.onStart(e);
   });
 
@@ -199,6 +203,8 @@
     mystery5.onReadRFID(e);
     mystery6.onReadRFID(e);
     mystery7.onReadRFID(e);
+    mystery8.onReadRFID(e);
+    mystery9.onReadRFID(e);
     mystery12.onReadRFID(e);
   });
 
@@ -212,6 +218,8 @@
     mystery5.onReadAccel(e);
     mystery6.onReadAccel(e);
     mystery7.onReadAccel(e);
+    mystery8.onReadAccel(e);
+    mystery9.onReadAccel(e);
     mystery12.onReadAccel(e);
   });
 
@@ -382,7 +390,7 @@
     }
   });
 
-  // mystery5 のダイアログが開いているときに RFID が読み取られた時の処理
+  // mystery6 のダイアログが開いているときに RFID が読み取られた時の処理
   mystery6.ee.on('select', (e) => {
 
   });
@@ -399,8 +407,42 @@
     }
   });
 
-  // mystery5 のダイアログが開いているときに RFID が読み取られた時の処理
+  // mystery7 のダイアログが開いているときに RFID が読み取られた時の処理
   mystery7.ee.on('select', (e) => {
+
+  });
+
+  // mystery8 のダイアログの開閉状態が変わった時の処理
+  mystery8.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.yakata.fade(1, 0, 1000);
+    }else {
+      sound.yakata.fade(0, 1, 1000);
+    }
+  });
+
+  // mystery8 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery8.ee.on('select', (e) => {
+
+  });
+
+  // mystery9 のダイアログの開閉状態が変わった時の処理
+  mystery9.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.yakata.fade(1, 0, 1000);
+    }else {
+      sound.yakata.fade(0, 1, 1000);
+    }
+  });
+
+  // mystery9 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery9.ee.on('select', (e) => {
 
   });
 
