@@ -225,6 +225,12 @@ class Director {
       // }
 
       //OC用、本番用に改良する。シナリオ1の最後まで行くとリロード
+      if((this.sequence.scenario === 14 || this.sequence.scenario === 15) && this.scenarios[this.sequence.scenario].cuts.length === this.sequence.cut){
+        // 10秒後にページをリロードする
+        setTimeout(function() {
+            location.reload();
+        }, 10000); // 10000ミリ秒 = 10秒
+      }
       // if(this.scenarios[this.sequence.scenario].cuts.length === this.sequence.cut){
       //   location.reload();
       // }
