@@ -1,70 +1,1043 @@
 {
-    "actorIdsArray": [5, 1],
-    "cuts": [
-      {
-        "background": "img/bg/bg1.png",
-        "name": "アズキ",
-        "text": "アズマのシナリオです",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
+  "actorIdsArray": [1, 0, 5],
+  "cuts": [
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "東都さん！",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
           }
-        ],
-        "ismystery1":true
-      },
-      {
-        "background": "img/bg/bg1.png",
-        "name": "アズキ",
-        "text": "fff",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
           }
-        ]
-      },
-      {
-        "background": "img/bg/bg1.png",
-        "name": "アズキ",
-        "text": "fff",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.45
-            }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
           }
-        ],
-        "isCallSheet2": true
-      }
-    ]
-  }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "君たち!",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "先程はありがとうございました！<br>実はもう少しお話を詳しくお聞きしたくて…。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "ああ、いいよ。僕に答えられることなら",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "ありがとうございます！<br>それで…東都さんがさっき言っていた友人の付き添いっていうのは、一体誰の…。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "ああ、えっと…君たちさっき話してたウィックマンさんいるだろ？<br>あの人には二人の娘がいてね。姉がアヴリル、妹がメアリって名前なんだけど…そのお姉さんの方の付き添いとして僕は来たんだよ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "へ〜！娘！そう言われると似てるような似てないような…？",
+      "act": [
+        {
+          "id": "1",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "ただ、凄く仲が悪くってね。<br>この館で会ったときも一度も話してすらいないんじゃないかな。<br>やっぱり昔に色々あったから…。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "azu_5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "色々って？",
+      "act": [
+        {
+          "id": "1",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "彼女たちのお母さんは優しくて、とても温かな人でね。<br>あの二人も父親とは上手くいってなかったけど母親のことは誰よりも大好きだったんだ。<br>ただ、そのお母さんも体が弱くて…あの二人が幼い頃に他界してしまったんだ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "azu_5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "そうですか…そんなことが…。",
+      "act": [
+        {
+          "id": "3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "父親であるウィックマンさんは冷たくあしらう程度で、心配すらしていなかった。<br>あの二人も父親とは上手くいってなかったけど母親のことは誰よりも大好きだったんだ。<br>僕も時々話したり会ったりはするが…あの人ほど冷たい目をした人間は他にはいないよ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "azu_5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "聞けば聞くほど怖い人ですね…ウィックマンさんって…。<br>でもなんで東都さんがアヴリルさんの付き添いに？<br>誘われたとかそんな感じですか？",
+      "act": [
+        {
+          "id": "3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "いや…実は…。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "恐らくだけど、許嫁なんじゃないか。アヴリルさんの。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "………えっ！い、許嫁…！？",
+      "act": [
+        {
+          "id": "7",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "さすがだね。そこの探偵くんの言う通り、僕とアヴリルは親が決めた婚姻関係にある。<br>その関係もあって、今回同行してるんだ。<br>でも、どうしてわかったんだい？",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "azu_2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "東都…そんな珍しい名前、思いつくのはあの有名な製薬会社、東都製薬しか無い。<br>東都製薬を取り仕切る東都藤次郎氏には一人息子がいると聞いたことがある。<br>その息子の名前は…東都有一、貴方だ。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "さらに、聞いた情報を整理すると東都製薬と懇意にあると噂のジキル金融…、ウィックマンさんのもつ会社だ。<br>無関係とは考えにくい…そこから推測していくと…。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "…すごいな、そこまで分かってしまうとは。<br>トーマス・ティム・ロシー、さすがの頭脳をお持ちのようだね。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "……！僕のこと知っていたんですか。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "7",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "噂でね。聞いたことがあったんだ、ベイサンクウェルに凄い探偵がいると…でもまさか、こんなにも幼かったとは思わなかったけど。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "azu_2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "許嫁かぁ～。なんか素敵ですね、そういうの。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "ああ、でも期待してくれているような感じじゃ全く無いんだ。<br>アヴリルも僕も全くその気がないから、親が勝手に決めたことだし。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "え〜…そうなんだ…。(なんか残念…)",
+      "act": [
+        {
+          "id": "3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "しかし、このような所で出会ったのも何かの縁だ。<br>実際に探偵としての君の腕前をこの目で見てみたい。<br>突然で悪いんだが、僕の考えた謎かけを解いて見せてくれないかな？",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "ええ、まぁそれは大丈夫ですが…本当に急ですね。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "いや〜…何分僕は一度気になり出すと、いても立ってもいられなくなる性分でね。<br>本ばかり読みすぎて飽きてきた所だったしな！",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "(昨日からほぼ読み続けてたもんなぁ、そりゃ飽きるでしょ)",
+      "act": [
+        {
+          "id": "1",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "さ、これが僕の考えた謎かけだ！<br>やってみせてくれ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "一応これでも捻りに捻って考えたんだが、やはり私立探偵殿には歯が立たなかったな",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ],
+      "ismystery10": true
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "いえ、こちらも大分楽しませてもらいました。<br>アズキくんもしっかりと出来たしね。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "2",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "2人はゲームには参加するの?",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "一応参加はしようと考えていますが、サウスさんたちがどう判断するかにもよりますね。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "それもそうか。<br>ウィックマンさん…一体何処へ行ってしまったのか…。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "…………。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "アヅマ編 end",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        }
+      ],
+      "isCallSheet2": true
+    }
+  ]
+}
