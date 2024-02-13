@@ -497,7 +497,7 @@
             }
           },
           {
-            "id": "wick_normal",
+            "id": "wick_5",
             "position": {
               "aligh": "right",
               "value": 0.18
@@ -857,7 +857,7 @@
             "id": "normal",
             "position": {
               "aligh": "right",
-              "value": 0.18
+              "value": 0.01
             }
           }
         ]

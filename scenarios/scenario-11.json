@@ -7,7 +7,7 @@
         "text": "そういえば聞き忘れてたんだけど、どうして私の依頼を受けてくれたの？<br>話からして君に大きなメリットは無いと思うんだけど…。いや、ちゃんと報酬金は払うけどね！？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -49,7 +49,7 @@
         "text": "だが……？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -91,7 +91,7 @@
         "text": "気になる点？それってどういう…。",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -133,7 +133,7 @@
         "text": "なんか言い方腹立つわね…。<br>んー、でも聞いたら教えてくれるの？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -161,7 +161,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -175,7 +175,7 @@
         "text": "タダでは教える気無いんじゃない…。",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -217,7 +217,7 @@
         "text": "退屈って……。",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -245,7 +245,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -259,7 +259,7 @@
         "text": "私よりやる気に満ち溢れてる…。",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -287,7 +287,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -302,7 +302,7 @@
         "text": "うう…私、本来は頭より体を動かしてた方が好きなんだけどなぁ…。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -344,7 +344,7 @@
         "text": "それは…確かにそうなんだけど。<br> ………ま、何はともあれ謎は無事正解したし、手紙の気になる点について教えてくれるんだよね？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -386,7 +386,7 @@
         "text": "へ？紙？文章とかじゃなくて？",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -428,7 +428,7 @@
         "text": "紙…でもなんでそんなに…。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -470,7 +470,7 @@
         "text": "え！でも教えてくれるって…。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -512,7 +512,7 @@
         "text": "は、はぁ～〜！！？",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -554,7 +554,7 @@
         "text": "私は面白い小話よりも紙のほうが聞きたいんですけどー！",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.18
