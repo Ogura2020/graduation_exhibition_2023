@@ -1850,5 +1850,285 @@
         }
       ]
     },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "グリフィス",
+      "text": "だが、これだけじゃあ犯人が誰だか分かんないぞ？<br>死因が毒だとしても、殺されるときに使用された針なんかもここには見当たらないし.....。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "ティム",
+      "text": "犯人もそこまで馬鹿じゃない。<br>ここまで用意周到に犯行を行っているんだ、わざわざ犯行に使ったものを置いていったりしないさ。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "アズキ",
+      "text": "で、でもそれじゃあどうやって犯人を.....。",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "ティム",
+      "text": "さっきも言っただろ、アズキ。「重大な証拠を見つけた」って。<br>この破かれていた紙こそ僕たちにとってのキーアイテムになるんだ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "アズキ",
+      "text": "え、その紙切れが？？",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "ティム",
+      "text": "さて、この書斎ではもう調べることは無さそうだ。<br>あとは大広間に戻り、ロンベルに事情聴取をしてもらっているから、その話を聞こう。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "アズキ",
+      "text": "ティムには.....もう犯人の見当はついてるの？",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "ティム",
+      "text": "ああ、大体ね。<br>ただ、ロンベルくんの手に入れてくれた情報も加味してみなければまだ分からないが...。<br>そうだ、アズキ。君に最後に聞いてみよう。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "アズキ",
+      "text": "な、なに？",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "ティム",
+      "text": "ああ、大体ね。<br>ただ、ロンベルくんの手に入れてくれた情報も加味してみなければまだ分からないが...。<br>そうだ、アズキ。君に最後に聞いてみよう。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
   ]
 }
