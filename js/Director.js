@@ -260,7 +260,7 @@ class Director {
           cut: 0,
         });
         console.log("飛んだ" + this.part)
-      } else if(this.part === 2 && !this.selectedScenarios.has(scenarioIndex) && ([1, 2, 3, 5, 6, 10].includes(scenarioIndex))) {
+      } else if(this.part === 2 && !this.selectedScenarios.has(scenarioIndex) && ([1, 2, 3, 5, 6].includes(scenarioIndex))) {
         // シナリオを変更する
         this.selectedScenarios.add(scenarioIndex); // シナリオを選択済みに設定
         // ユーザーからの入力（キャラクター選択・謎解き）を受け付けないようにする

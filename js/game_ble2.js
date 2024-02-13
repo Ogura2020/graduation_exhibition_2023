@@ -88,6 +88,7 @@
   const mystery7 = new Mystery7('#nazo_dialog');
   const mystery8 = new Mystery8('#nazo_dialog');
   const mystery9 = new Mystery9('#nazo_dialog');
+  const mystery10 = new Mystery10('#nazo_dialog');
   const mystery12 = new Mystery12('#nazo_dialog');
   const pocketwatch = new PocketWatch();
   const backlog = new Backlog();
@@ -121,6 +122,7 @@
     mystery7.onStart(e);
     mystery8.onStart(e);
     mystery9.onStart(e);
+    mystery10.onStart(e);
     mystery12.onStart(e);
   });
 
@@ -205,6 +207,7 @@
     mystery7.onReadRFID(e);
     mystery8.onReadRFID(e);
     mystery9.onReadRFID(e);
+    mystery10.onReadRFID(e);
     mystery12.onReadRFID(e);
   });
 
@@ -220,6 +223,7 @@
     mystery7.onReadAccel(e);
     mystery8.onReadAccel(e);
     mystery9.onReadAccel(e);
+    mystery10.onReadAccel(e);
     mystery12.onReadAccel(e);
   });
 
@@ -443,6 +447,23 @@
 
   // mystery9 のダイアログが開いているときに RFID が読み取られた時の処理
   mystery9.ee.on('select', (e) => {
+
+  });
+
+  // mystery10 のダイアログの開閉状態が変わった時の処理
+  mystery10.ee.on('updateModal', (e) => {
+    const isOpen = e.isOpen; // 開閉状態が真偽地で入っている
+    director.updateLock(isOpen); // シナリオのロック状態を更新する
+    pocketwatch.setDialogOpenStatus(isOpen)
+    if(e.isOpen){
+      sound.yakata.fade(1, 0, 1000);
+    }else {
+      sound.yakata.fade(0, 1, 1000);
+    }
+  });
+
+  // mystery10 のダイアログが開いているときに RFID が読み取られた時の処理
+  mystery10.ee.on('select', (e) => {
 
   });
 
