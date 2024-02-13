@@ -217,7 +217,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -238,7 +238,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -273,7 +273,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -294,7 +294,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -329,7 +329,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -385,7 +385,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -658,7 +658,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -721,7 +721,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -777,7 +777,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -833,7 +833,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_7",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -847,7 +847,7 @@
         "text": "ええー！そんなバカな！解けてますよね？ね？<br>一体どんな問題が入ってたんです？",
         "act": [
           {
-            "id": "normal",
+            "id": "8",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -889,7 +889,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -910,7 +910,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -945,7 +945,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -966,7 +966,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1001,7 +1001,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1016,7 +1016,7 @@
         "text": "えへへ…。それほどでも〜！",
         "act": [
           {
-            "id": "normal",
+            "id": "8",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1086,7 +1086,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1100,7 +1100,7 @@
         "text": "？どうしたんですか？急にうめいて。<br>あ、そういえばロンベルさんもゲームには参加なさるんですか？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1198,7 +1198,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1219,7 +1219,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1254,7 +1254,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "ron_5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1263,7 +1263,7 @@
         ]
       },
       {
-        "background": "img/bg/bg4.png",
+        "background": "img/bg/bg0.png",
         "name": "　",
         "text": "ロンベル編 end",
         "act": [
@@ -1275,14 +1275,14 @@
             }
           },
           {
-            "id": "normal_g",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.01
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01

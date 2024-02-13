@@ -570,12 +570,12 @@
         ]
       },
       {
-        "background": "img/bg/bg4.png",
+        "background": "img/bg/bg0.png",
         "name": "　",
         "text": "ティム編 end",
         "act": [
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.18
