@@ -41,8 +41,7 @@
               "value": 0.01
             }
           }
-        ],
-        "ismystery9":true
+        ]
       },
       {
         "background": "img/bg/bg1.png",
@@ -551,7 +550,7 @@
       {
         "background": "img/bg/bg2.png",
         "name": "アズキ",
-        "text": "・・・・・・・・・・・・・・・・・・・・・・は？",
+        "text": "・・・・・・・・・・・・・・・・・は？",
         "act": [
           {
             "id": "7",

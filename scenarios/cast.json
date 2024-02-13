@@ -233,6 +233,41 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "cha_8.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_7",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_7.png"
       }
     ]
   },
