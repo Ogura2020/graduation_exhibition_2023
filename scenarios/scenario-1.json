@@ -105,7 +105,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "cha_2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -231,7 +231,7 @@
       "text": "厨房と大広間は同じ階にある上に近いから、言っていることに嘘は無さそう。<br>私の所にもシャロットさん運びに来てたし…。",
       "act": [
         {
-          "id": "normal",
+          "id": "1",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -287,7 +287,7 @@
       "text": "………？なんで急にそんな事。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -357,7 +357,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "cha_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -455,7 +455,7 @@
       "text": "もう、急にどうしたのかと思ったじゃない。シャロットさんも突然すみませんでした。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -497,7 +497,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "cha_2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -511,7 +511,7 @@
       "text": "ああ！すみません！お呼び止めしちゃって！ありがとうございました。",
       "act": [
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -553,7 +553,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "cha_2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -567,7 +567,7 @@
       "text": "大した情報は得られなかったねー。",
       "act": [
         {
-          "id": "normal",
+          "id": "1",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -623,7 +623,7 @@
       "text": "気づけてなくて悪かったわね。てゆうか、普通の人は気付けないと思うけど…。",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -679,7 +679,7 @@
       "text": "なんかトゲのある言い方だけど、言ってることは間違ってないのがムカつく……。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -707,7 +707,7 @@
       "text": "ポロッと出す割にはすごく難しかったんだけど…この謎かけ。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -743,7 +743,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -764,7 +764,7 @@
       "text": "たまにって…。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -815,7 +815,7 @@
       ]
     },
     {
-      "background": "img/bg/bg4.png",
+      "background": "img/bg/bg0.png",
       "name": "　",
       "text": "シャロット編 end",
       "act": [

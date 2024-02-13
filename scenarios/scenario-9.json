@@ -88,7 +88,7 @@
       {
         "background": "img/bg/bg4.png",
         "name": "???",
-        "text": "…………………。",
+        "text": "…………………。<br>君は、僕と同業者の子かな？",
         "act": [
           {
             "id": "none",
@@ -116,62 +116,6 @@
       {
         "background": "img/bg/bg4.png",
         "name": "アズキ",
-        "text": "(ね、寝てる？)",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "none",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "normal_g",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "background": "img/bg/bg4.png",
-        "name": "???",
-        "text": "君は、僕と同業者の子かな？",
-        "act": [
-          {
-            "id": "normal_g",
-            "position": {
-              "aligh": "left",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "none",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "background": "img/bg/bg4.png",
-        "name": "アズキ",
         "text": "え？",
         "act": [
           {
@@ -217,63 +161,7 @@
             }
           },
           {
-            "id": "normal",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "background": "img/bg/bg4.png",
-        "name": "アズキ",
-        "text": "え？",
-        "act": [
-          {
-            "id": "normal",
-            "position": {
-              "aligh": "left",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "none",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "normal_g",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "background": "img/bg/bg4.png",
-        "name": "???",
-        "text": "君のような可憐な女性にお声がけいただけるとは…流石は僕と、いったところか。",
-        "act": [
-          {
-            "id": "normal_g",
-            "position": {
-              "aligh": "left",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "none",
-            "position": {
-              "aligh": "right",
-              "value": 0.01
-            }
-          },
-          {
-            "id": "normal",
+            "id": "gr_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -301,7 +189,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -315,7 +203,7 @@
         "text": "……………。<br>(あ、私……こういうタイプ、ダメかも)",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -357,7 +245,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -371,7 +259,7 @@
         "text": "あ、ああ…えっと。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -413,7 +301,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_8",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -427,7 +315,7 @@
         "text": "いや、それはないです。私、アズキ・シェレンベルガーっていいます。<br>実は今この館に関する情報集めをやっていて色々な人に聞いて回ってるんです。<br>良かったら知っている事をお教えいただけないかと思いまして。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -469,7 +357,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -483,7 +371,7 @@
         "text": "いや、そういうのじゃなくて。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -525,7 +413,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_8",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -539,7 +427,7 @@
         "text": "(あ～やばい。別世界に行っちゃった…。これ以上聞いてもダメそう)<br>行こうティム。この人は多分何も知らないよ。",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -595,7 +483,7 @@
         "text": "ええ〜……そうかな……。私にはただのイタい人にしか見えないんだけど。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -665,7 +553,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -721,7 +609,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -777,7 +665,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -798,7 +686,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -819,7 +707,7 @@
         "text": "な、なんかただならぬ雰囲気…すごいピリついてる。<br>（でも謎かけで決めるってすごく平和な気もする……）",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -861,7 +749,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_5",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -876,7 +764,7 @@
         "text": "なんか悪者がすさまじい速さでやられて逃げ帰っていく的なデジャヴを感じる……。<br>(でも、やっぱりティムはすごい…私も解けたは解けたけど、ティムほど早くはなかったし)",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -911,7 +799,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.18
@@ -946,7 +834,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1002,7 +890,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1058,7 +946,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1100,7 +988,7 @@
         "text": "ちなみになんだけど、謎かけも同封されてた？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1125,7 +1013,7 @@
       {
         "background": "img/bg/bg4.png",
         "name": "グリフィス",
-        "text": "そん？ああ、入ってたよ。チンケな謎がね。",
+        "text": "ん？ああ、入ってたよ。チンケな謎がね。",
         "act": [
           {
             "id": "normal_g",
@@ -1142,7 +1030,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1156,7 +1044,7 @@
         "text": "そう言うってことは……解いたんだ。",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1198,7 +1086,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_8",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1212,7 +1100,7 @@
         "text": "(………やっぱりこの人、苦手かも)",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -1254,7 +1142,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "gr_1",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -1263,7 +1151,7 @@
         ]
       },
       {
-        "background": "img/bg/bg4.png",
+        "background": "img/bg/bg0.png",
         "name": "　",
         "text": "グリフィス編 end",
         "act": [
@@ -1282,7 +1170,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.18

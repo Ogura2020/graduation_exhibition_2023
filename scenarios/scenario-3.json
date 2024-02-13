@@ -7,7 +7,7 @@
       "text": "ティムって、私から見てもすごく不思議な子供だと思う。",
       "act": [
         {
-          "id": "normal",
+          "id": "1",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -35,7 +35,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -49,7 +49,7 @@
       "text": "してないわよ！<br>いや、だって普通はこんな辺境まで一緒に来てくれなんて言われても大体は断られるだろうし。<br>そも依頼料も想像より高くは無かったし。",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -91,7 +91,7 @@
       "text": "自分がしたいことって…探偵業のこと？",
       "act": [
         {
-          "id": "normal",
+          "id": "1",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -133,7 +133,7 @@
       "text": "自己満足…でも私まだティムに今回の依頼理由話してないけど、やっぱり気になったりするの？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -175,7 +175,7 @@
       "text": "……うん。少しややこしい話にもなるから今は話せない。<br>でも、この旅のどこかで絶対話すよ。ティムにはすごく感謝してもしきれないくらいお世話になっているから！",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -203,7 +203,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -217,7 +217,7 @@
       "text": "…ありがとう、ティム！",
       "act": [
         {
-          "id": "normal",
+          "id": "8",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -245,7 +245,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -259,7 +259,7 @@
       "text": "さっきまで良い感じで話が終わっていたのに唐突な謎かけを入れてくる……。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -287,7 +287,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -301,7 +301,7 @@
       "text": "しっかり難しかった…。<br>ほんと不思議というか変わっているというか…謎解き大好き少年ね。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -330,7 +330,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -344,7 +344,7 @@
       "text": "なんか、私よりもやる気に満ち溢れてイキイキしてる…。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.18

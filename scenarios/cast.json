@@ -191,6 +191,48 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "wick_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_1",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_1.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_6",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_6.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_7",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_7.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_8",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_8.png"
       }
     ]
   },
@@ -386,6 +428,62 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "8.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_1",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_1.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_6",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_6.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_7",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_7.png"
+      },
+      {
+        "frame": 2,
+        "id": "cha_8",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_8.png"
+      },
+      {
+        "frame": 2,
+        "id": "azu_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "azu_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "azu_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "azu_5.png"
       }
     ]
   },

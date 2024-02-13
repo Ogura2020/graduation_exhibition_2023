@@ -28,7 +28,7 @@
         "text": "いつの間にか大広間から居なくなっちゃってた人たちには話聞けなかったけどね…。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -70,7 +70,7 @@
         "text": "そういえば、ゲームに関する説明をしてくれるってあの使用人さん言ってたけどいつ話すんだろう？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -175,7 +175,7 @@
         "text": "館の…中に…。",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -322,7 +322,7 @@
         "text": "そんなことないわよ！<br>誰だってどんな美味しい物が出てくるんだろとか考えたりするでしょ！ふつう！",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -350,7 +350,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -364,7 +364,7 @@
         "text": "あーもう、うるさいうるさい！<br>私、先に部屋帰っちゃうから！じゃ！また明日！！",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -506,7 +506,7 @@
         ]
       },
       {
-        "background": "img/bg/bg0.png",
+        "background": "img/bg/bg0_0.png",
         "name": "　",
         "text": "　",
         "act": [
@@ -571,10 +571,10 @@
       {
         "background": "img/bg/bg5.png",
         "name": "アズキ",
-        "text": "サラッと毒を吐いたんですけどこの子供……。<br>ていうかティム、昨日大広間から戻った後、自分の部屋にブローチって置かれてた？",
+        "text": "サラッと毒を吐いたんですけどこの子……。<br>ていうかティム、昨日大広間から戻った後、自分の部屋にブローチって置かれてた？",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -700,7 +700,7 @@
         "text": "あれ？ティム聞いてる？私の話。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -742,7 +742,7 @@
         "text": "聞いてない…また私の話無視してー……。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -784,7 +784,7 @@
         "text": "えっちょっと！ティム！？待ってよ！",
         "act": [
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -826,7 +826,7 @@
         "text": "ヒッ……！？って君は……昨日の。",
         "act": [
           {
-            "id": "cha_normal",
+            "id": "cha_6",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -868,7 +868,7 @@
         "text": "ええっと……。",
         "act": [
           {
-            "id": "cha_normal",
+            "id": "cha_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -917,7 +917,7 @@
             }
           },
           {
-            "id": "cha_normal",
+            "id": "cha_5",
             "position": {
               "aligh": "right",
               "value": 0.18
@@ -959,7 +959,7 @@
             }
           },
           {
-            "id": "cha_normal",
+            "id": "cha_5",
             "position": {
               "aligh": "right",
               "value": 0.18
@@ -1057,7 +1057,7 @@
         "text": "本当に気味が悪いよ…。僕は付き添いで来ただけだから、ゲームにも興味がないし、こんな所さっさと出ていきたいんだ。<br>だが、友人を置いていく訳にもいかなくてね。君は…誰の付き添いで来たの？",
         "act": [
           {
-            "id": "azu_normal",
+            "id": "azu_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1085,7 +1085,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1099,7 +1099,7 @@
         "text": "てぃ、ティム〜！<br>私を置いてかないでよ〜！",
         "act": [
           {
-            "id": "normal",
+            "id": "6",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -1162,7 +1162,7 @@
         "text": "んも～自分だけさっさと先に行っちゃうんだもん、追いつく身にもなってよね…。<br>ってシャロットさん！それに……。",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -1225,7 +1225,7 @@
         "text": "ええ、こちらこそ",
         "act": [
           {
-            "id": "azu_normal",
+            "id": "azu_2",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -1267,7 +1267,7 @@
         "text": "え？なになに？何の話？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1295,7 +1295,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1330,7 +1330,7 @@
         "text": "えーー？！！あの人行方知れずになっちゃったのーー？？！",
         "act": [
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -1358,7 +1358,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1372,7 +1372,7 @@
         "text": "いや、誰だって驚いちゃうでしょ、しかもこの館内だし。",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1393,7 +1393,7 @@
         "text": "ウィックマンさんが見受けられない以上、彼抜きでゲームを続行することもやむ無しかとサウスさんとも、相談していて…。",
         "act": [
           {
-            "id": "cha_normal",
+            "id": "cha_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1477,7 +1477,7 @@
         "text": "ああ、あの方には今屋敷内全体をくまなく捜査していただいています。<br>後ほど、私も彼のもとに手伝いに行く予定です。",
         "act": [
           {
-            "id": "cha_normal",
+            "id": "cha_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1519,7 +1519,7 @@
         "text": "いやいや、大したことはしてないよ。",
         "act": [
           {
-            "id": "azu_normal",
+            "id": "azu_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1579,10 +1579,10 @@
       {
         "background": "img/bg/bg4.png",
         "name": "アズマ",
-        "text": "そういえば、彼の名を聞いていなかったな…シャロットさんは彼が誰だか知ってるの？",
+        "text": "…そういえば、彼の名を聞いていなかったな。シャロットさんは彼が誰だか知ってるの？",
         "act": [
           {
-            "id": "azu_normal",
+            "id": "azu_2",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -1610,7 +1610,7 @@
             }
           },
           {
-            "id": "cha_normal",
+            "id": "cha_2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1640,12 +1640,12 @@
         ]
       },
       {
-        "background": "img/bg/bg4.png",
+        "background": "img/bg/bg0.png",
         "name": "　",
         "text": "チャプター2 end",
         "act": [
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.18

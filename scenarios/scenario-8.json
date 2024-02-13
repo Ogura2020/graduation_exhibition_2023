@@ -7,7 +7,7 @@
         "text": "(う、うわーー…すっごい気難しそう…。煙草めちゃめちゃふかしてるし…)<br>あ、あのー……。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -63,7 +63,7 @@
         "text": "(う、うう…………)",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.18
@@ -119,7 +119,7 @@
         "text": "(えっ！？ティ、ティム？！！)",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -315,7 +315,7 @@
         "text": "な、な、なによあの態度〜〜！！<br>ぶっきらぼうで偉そうで、話もろくに聞かずにさっさと出て行っちゃって……！！<br>ムカツク〜〜〜！！！",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -371,7 +371,7 @@
         "text": "にしても、度が過ぎるでしょ！<br>なんなのよアイツ〜……せめて、招待状か手紙が見れれば…。",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -427,7 +427,7 @@
         "text": "どうしたのティム？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -462,7 +462,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -483,7 +483,7 @@
         "text": "ダストボックス？中になにか入ってるの？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -518,7 +518,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -539,7 +539,7 @@
         "text": "それってどういう…。あっ！それって…！！",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -651,7 +651,7 @@
         "text": "そっか。なら、あんまり手がかりはなさそうだなー。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -707,7 +707,7 @@
         "text": "な、なに？その含みのあるような言い方。",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -742,7 +742,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -763,7 +763,7 @@
         "text": "何このやるしかないような空気感…。<br>まぁ、気分を紛らわせるのに丁度いいからやってもいいけど…。",
         "act": [
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -791,7 +791,7 @@
         "text": "解いてみて思ったんだけど、さっきのアイツはこれ解けたのかな。",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -848,7 +848,7 @@
         "text": "聞けば聞くほどまたムカムカが戻ってくる……。<br>でも、それじゃあなんでこの館にわざわざ来たんだろう？ゲームに参加しないのに……。",
         "act": [
           {
-            "id": "normal",
+            "id": "4",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -899,19 +899,19 @@
         ]
       },
       {
-        "background": "img/bg/bg4.png",
+        "background": "img/bg/bg0.png",
         "name": "　",
         "text": "ウィックマン編 end",
         "act": [
           {
-            "id": "normal_g",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.01
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01

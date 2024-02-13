@@ -252,7 +252,7 @@
         "text": "えっ？なんで？",
         "act": [
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -322,7 +322,7 @@
         "text": "う、うん。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -364,7 +364,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.18
@@ -406,7 +406,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -434,7 +434,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -574,7 +574,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -644,7 +644,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -686,7 +686,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -714,7 +714,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "8",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -756,7 +756,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -784,7 +784,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -896,7 +896,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1008,7 +1008,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "av_3",
             "position": {
               "aligh": "right",
               "value": 0.18
@@ -1036,7 +1036,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1064,7 +1064,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1113,7 +1113,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "av_4",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1176,7 +1176,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1218,7 +1218,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "av_4",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1246,7 +1246,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_5",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1274,7 +1274,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1316,7 +1316,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1344,7 +1344,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1421,7 +1421,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "mary_2",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1449,7 +1449,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1477,7 +1477,7 @@
         "text": "姉妹の人たち行っちゃったんだけど……私何も聞けてないのに。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1519,7 +1519,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1547,7 +1547,7 @@
         "text": "よく言うわ……のけ者にしたくせに。",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1589,7 +1589,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1617,7 +1617,7 @@
         "text": "………まぁ、色々情報が聞けたんなら良かったけど。<br>今度は私もガンガン喋りにいってやるんだから！！",
         "act": [
           {
-            "id": "normal",
+            "id": "8",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1659,7 +1659,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1687,7 +1687,7 @@
         "text": "なに？………ってこれ招待状じゃない！<br>一体どこから……もしかして彼女の？",
         "act": [
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1757,7 +1757,7 @@
         "text": "やっぱり私の所に届いた招待状となんら変わりはなさそう…。<br>謎かけが違うぐらいかな？",
         "act": [
           {
-            "id": "normal",
+            "id": "3",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1799,7 +1799,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1827,7 +1827,7 @@
         "text": "え！？この謎かけを？",
         "act": [
           {
-            "id": "normal",
+            "id": "7",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1869,7 +1869,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -1897,7 +1897,7 @@
         "text": "うーん、なんか丸め込まれてる感じするけど。<br>ま、言ってることは間違ってないしやりますか！",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1932,7 +1932,7 @@
         "text": "や、やったー！解けた！",
         "act": [
           {
-            "id": "normal",
+            "id": "8",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -1975,7 +1975,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "2",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2003,7 +2003,7 @@
         "text": "うう～…こんなに頭使うの、久しぶり過ぎる。",
         "act": [
           {
-            "id": "normal",
+            "id": "6",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2045,7 +2045,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2073,7 +2073,7 @@
         "text": "へ？？",
         "act": [
           {
-            "id": "normal",
+            "id": "1",
             "position": {
               "aligh": "left",
               "value": 0.01
@@ -2115,7 +2115,7 @@
             }
           },
           {
-            "id": "normal",
+            "id": "5",
             "position": {
               "aligh": "right",
               "value": 0.01
@@ -2138,19 +2138,19 @@
         ]
       },
       {
-        "background": "img/bg/bg4.png",
+        "background": "img/bg/bg0.png",
         "name": "　",
         "text": "メアリー編 end",
         "act": [
           {
-            "id": "normal_g",
+            "id": "none",
             "position": {
               "aligh": "left",
               "value": 0.01
             }
           },
           {
-            "id": "normal",
+            "id": "none",
             "position": {
               "aligh": "right",
               "value": 0.01
