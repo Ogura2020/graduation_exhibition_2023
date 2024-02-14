@@ -14,7 +14,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -91,7 +91,7 @@
       "text": "な、なになに？！急に上の方から叫び声が……！",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -147,7 +147,7 @@
       "text": "ちょ、ちょっとティム！！？",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -170,12 +170,40 @@
       ]
     },
     {
-      "background": "img/bg/bg7.png",
-      "name": "アズキ",
-      "text": "ハァハァ……ティム足速いんだもんなぁ。すぐに置いていかれちゃった…。<br>…あ！ティム！……とアレ？奥にもう二人いる？",
+      "background": "img/bg/bg0_7.png",
+      "name": "　",
+      "text": "　",
       "act": [
         {
-          "id": "normal",
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "アズキ",
+      "text": "ハァハァ……ティム足速いんだもんなぁ。すぐに置いていかれちゃった…。<br>…あ！ティム！……とあれ？奥にもう二人いる？",
+      "act": [
+        {
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -231,7 +259,7 @@
       "text": "シャロットさん！叫び声ってシャロットさんですよね？<br>一体どうしたんですか？何故か顔も凄く青ざめてるし…。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -287,7 +315,7 @@
       "text": "あれ？ロンベルさんもいる…ていうことはティムも書斎の中にいるんですか？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -343,7 +371,7 @@
       "text": "ティム？なんでそんなに慌てて……。<br>？？！！…………えッ？",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -351,6 +379,34 @@
         },
         {
           "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "ティム",
+      "text": "ロンベル、君は至急シャロットさんを連れて大広間へ戻りサウスさんに今起こっていることを慎重に説明するんだ。<br>その後に、覆うための布も持ってきてくれ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -424,7 +480,7 @@
     {
       "background": "img/bg/bg7.png",
       "name": "ティム",
-      "text": "こんな辺境の館でこんな事件が起こってしまうなんてな……アズキも、あまり無理はせずに。<br>大広間で待っていてもいいんだよ？",
+      "text": "アズキも、あまり無理はせずに。<br>大広間で待っていてもいいんだよ？",
       "act": [
         {
           "id": "normal_g",
@@ -434,7 +490,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -455,7 +511,7 @@
       "text": "…やっぱり、昨日まで普通に生きてた人が死んでいたって事実にはまだ戸惑いはあるし、不安はあるけど…<br>ティムがこの館に来るきっかけを作ったのは私だし、それにもしかしたら私にも手伝えることはあるかもだし…！",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -490,7 +546,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -525,7 +581,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_8",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -581,7 +637,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_5",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -595,7 +651,7 @@
       "text": "でもウィックマンさんは何で書斎なんかにいたんだろ？何か用でもあったのかな？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -693,7 +749,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_2",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -763,7 +819,7 @@
       "text": "凶器は、部屋に落ちていたこの銃とウィックマンさんの傷跡から見て銃殺なんだよね？<br>銃って音が物凄く響くものだから撃ったらバレそうだと思うんだけど…。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -819,7 +875,7 @@
       "text": "そっか……じゃあ、死因は銃殺？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -875,7 +931,7 @@
       "text": "どういうこと？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -931,7 +987,7 @@
       "text": "毒……？！",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -973,7 +1029,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_1",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1015,7 +1071,7 @@
       "text": "うん！",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1071,7 +1127,7 @@
       "text": "ティム！これ…！",
       "act": [
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1106,7 +1162,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1141,7 +1197,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_1",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1162,7 +1218,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1183,7 +1239,7 @@
       "text": "え！そ、そうなの？！やった……！",
       "act": [
         {
-          "id": "normal",
+          "id": "8",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1218,7 +1274,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1239,7 +1295,7 @@
       "text": "うん！頑張る！",
       "act": [
         {
-          "id": "normal",
+          "id": "8",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1264,7 +1320,7 @@
     {
       "background": "img/bg/bg7.png",
       "name": "グリフィス",
-      "text": "（また、蔑ろにされていないか？僕.....）",
+      "text": "（また、蔑ろにされていないか？僕.....)",
       "act": [
         {
           "id": "none",
@@ -1281,7 +1337,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_5",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -1309,7 +1365,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_1",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -1408,7 +1464,7 @@
       "text": "10年前.......私のおじいちゃんが行方不明になった時と同じ...。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1464,7 +1520,7 @@
       "text": "...もう隠してても仕方ないか。<br>そう、私が今回このゲームに参加したのはおじいちゃんの行方を知っているっていうゲームマスターに話を聞きに来たかったからなの。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1492,7 +1548,7 @@
       "text": "招待状に入っていた手紙には「行方を知っている」っていう文言だけだったから....いてもたってもいられなくなって。",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1548,7 +1604,7 @@
       "text": "うん....確かそう。<br>突然仕事に出たきり、戻らなくなっちゃって.....。それからは一度も会えてなくて。",
       "act": [
         {
-          "id": "normal",
+          "id": "6",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1583,7 +1639,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1618,7 +1674,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1688,7 +1744,7 @@
       "text": "....え？！",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1744,7 +1800,7 @@
       "text": "じゃ、じゃあ私は...。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1800,7 +1856,7 @@
       "text": ".....じゃあ、やっぱり。",
       "act": [
         {
-          "id": "normal",
+          "id": "6",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1870,7 +1926,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "gr_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1912,7 +1968,7 @@
       "text": "で、でもそれじゃあどうやって犯人を.....。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1947,7 +2003,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1968,7 +2024,7 @@
       "text": "え、その紙切れが？？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -2003,7 +2059,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2024,7 +2080,7 @@
       "text": "ティムには.....もう犯人の見当はついてるの？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -2080,7 +2136,7 @@
       "text": "な、なに？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -2136,7 +2192,7 @@
       "text": "わ、私は――。",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
