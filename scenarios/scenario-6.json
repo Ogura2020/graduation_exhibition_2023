@@ -105,7 +105,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "av_3",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -161,7 +161,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "av_3",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -441,7 +441,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "av_2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -511,7 +511,7 @@
       "text": "トラウマ…東都さんも大変だったんだな…。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -553,7 +553,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "av_5",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -564,10 +564,10 @@
     {
       "background": "img/bg/bg4.png",
       "name": "アズキ",
-      "text": "あ！あと1つだけいいですか?!<br>手紙の方にはなんて書いてあったか、覚えてらっしゃいますか？",
+      "text": "あ!あと1つだけいいですか?!<br>手紙の方にはなんて書いてあったか、覚えてらっしゃいますか？",
       "act": [
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -609,7 +609,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "av_3",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -651,7 +651,7 @@
       "text": "行っちゃった……。<br>まあでも、大体気になっていたことは聞けたかな？",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -686,7 +686,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -707,7 +707,7 @@
       "text": "相変わらず上からだなぁ…。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -763,7 +763,7 @@
       "text": "ン〜…悩んだくらいだから難しそうだよね。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -819,7 +819,7 @@
       "text": "え！てぃ、ティムの考えた謎？！(い、嫌な予感しかしない…)",
       "act": [
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -854,7 +854,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -875,7 +875,7 @@
       "text": "嫌な予感的中…やっぱり難しかった…。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -911,7 +911,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -932,7 +932,7 @@
       "text": "褒められるのは純粋に嬉しいけど…。(私のほうが年上なんだよなぁ…)",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
