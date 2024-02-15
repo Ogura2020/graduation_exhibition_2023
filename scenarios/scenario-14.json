@@ -2813,6 +2813,426 @@
           }
         }
       ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "その後ピユーヴルの館を後にした私たちは、それぞれ警察の人たちから聴取された後帰路についた。<br>ウィックマンさん亡き後、メアリさんとアヴリルさんは会社を受け継ぎ2人で協力しながら何とかやっているそう。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "ロンベルさんに連れていかれたアリスさんはその後刑務所に送られ、死刑執行を待つのみらしい。<br>正直なところ、やるせない気持ちがないのかといえば嘘になる。だが、憎しみを抱いたとしても何も得るものは無い。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "普段はそっけないティムも、その時ばかりは優しく声をかけてくれていた。<br>旅の目的を果たし、ティムとの奇妙な物語もこれで終わり。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "だが、この話にはまだ続きがある。それは........。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0_0_1.png",
+      "name": "　",
+      "text": "　",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "アズキ",
+      "text": "ティム～！ちょっと～！どこにいるの～？？隠れてないで出ておいで～！",
+      "act": [
+        {
+          "id": "al",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "　",
+      "text": "ゴソゴソッ.....",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "アズキ",
+      "text": "あっ、いた！<br>も～どこいってたのティム～！",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "　",
+      "text": "ニャーーン",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "ティム",
+      "text": ".....アズキ、頼むからその猫に対して「ティム」の名前を付けるのはやめてくれないか？",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "　",
+      "text": "ンナァーン",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "ティム",
+      "text": "なんでよりにもよって僕の名前を...。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "アズキ",
+      "text": "いいじゃん、可愛いし！",
+      "act": [
+        {
+          "id": "8",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "　",
+      "text": "私、アズキはあの後一度は帰路についたものの、ティムとの旅を通して彼のことが気になり始め再度この事務所へやってきた。<br>ティムも最初は厄介払いをしてきたが、あまりにもしつこいので途中から諦め今もこうして一緒に事務所をやっている。",
+      "act": [
+        {
+          "id": "8",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "アズキ",
+      "text": "この猫さんって今は預かってるけど明日には元の主人のところへ帰っていっちゃうんだよね...。",
+      "act": [
+        {
+          "id": "3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "ティム",
+      "text": "そのほうが、その猫も喜ぶさ。<br>さ、アズキ。もうすぐ依頼者がやってくる時間だよ。準備して。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg2.png",
+      "name": "アズキ",
+      "text": "うん！",
+      "act": [
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "こうしてピユーヴルの館での奇妙な旅は終わりを迎えた。<br>この先にも幾度かの事件が私達を待っていることとなるのだが....それはまた別のお話。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "今日もまた、悩みを抱えた依頼者がトーマス探偵事務所へとやってくる。<br>あの時の私と同じように...。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg_last.png",
+      "name": "　",
+      "text": "　",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
     }
   ]
 }
