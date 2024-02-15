@@ -96,6 +96,13 @@
       },
       {
         "frame": 2,
+        "id": "cha_normal_g2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_normal_g2.png"
+      },
+      {
+        "frame": 2,
         "id": "av_normal",
         "loop": false,
         "scale": 0.6,
@@ -275,6 +282,69 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "gr_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_3",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_3.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ma_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_3",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_3.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_4",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_4.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_5.png"
       }
     ]
   },
@@ -473,6 +543,13 @@
       },
       {
         "frame": 2,
+        "id": "cha_normal_g2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "cha_normal_g2.png"
+      },
+      {
+        "frame": 2,
         "id": "cha_1",
         "loop": false,
         "scale": 0.6,
@@ -526,6 +603,118 @@
         "loop": false,
         "scale": 0.6,
         "sheet": "azu_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "gr_1",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "gr_1.png"
+      },
+      {
+        "frame": 2,
+        "id": "gr_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "gr_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "gr_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "gr_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_3",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mari_3.png"
+      },
+      {
+        "frame": 2,
+        "id": "mari_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ma_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "ron_7",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "ron_7.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_normal",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_normal.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_normal_g",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_normal_g.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_2",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_2.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_3",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_3.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_4",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_4.png"
+      },
+      {
+        "frame": 2,
+        "id": "av_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "av_5.png"
+      },
+      {
+        "frame": 2,
+        "id": "mary_5",
+        "loop": false,
+        "scale": 0.6,
+        "sheet": "mary_5.png"
       }
     ]
   },

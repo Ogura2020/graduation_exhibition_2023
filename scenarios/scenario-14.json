@@ -14,7 +14,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -133,7 +133,7 @@
       "text": "そ、それは.....。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -161,7 +161,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -175,7 +175,7 @@
       "text": "か、勘！！ですかね！",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -193,7 +193,7 @@
     {
       "background": "img/bg/bg7.png",
       "name": "ティム",
-      "text": "........................................嘘だろ、君。",
+      "text": "........................嘘だろ、君。",
       "act": [
         {
           "id": "normal_g",
@@ -203,28 +203,7 @@
           }
         },
         {
-          "id": "normal",
-          "position": {
-            "aligh": "right",
-            "value": 0.01
-          }
-        }
-      ]
-    },
-    {
-      "background": "img/bg/bg7.png",
-      "name": "アズキ",
-      "text": "か、勘！！ですかね！",
-      "act": [
-        {
-          "id": "normal",
-          "position": {
-            "aligh": "left",
-            "value": 0.18
-          }
-        },
-        {
-          "id": "none",
+          "id": "5",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -256,10 +235,10 @@
     {
       "background": "img/bg/bg7.png",
       "name": "アズキ",
-      "text": "だ、だって！自分でもよく分かんないけどなんとなくこの人かなー...って思って.......。",
+      "text": "だ、だって！自分でもよく分かんないけどなんとなくこの人かなー...って思って...。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -287,7 +266,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -301,7 +280,7 @@
       "text": "ちょ、あの、そういう憐れみの目で見るのやめて下さい....落ち込みます....。",
       "act": [
         {
-          "id": "normal",
+          "id": "6",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -340,7 +319,7 @@
     {
       "background": "img/bg/bg7.png",
       "name": "ティム",
-      "text": "そうだな。<br>アズキ君には猛省してもらいながら大広間に向かってもらうとして、そろそろ移動しようか",
+      "text": "そうだな。<br>アズキには猛省してもらいながら大広間に向かってもらうとして、そろそろ移動しようか",
       "act": [
         {
           "id": "gr_normal_g",
@@ -364,7 +343,7 @@
       "text": "猛省...します...。",
       "act": [
         {
-          "id": "normal",
+          "id": "6",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -448,7 +427,7 @@
       "text": "うん....しかも東都さんが一方的に詰められているみたい...。",
       "act": [
         {
-          "id": "normal",
+          "id": "3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -490,14 +469,14 @@
       "text": "あ、ティ、ティム？！",
       "act": [
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "left",
-            "value": 0.01
+            "value": 0.18
           }
         },
         {
-          "id": "normal_g",
+          "id": "none",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -550,10 +529,10 @@
     {
       "background": "img/bg/bg4.png",
       "name": "マリア",
-      "text": "でも、銃を所持しているのはこの館内であなただけじゃない！<br>それにあなたは娘のアヴリルの許嫁でもあるし、会社を乗っ取るために殺したんでしょ!!",
+      "text": "でも、銃を所持しているのはこの館内であなただけじゃない！<br>それにあなたは娘のアヴリルの許嫁でもあるし、会社を乗っ取るために殺したんでしょ?!",
       "act": [
         {
-          "id": "mari_2",
+          "id": "mari_5",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -595,7 +574,7 @@
       "text": "でも全員見たでしょ！彼の胸元に撃ち込まれた銃の痕を....!<br>刑事さんは銃を忘れて持ってきていないっていうし、彼しかいないじゃない！",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -616,7 +595,7 @@
       "text": "それにアヴリル達が庇ってるっていうのも怪しいわ...。<br>あなたたち、確か彼と仲が悪かったわよね？もしかしてグルになって...。",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -658,7 +637,7 @@
       "text": "刑事さんに使用人さん！何ボサッとしてるのよ！早く警察を呼んでこの人たちをー。",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -700,7 +679,7 @@
       "text": "....え？！",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -728,7 +707,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -742,7 +721,7 @@
       "text": "申し訳ない...。",
       "act": [
         {
-          "id": "ron_normal",
+          "id": "ron_7",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -910,7 +889,7 @@
       "text": "説明も何も....犯人は銃を持っていた東都有一で決まりでしょ？<br>それ以外にあるっていうの？",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -952,7 +931,7 @@
       "text": ".........え？意味がないって...どういう...。",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -980,7 +959,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -994,7 +973,7 @@
       "text": "刺し傷....？刃物ってこと？",
       "act": [
         {
-          "id": "av_normal",
+          "id": "av_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1022,7 +1001,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1036,7 +1015,7 @@
       "text": "は、針？！なんでそんなもので人が死ぬのよ？",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1078,7 +1057,7 @@
       "text": "たかがカエルの毒で.....。",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_2",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1120,7 +1099,7 @@
       "text": "でもどうしてその毒だと分かったんだい？毒なんて数多の種類のものがあるのに。",
       "act": [
         {
-          "id": "azu_normal",
+          "id": "azu_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1183,7 +1162,7 @@
       "text": "でも死因が毒だとして.....銃には何の意味が？",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1211,7 +1190,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "7",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1225,7 +1204,7 @@
       "text": "そ、そんな！",
       "act": [
         {
-          "id": "azu_normal",
+          "id": "azu_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1267,7 +1246,7 @@
       "text": "自分から？",
       "act": [
         {
-          "id": "av_normal",
+          "id": "av_3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1330,7 +1309,7 @@
       "text": "じゃあ、その銃には...。",
       "act": [
         {
-          "id": "av_normal",
+          "id": "av_3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1372,7 +1351,7 @@
       "text": "誰だって違和感があると気になって触ったり見たりしちゃうもんね...その心理を利用したってことか。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1393,7 +1372,7 @@
       "text": "犯行の顛末はよく分かったけど、結局のところ真犯人は誰なのよ？！<br>それに、東都じゃないっていう根拠は？",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1421,7 +1400,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1442,7 +1421,7 @@
           }
         },
         {
-          "id": "av_normal",
+          "id": "av_2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1456,7 +1435,7 @@
       "text": "先端恐怖症？何よそれ。",
       "act": [
         {
-          "id": "mari_normal",
+          "id": "mari_3",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1540,7 +1519,7 @@
       "text": "で、では....犯人は一体誰なんですか....?",
       "act": [
         {
-          "id": "mary_normal",
+          "id": "mary_5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1561,7 +1540,7 @@
       "text": "そう。犯人は東都さんでないのなら、真の犯人は別にいる。<br>わざわざ招待状を出し、狙いの人物達をこの館へとおびき寄せ、ある目的のために今回犯行に及んだ....その真犯人とはー。",
       "act": [
         {
-          "id": "mary_normal_g",
+          "id": "none",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1571,49 +1550,7 @@
           "id": "normal",
           "position": {
             "aligh": "right",
-            "value": 0.01
-          }
-        }
-      ]
-    },
-    {
-      "background": "img/bg/bg4.png",
-      "name": "ティム",
-      "text": "シャロットさん、あなただ。",
-      "act": [
-        {
-          "id": "mary_normal_g",
-          "position": {
-            "aligh": "left",
-            "value": 0.01
-          }
-        },
-        {
-          "id": "normal",
-          "position": {
-            "aligh": "right",
-            "value": 0.01
-          }
-        }
-      ]
-    },
-        {
-      "background": "img/bg/bg4.png",
-      "name": "ティム",
-      "text": "そう。犯人は東都さんでないのなら、真の犯人は別にいる。<br>わざわざ招待状を出し、狙いの人物達をこの館へとおびき寄せ、ある目的のために今回犯行に及んだ....その真犯人とはー。",
-      "act": [
-        {
-          "id": "mary_normal_g",
-          "position": {
-            "aligh": "left",
-            "value": 0.01
-          }
-        },
-        {
-          "id": "normal",
-          "position": {
-            "aligh": "right",
-            "value": 0.01
+            "value": 0.18
           }
         }
       ]
@@ -1652,7 +1589,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_6",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -1666,7 +1603,7 @@
       "text": "しゃ、シャロットさんが真犯人？！そんな...。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1694,7 +1631,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_5",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1750,7 +1687,7 @@
       "text": "な、なにを根拠にそんなことを...!!",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_5",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1789,17 +1726,17 @@
     {
       "background": "img/bg/bg4.png",
       "name": "シャロット",
-      "text": ".....知らぬ名です。",
+      "text": ".....しっ知りません。そんな名前。",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_5",
           "position": {
             "aligh": "right",
             "value": 0.01
           }
         },
         {
-          "id": "normal_g",
+          "id": "normal",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1855,7 +1792,7 @@
       "text": "トーマス先生は俺があの時に居場所を突き止められなかったアリスのヤツがこの中にまぎれてるっていうのか？！",
       "act": [
         {
-          "id": "ron_normal",
+          "id": "ron_7",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -1883,7 +1820,7 @@
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -1918,7 +1855,7 @@
       "text": "な、ちょ、ちょっと待て！<br>トーマス先生、それはおかしいぞ！なぜならアイツはー。",
       "act": [
         {
-          "id": "ron_normal",
+          "id": "ron_7",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -1959,7 +1896,7 @@
       "text": "そうだ！アイツはれっきとした男だし、何より容貌もまったくあの時と...。",
       "act": [
         {
-          "id": "ron_normal",
+          "id": "ron_7",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2022,7 +1959,7 @@
       "text": "でたらめを言わないでください....私が男性なはずが.....。",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_5",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2106,7 +2043,7 @@
       "text": "フッ......フフフフ、ハハハハハッッ！！",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -2127,14 +2064,14 @@
       "text": "しゃ、シャロット...さん？",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2145,7 +2082,7 @@
     {
       "background": "img/bg/bg4.png",
       "name": "アリス",
-      "text": "どうやら、これ以上演技を続けるのは無駄みたいだな。<br>ああそうだ、俺がアリス・ウィンキソン。シャロットは都合がいいからと、使っていた偽名だよ。",
+      "text": "どうやら、これ以上演技を続けるのは無駄みたいだな。<br>ああそうだ、俺がアリス・ウィンキソン。シャロットは都合がいいから、使っていた偽名だよ。",
       "act": [
         {
           "id": "normal_g",
@@ -2155,7 +2092,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2169,14 +2106,14 @@
       "text": "お、お前が.....?!",
       "act": [
         {
-          "id": "ron_normal",
+          "id": "ron_7",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2197,7 +2134,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2211,14 +2148,14 @@
       "text": "よく今まで演じていたものだ....賞でも授与したいくらいだ。",
       "act": [
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
           }
         },
         {
-          "id": "normal",
+          "id": "2",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -2232,14 +2169,14 @@
       "text": "戯言ほざいてんじゃねぇ。最初っから疑ってかかっていたくせに。<br>にしても、こうも見破られるとはな。",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
-            "value": 0.18
+            "value": 0.01
           }
         },
         {
-          "id": "none",
+          "id": "normal_g",
           "position": {
             "aligh": "left",
             "value": 0.01
@@ -2253,7 +2190,7 @@
       "text": "シャロット....いいや、アリス！あなたに聞きたいことがある！！",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.18
@@ -2281,7 +2218,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2295,14 +2232,14 @@
       "text": "あなた....私の祖父の行方を知っているんでしょう？！どこに祖父はいるの？！",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2323,7 +2260,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2337,14 +2274,14 @@
       "text": "勿体ぶらないで！！教えて！",
       "act": [
         {
-          "id": "normal",
+          "id": "4",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2365,7 +2302,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2379,14 +2316,14 @@
       "text": "............う、うそ。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2407,7 +2344,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2421,14 +2358,14 @@
       "text": "そ、そんな.......どうして。",
       "act": [
         {
-          "id": "normal",
+          "id": "6",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2449,7 +2386,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2463,14 +2400,14 @@
       "text": "アリス・ウィンキソン、あなたはどうしてこんなことを...。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2491,7 +2428,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2512,7 +2449,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2533,7 +2470,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2554,7 +2491,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2568,14 +2505,14 @@
       "text": "生物兵器....?",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2596,7 +2533,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2607,7 +2544,7 @@
     {
       "background": "img/bg/bg4.png",
       "name": "アリス",
-      "text": "もしその生物兵器に関する書類を手に入れさえすれば、俺は一生遊んで暮らしていける莫大な金が手に入る。。<br>その話を聞いた瞬間、俺のやるべき目的が決まったんだ。",
+      "text": "もしその生物兵器に関する書類を手に入れさえすれば、俺は一生遊んで暮らしていける莫大な金が手に入る。<br>その話を聞いた瞬間、俺のやるべき目的が決まったんだ。",
       "act": [
         {
           "id": "normal_g",
@@ -2617,7 +2554,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2631,7 +2568,7 @@
       "text": "初耳だな...。まさか、そんなものが開発されていたなんて...。",
       "act": [
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2652,7 +2589,7 @@
       "text": "俺はなんとかあの手この手を使い書類を探したが、ついぞ見つけることは叶わなかった...。<br>最終手段としてとった計画こそが、今回の館でのゲームだった。",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2673,7 +2610,7 @@
       "text": "案外簡単だったよ、ここに誘き出させるのは。それぞれ金で釣ったり脅したり.....過去の事を引き合いに出したり。<br>そうしてノコノコ集まってきたヤコフに関わりのありそうな人物を片っ端から洗っていったって訳だ。",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2694,14 +2631,14 @@
       "text": "そういうことなら、なぜウィックマンさんは殺した？<br>殺す必要は無かった気がするが。",
       "act": [
         {
-          "id": "ron_normal",
+          "id": "ron_7",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2722,7 +2659,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2736,14 +2673,14 @@
       "text": "それだけのことって...。",
       "act": [
         {
-          "id": "normal",
+          "id": "5",
           "position": {
             "aligh": "left",
             "value": 0.01
           }
         },
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2764,7 +2701,7 @@
           }
         },
         {
-          "id": "ron_normal",
+          "id": "ron_7",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -2775,7 +2712,7 @@
     {
       "background": "img/bg/bg4.png",
       "name": "アリス",
-      "text": "ここまでコツコツやってきたのになァ、年貢の納め時ってやつか？<br>。だが、俺をここまでコケにした人間の名前は一生忘れない.....トーマス・ティム・ロシ―。",
+      "text": "ここまでコツコツやってきたのになァ、年貢の納め時ってやつか？<br>だが、俺をここまでコケにした人間の名前は一生忘れない.....トーマス・ティム・ロシ―。",
       "act": [
         {
           "id": "none",
@@ -2785,7 +2722,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -2806,7 +2743,7 @@
           }
         },
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.18
@@ -2820,7 +2757,7 @@
       "text": ".....こちらも、もう二度と相まみえたくは無いがお前の名前は忘れずに記憶しておくことにしよう、アリス・ウィンキソン。",
       "act": [
         {
-          "id": "cha_normal_g",
+          "id": "cha_normal_g2",
           "position": {
             "aligh": "right",
             "value": 0.01
@@ -2838,10 +2775,10 @@
     {
       "background": "img/bg/bg4.png",
       "name": "アリス",
-      "text": "フンッ......それではみなさん、お先に失礼します。またどこかで...。",
+      "text": "フンッ......それではみなさん、お先に失礼。またどこかで...。",
       "act": [
         {
-          "id": "cha_normal",
+          "id": "cha_8",
           "position": {
             "aligh": "right",
             "value": 0.01

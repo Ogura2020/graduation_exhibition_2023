@@ -126,7 +126,2483 @@
           }
         }
       ]
+    },
+    {
+      "background": "img/bg/bg7.png",
+      "name": "アズキ",
+      "text": ".......（私の考えていた犯人が違うってこと？でもティムが否定するってことは....明確な理由があるってことだもんね...。うん、私も大広間へ急ごう！）",
+      "act": [
+        {
+          "id": "4",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0_4.png",
+      "name": "　",
+      "text": "　",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "グリフィス",
+      "text": "大広間に到着！さーてと、あの刑事さんと他みんなは.......お、いたいた。",
+      "act": [
+        {
+          "id": "gr_normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "..........何か、もめているみたいだな。",
+      "act": [
+        {
+          "id": "gr_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "うん....しかも東都さんが一方的に詰められているみたい...。",
+      "act": [
+        {
+          "id": "3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "ロンベルが付いていながら...まったく何してるんだ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "あ、ティ、ティム？！",
+      "act": [
+        {
+          "id": "7",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "・・・・・・・・",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "だから、僕はウィックマンさんを殺してなんかいない！濡れ衣だ！！",
+      "act": [
+        {
+          "id": "azu_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "でも、銃を所持しているのはこの館内であなただけじゃない！<br>それにあなたは娘のアヴリルの許嫁でもあるし、会社を乗っ取るために殺したんでしょ?!",
+      "act": [
+        {
+          "id": "mari_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヴリル",
+      "text": "有一はそんなことをする奴じゃないわよ！それに、銃で殺されたとは限らないし....。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "av_4",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "でも全員見たでしょ！彼の胸元に撃ち込まれた銃の痕を....!<br>刑事さんは銃を忘れて持ってきていないっていうし、彼しかいないじゃない！",
+      "act": [
+        {
+          "id": "mari_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "それにアヴリル達が庇ってるっていうのも怪しいわ...。<br>あなたたち、確か彼と仲が悪かったわよね？もしかしてグルになって...。",
+      "act": [
+        {
+          "id": "mari_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヴリル",
+      "text": "な、なに言ってるのよ？！確かに私たちは仲は悪かったし殺したいほど憎んではいたけど.....でも本当に殺すなんてこと！",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "av_4",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "刑事さんに使用人さん！何ボサッとしてるのよ！早く警察を呼んでこの人たちをー。",
+      "act": [
+        {
+          "id": "mari_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "お言葉ですが、そこの人たちはウィックマンさんを殺してなんかいませんよ。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "....え？！",
+      "act": [
+        {
+          "id": "mari_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "ロンベル、君が付いていながら何でこんなことになっているんだ。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "申し訳ない...。",
+      "act": [
+        {
+          "id": "ron_7",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "まぁ、そのことはあとに置いておくとして...。<br>事の顛末と君がここにいる皆から聴取した情報を聞こうか。",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "手短に話すと、アリバイが無いのが俺とさっきの東都さんなんです。<br>他の人たちにはアリバイがちゃんとあって.....なおかつさっきのウィックマンさんの遺体の近くにあった銃と銃痕でさっきの揉め事へと発展してしまったんですよ。",
+      "act": [
+        {
+          "id": "ron_normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "アリバイ...。それに関してだが、ほぼ意味が無くなるかもしれないぞ。",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "え？それってどういう...。",
+      "act": [
+        {
+          "id": "ron_normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "話の続きは皆の前でしよう。<br>さぁ.....悲劇は、ここで終わりだ。",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg0.png",
+      "name": "　",
+      "text": "・・・・・・・・",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },    
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "では事件の詳細と調査結果、そして真犯人に関してこれから説明をさせていただきます。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "説明も何も....犯人は銃を持っていた東都有一で決まりでしょ？<br>それ以外にあるっていうの？",
+      "act": [
+        {
+          "id": "mari_3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "まずは、その銃に関してですが、これについてはまったくの意味の無いものです。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": ".........え？意味がないって...どういう...。",
+      "act": [
+        {
+          "id": "mari_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "みなさんが見たのは間違いなく銃であり撃たれた痕、つまりは銃痕でした。<br>ですが、詳しく遺体を調べてみたところ一つの不可解な点が見つかりました。<br>それは....指の先の刺し傷です。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "7",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヴリル",
+      "text": "刺し傷....？刃物ってこと？",
+      "act": [
+        {
+          "id": "av_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "刃物は刃物でも、鋭利なナイフとかではありません。ほんの小さな、針です。",
+      "act": [
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "7",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "は、針？！なんでそんなもので人が死ぬのよ？",
+      "act": [
+        {
+          "id": "mari_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "無論、そんな些細な針で死ぬほど人間はやわではありません。<br>針の先には恐らくですが、モウドクフキヤガエルから採れた毒が塗りこまれていたのではないかと思います。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "たかがカエルの毒で.....。",
+      "act": [
+        {
+          "id": "mari_2",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "モウドクフキヤガエルの毒は約1mgでゾウ2頭、人間で例えると20人は殺せる猛毒性を持っています。<br>ただ、このカエルは非常に数が少なく希少でもあるので僕も今回初めて見かけたのですが...。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "でもどうしてその毒だと分かったんだい？毒なんて数多の種類のものがあるのに。",
+      "act": [
+        {
+          "id": "azu_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "不躾ながら遺体を少し検死させていただいたんですよ。<br>毒の分類は神経毒、その特性は体内に入ると筋肉が収縮し心臓発作を起こしてしまうものだ。<br>現に筋肉の状態や瞳孔、口元を見てもその特性と一致した。",
+      "act": [
+        {
+          "id": "azu_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "さらには、初めて遺体を見た時、胸を押さえうずくまったような倒れ方をしていた。<br>それらを加味しこの神経毒が使われたのだと判明しました。",
+      "act": [
+        {
+          "id": "azu_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "でも死因が毒だとして.....銃には何の意味が？",
+      "act": [
+        {
+          "id": "mari_3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "あれは単なるカモフラージュですよ。<br>東都さんかロンベル、どちらかに濡れ衣を着せるためにね。<br>まぁ、一番接点がありそうな東都さんが疑われる可能性は高かった訳ですが。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "7",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヅマ",
+      "text": "そ、そんな！",
+      "act": [
+        {
+          "id": "azu_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "ですが、そも毒で殺されたのであればアリバイも銃を持っているのが犯人だという考えも大きく覆ります。<br>なぜか....それは、ウィックマンさんが犯人に誘導され自分から針に触れてしまい殺されてしまったからです。",
+      "act": [
+        {
+          "id": "azu_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヴリル",
+      "text": "自分から？",
+      "act": [
+        {
+          "id": "av_3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "そう、事の詳細は昨日の夜。<br>ウィックマンさんの部屋に、あるメモ書きが置かれたことから始まった。<br>そのメモ書きは先ほどの調査で回収済みですのでまず間違いなく書斎に呼ばれて来ている事は確実です。",
+      "act": [
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "そしてそのメモ書きを頼りにやってきたウィックマンさんは書斎には似つかわしくないあるものを見つけます。<br>それこそが、あの書斎に放かれていた銃だったのです。",
+      "act": [
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヴリル",
+      "text": "じゃあ、その銃には...。",
+      "act": [
+        {
+          "id": "av_3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "ええ、銃には毒針が仕込まれており、その毒針に気づかずについ銃を持ってしまったウィックマンさんは....毒針に刺され、声を上げる暇もなく絶命。<br>その後にやってきた真犯人によってカモフラージュの工作がなされたというわけです。",
+      "act": [
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "誰だって違和感があると気になって触ったり見たりしちゃうもんね...その心理を利用したってことか。",
+      "act": [
+        {
+          "id": "5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "犯行の顛末はよく分かったけど、結局のところ真犯人は誰なのよ？！<br>それに、東都じゃないっていう根拠は？",
+      "act": [
+        {
+          "id": "mari_3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "根拠ならありますよ。<br>東都さんかロンベル、どちらかに濡れ衣を着せるためにね。<br>そこに関しては彼自身が発言してくれると思います。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アヴリル",
+      "text": "針......！そうよ、針だわ！<br>犯行に使われたのが針だとしたら東都には用意することも、あまつさえ見る事すら出来ない！<br>だって彼は、先端恐怖症だから！",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "av_2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "先端恐怖症？何よそれ。",
+      "act": [
+        {
+          "id": "mari_3",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "av_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "鬱病の部分的症状に分類される一種の精神的病です。<br>幼い頃などに経験した恐怖が原因となって発症するもので東都さんはその病をもっているんですよ。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "マリア",
+      "text": "そんなに大きな病でもないし、少しくらいなら我慢できるんじゃないの？",
+      "act": [
+        {
+          "id": "mari_normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "先端恐怖症は尖ったもの全般に発症してしまう病であり最悪の場合はパニックを起こしてしまうんです。<br>そんな彼がわざわざ殺す道具に針を選ぶはずがない。",
+      "act": [
+        {
+          "id": "mari_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "メアリ",
+      "text": "で、では....犯人は一体誰なんですか....?",
+      "act": [
+        {
+          "id": "mary_5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "そう。犯人は東都さんでないのなら、真の犯人は別にいる。<br>わざわざ招待状を出し、狙いの人物達をこの館へとおびき寄せ、ある目的のために今回犯行に及んだ....その真犯人とはー。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "シャロットさん、あなただ。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット",
+      "text": "なっ.......!!",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_6",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "しゃ、シャロットさんが真犯人？！そんな...。",
+      "act": [
+        {
+          "id": "5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット",
+      "text": "な、なぜ私が初対面のウィックマンさんを殺さねばならないのですか？！<br>それに私にはアリバイが.....!",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "アリバイの件に関しては先刻に話した通り、意味を成さなくなったのですよ。<br>ウィックマンさん本人が自分から刺して死んでしまったのであればわざわざその死亡時刻に殺す必要はなくなるのですから。",
+      "act": [
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "それに、あなたはウィックマンさんと初対面であると言ってはいますが初めてではないのでしょう？",
+      "act": [
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット",
+      "text": "な、なにを根拠にそんなことを...!!",
+      "act": [
+        {
+          "id": "cha_5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "「アリス」この名前に覚えは？",
+      "act": [
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット",
+      "text": ".....しっ知りません。そんな名前。",
+      "act": [
+        {
+          "id": "cha_5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "そうですか。僕が今言った名前の人物は10年前のある事件に関わっていたとされる者で、実際に彼を追っていた刑事のロンベル君から詳細を聞きました。<br>アリス、彼はアズキの祖父であり事件の被害者であるヤコフ・ベレットソンの行方を知る者として捜査されていたそうです。",
+      "act": [
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "その事件以降、彼が姿を現すことは無くなったそうですが.....僕はこの場にその彼がいるのではないかと思っています。",
+      "act": [
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "トーマス先生は俺があの時に居場所を突き止められなかったアリスのヤツがこの中にまぎれてるっていうのか？！",
+      "act": [
+        {
+          "id": "ron_7",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "ああ、そうだよ。彼は今この場にいる。<br>そして、僕がアリスだと指し示す人物は....シャロット・ウィンキソン。<br>いや、アリス・ウィンキソン...君だよ。",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "2",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット？",
+      "text": ".............。",
+      "act": [
+        {
+          "id": "cha_normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "な、ちょ、ちょっと待て！<br>トーマス先生、それはおかしいぞ！なぜならアイツはー。",
+      "act": [
+        {
+          "id": "ron_7",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "男性....ですか？",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "そうだ！アイツはれっきとした男だし、何より容貌もまったくあの時と...。",
+      "act": [
+        {
+          "id": "ron_7",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "容貌は違くて当然、年数が経っているし追われている身で見た目をまず変えない者はいないですからね。<br>さらに性別の見分け方は何も容貌だけじゃない。仕草、癖、歩き方など様々な観点から観察すれば容易に見分けることができます。",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "彼は最初に会った時から仕草に少し違和感を感じさせていた。<br>さらに僕に決定打を与えたのは顔の顎部分をよくさする癖だ。この癖は髭が生えやすい男性特有の動きで女性はまずしない。<br>これらの観点から僕は彼を女性ではなく男性なのではないかと考え始めたのです。",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット？",
+      "text": "でたらめを言わないでください....私が男性なはずが.....。",
+      "act": [
+        {
+          "id": "cha_5",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "では、アズキたち女性陣に確認をお願いしても構わないですよ。<br>万が一僕が間違っていたとしても同じ女性であるならばためらいなく衣服を脱ぐことができるでしょう?",
+      "act": [
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット？",
+      "text": ".....。",
+      "act": [
+        {
+          "id": "cha_normal",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "言い逃れは、これ以上出来ないのではないですか？",
+      "act": [
+        {
+          "id": "cha_normal_g",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "シャロット？",
+      "text": "フッ......フフフフ、ハハハハハッッ！！",
+      "act": [
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "しゃ、シャロット...さん？",
+      "act": [
+        {
+          "id": "5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "どうやら、これ以上演技を続けるのは無駄みたいだな。<br>ああそうだ、俺がアリス・ウィンキソン。シャロットは都合がいいから、使っていた偽名だよ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "お、お前が.....?!",
+      "act": [
+        {
+          "id": "ron_7",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "ボンクラ刑事をだませるくらいにはうまくいっていたつもりだったが.....かの有名な私立探偵どのには通用しなかったみたいだな？",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "よく今まで演じていたものだ....賞でも授与したいくらいだ。",
+      "act": [
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "2",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "戯言ほざいてんじゃねぇ。最初っから疑ってかかっていたくせに。<br>にしても、こうも見破られるとはな。",
+      "act": [
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "シャロット....いいや、アリス！あなたに聞きたいことがある！！",
+      "act": [
+        {
+          "id": "4",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        },
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "ん～？ああ、ヤコフの孫娘か。デカくなったもんだな。<br>お前さんの話はよくじいさんから聞かされていたよ、うっとおしいくらいにはな。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "あなた....私の祖父の行方を知っているんでしょう？！どこに祖父はいるの？！",
+      "act": [
+        {
+          "id": "4",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "あ～そうか、お前は知らないんだったな。ヤコフのじいさんがどういう最後を迎えたのか。<br>まぁ知ってるのは俺だけだから無理もないか。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "勿体ぶらないで！！教えて！",
+      "act": [
+        {
+          "id": "4",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "死んだよ。崖から転落して。<br>この目で見たんだ俺は。あのジキル・ウィックマンが殺人を侵すその瞬間を。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "............う、うそ。",
+      "act": [
+        {
+          "id": "5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "嘘なんかじゃないさ。なんならアイツが必死に死体を隠そうと埋めた場所だって教えてやってもいい。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "そ、そんな.......どうして。",
+      "act": [
+        {
+          "id": "6",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "さあな、当人たちはもうこの世にはいないんだから、真相なんて確かめようがない。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "アリス・ウィンキソン、あなたはどうしてこんなことを...。",
+      "act": [
+        {
+          "id": "5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "10年前のあの事件を目の当たりにした瞬間から俺の計画は始まっていた。<br>ウィックマンの唯一の弱みを握ったあの日から。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "俺はあの瞬間を見た後にウィックマンに詰め寄ったんだ。俺が見たことをバラされたくなければ金を用意しろってな。<br>あいつは当時、相当あせっていたからな。喜んで俺に大金を出してくれたよ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "だが、その金も使えば使うほど当然のように無くなっていく。<br>その度にウィックマンに俺は詰め寄っていたが......ある日、酔ったあいつから興味深い話を聞いた。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "ヤコフの研究していたある生物兵器に関する書類があれば、この世界で覇権を握るほどの権力を手にできると。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "生物兵器....?",
+      "act": [
+        {
+          "id": "5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "ああ、どうやらお前さんの爺さんはとんでもない生物の研究をしていたらしくてな。<br>その生物を戦争で使えばどんなに強い軍隊でも一夜にして壊滅状態にさせることができるのだとか。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "もしその生物兵器に関する書類を手に入れさえすれば、俺は一生遊んで暮らしていける莫大な金が手に入る。<br>その話を聞いた瞬間、俺のやるべき目的が決まったんだ。",
+      "act": [
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": "初耳だな...。まさか、そんなものが開発されていたなんて...。",
+      "act": [
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "俺はなんとかあの手この手を使い書類を探したが、ついぞ見つけることは叶わなかった...。<br>最終手段としてとった計画こそが、今回の館でのゲームだった。",
+      "act": [
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "案外簡単だったよ、ここに誘き出させるのは。それぞれ金で釣ったり脅したり.....過去の事を引き合いに出したり。<br>そうしてノコノコ集まってきたヤコフに関わりのありそうな人物を片っ端から洗っていったって訳だ。",
+      "act": [
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "そういうことなら、なぜウィックマンさんは殺した？<br>殺す必要は無かった気がするが。",
+      "act": [
+        {
+          "id": "ron_7",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "あいつは、前々から少し気に食わなくってなァ。<br>しかも、金の縁まで切ろうとしてきやがった。<br>それで、そろそろ頃合いだと思って殺した。ただ、それだけのことだ。",
+      "act": [
+        {
+          "id": "ron_normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アズキ",
+      "text": "それだけのことって...。",
+      "act": [
+        {
+          "id": "5",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ロンベル",
+      "text": "アリス・ウィンキソン、お前には署に着いてからも色々と聴取させてもらう。<br>それと...アズキさんの祖父、ヤコフさんの遺体の所在地に関しても吐いてもらうぞ。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "ron_7",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "ここまでコツコツやってきたのになァ、年貢の納め時ってやつか？<br>だが、俺をここまでコケにした人間の名前は一生忘れない.....トーマス・ティム・ロシ―。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "お前の名前しかと覚えたからな。もう一度会うであろうその日まで....せいぜい、首を洗って待ってるんだな。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.18
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": ".....こちらも、もう二度と相まみえたくは無いがお前の名前は忘れずに記憶しておくことにしよう、アリス・ウィンキソン。",
+      "act": [
+        {
+          "id": "cha_normal_g2",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "アリス",
+      "text": "フンッ......それではみなさん、お先に失礼。またどこかで...。",
+      "act": [
+        {
+          "id": "cha_8",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal_g",
+          "position": {
+            "aligh": "left",
+            "value": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "background": "img/bg/bg4.png",
+      "name": "ティム",
+      "text": ".........アリス・ウィンキソン。<br>もう二度と、出会いたくはない相手だな。",
+      "act": [
+        {
+          "id": "none",
+          "position": {
+            "aligh": "right",
+            "value": 0.01
+          }
+        },
+        {
+          "id": "normal",
+          "position": {
+            "aligh": "left",
+            "value": 0.18
+          }
+        }
+      ]
     }
-
   ]
 }
