@@ -139,7 +139,7 @@ onReadAccel(e) {
     
     if (Math.abs(accel[0]) > 1.0 &&  this.tips.style.display === "block") {
       console.log("ヒント表示中（block）の時は何も起こらない")
-    } else if (Math.abs(accel[0]) > 1.0 && this.imgElement.src.endsWith(this.imageList[0])) {
+    } else if (Math.abs(accel[0]) > 1.0 && this.imgElement.src.endsWith(this.imageList[4])) {
       console.log("正解かつヒントが表示されていない場合、進む")
 
       // 音が再生されていない場合にのみ音を再生
@@ -154,9 +154,9 @@ onReadAccel(e) {
       this.isOpen = false
       //BGM停止
       this.sound.thinking.fade(1, 0, 1000);
-    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[0]) && this.imgElement.src.endsWith("img/mystery10/origin.png")) {
+    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[4]) && this.imgElement.src.endsWith("img/mystery10/origin.png")) {
       console.log("選択されてない場合、振っても何も起こらない");
-    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[0]) ) {
+    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[4]) ) {
 
       // １つ前に選択したカード（ID）と違っていたらisMissをfalseにする
       if (this.select !== this.id){
