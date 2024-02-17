@@ -39,7 +39,7 @@ onStart(e) {
   //console.log('[Dialog] onStart', e);
 
   // 画像ファイル名のリスト
-  this.imageList = ['white.png', 'blue.png', 'purple.png', 'red.png', 'yellow.png', 'light_green.png', 'light_blue.png', 'pink.png', 'black.png', 'orange.png', 'green.png']; 
+  this.imageList = ['0.png', '1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', 'ten.png']; 
 
   // ismystery が true のカットであるかの真偽値
   const nextOpenState = e.hasOwnProperty('ismystery12') && e.ismystery12;
@@ -55,7 +55,7 @@ onStart(e) {
     if (!this.isOpen && nextOpenState) {
 
       // ダイアログ内の画像を更新
-      this.dialog.querySelector('.mystery_img').src = "img/tutorial/0.png"; // ここに新しい画像のパスを設定(初めに表示される画像)
+      this.dialog.querySelector('.mystery_img').src = "img/mystery12/origin.png"; // ここに新しい画像のパスを設定(初めに表示される画像)
 
       //BGM再生
       this.sound.thinking.play();
@@ -89,37 +89,37 @@ onReadRFID(e) {
       console.log("ヒントを表示")
     } else if (e === this.status[0].id) {
       this.sound.select_0.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[0];
+      this.imgElement.src = "img/mystery12/" + this.imageList[0];
     } else if (e === this.status[1].id) {
       this.sound.select_1.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[1];
+      this.imgElement.src = "img/mystery12/" + this.imageList[1];
     } else if (e === this.status[2].id) {
       this.sound.select_2.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[2];
+      this.imgElement.src = "img/mystery12/" + this.imageList[2];
     } else if (e === this.status[3].id) {
       this.sound.select_3.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[3];
+      this.imgElement.src = "img/mystery12/" + this.imageList[3];
     } else if (e === this.status[4].id) {
       this.sound.select_4.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[4];
+      this.imgElement.src = "img/mystery12/" + this.imageList[4];
     } else if (e === this.status[5].id) {
       this.sound.select_5.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[5];
+      this.imgElement.src = "img/mystery12/" + this.imageList[5];
     } else if (e === this.status[6].id) {
       this.sound.select_6.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[6];
+      this.imgElement.src = "img/mystery12/" + this.imageList[6];
     } else if (e === this.status[7].id) {
       this.sound.select_7.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[7];
+      this.imgElement.src = "img/mystery12/" + this.imageList[7];
     } else if (e === this.status[8].id) {
       this.sound.select_8.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[8];
+      this.imgElement.src = "img/mystery12/" + this.imageList[8];
     } else if (e === this.status[9].id) {
       this.sound.select_9.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[9];
+      this.imgElement.src = "img/mystery12/" + this.imageList[9];
     } else if (e === this.status[10].id) {
       this.sound.select_10.play();
-      this.imgElement.src = "img/tutorial/" + this.imageList[10];
+      this.imgElement.src = "img/mystery12/" + this.imageList[10];
     }
   }
 }
@@ -130,7 +130,7 @@ onReadRFID(e) {
 onReadAccel(e) {
   // ダイアログが開いた状態であれば 加速度 の読み取りを行う
   if (this.isOpen) {
-    console.log('[mystery12] onReadAccel', e);
+    console.log('[mystery10] onReadAccel', e);
     this.ee.emit('select', e);
 
     let accel = e.split(',')
@@ -139,7 +139,7 @@ onReadAccel(e) {
     
     if (Math.abs(accel[0]) > 1.0 &&  this.tips.style.display === "block") {
       console.log("ヒント表示中（block）の時は何も起こらない")
-    } else if (Math.abs(accel[0]) > 1.0 && this.imgElement.src.endsWith(this.imageList[2])) {
+    } else if (Math.abs(accel[0]) > 1.0 && this.imgElement.src.endsWith(this.imageList[0])) {
       console.log("正解かつヒントが表示されていない場合、進む")
 
       // 音が再生されていない場合にのみ音を再生
@@ -154,9 +154,9 @@ onReadAccel(e) {
       this.isOpen = false
       //BGM停止
       this.sound.thinking.fade(1, 0, 1000);
-    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[2]) && this.imgElement.src.endsWith("img/mystery12/0.png")) {
+    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[0]) && this.imgElement.src.endsWith("img/mystery12/origin.png")) {
       console.log("選択されてない場合、振っても何も起こらない");
-    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[2]) ) {
+    } else if (Math.abs(accel[0]) > 1.0 && !this.imgElement.src.endsWith(this.imageList[0]) ) {
 
       // １つ前に選択したカード（ID）と違っていたらisMissをfalseにする
       if (this.select !== this.id){
